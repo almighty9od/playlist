@@ -1,0 +1,290 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #0f0f12;
+  color: #eaeaea;
+  padding: 0 16px 80px;
+}
+
+/* ==== ЦЕНТРИРОВАНИЕ ==== */
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* ==== HEADER ==== */
+header {
+  position: sticky;
+  top: 0;
+  background: #0f0f12;
+  padding: 16px 0 14px;
+  border-bottom: 1px solid #23232b;
+  z-index: 10;
+}
+
+h1 { margin: 0 0 12px; font-size: 22px; }
+
+#search {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 16px;
+  background: #17171d;
+  color: #eaeaea;
+  border: 1px solid #2a2a35;
+  border-radius: 10px;
+  outline: none;
+}
+#search:focus { border-color: #2a6df4; }
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+#count { color: #8a8a95; font-size: 13px; }
+
+.btns { display: flex; gap: 8px; }
+.btns button {
+  background: #1c1c24;
+  color: #cfcfd8;
+  border: 1px solid #2a2a35;
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 8px;
+}
+.btns button:hover { background: #26262f; }
+
+/* ==== СПИСОК ПЛЕЙЛИСТОВ ==== */
+main { margin-top: 16px; display: flex; flex-direction: column; gap: 10px; }
+
+.playlist {
+  background: #14141a;
+  border: 1px solid #22222c;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.playlist-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  cursor: pointer;
+  user-select: none;
+}
+.playlist-head:hover { background: #191921; }
+
+.playlist-head .arrow {
+  width: 14px;
+  display: inline-block;
+  color: #6f6f7a;
+  transition: transform .15s ease;
+  font-size: 11px;
+}
+.playlist.open .playlist-head .arrow { transform: rotate(90deg); }
+
+.playlist-head .name {
+  flex: 1;
+  font-weight: 600;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.playlist-head .count {
+  color: #6f6f7a;
+  font-size: 12px;
+  background: #1e1e26;
+  padding: 3px 8px;
+  border-radius: 20px;
+}
+
+.playlist-body {
+  display: none;
+  border-top: 1px solid #22222c;
+}
+.playlist.open .playlist-body { display: block; }
+
+/* ==== ТРЕКИ ==== */
+.track {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 14px;
+  border-bottom: 1px solid #1a1a22;
+}
+.track:last-child { border-bottom: 0; }
+.track:hover { background: #17171f; }
+
+.track .meta { min-width: 0; flex: 1; }
+.track .meta b { font-weight: 600; }
+.track .meta .t { color: #eaeaea; }
+.track .meta small {
+  display: block;
+  color: #6f6f7a;
+  font-size: 12px;
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.track button {
+  background: #2a6df4;
+  color: #fff;
+  border: 0;
+  padding: 7px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  white-space: nowrap;
+  transition: background .12s ease;
+}
+.track button:hover { background: #3d7ef7; }
+.track button:active { background: #1f5ad0; }
+.track button:disabled { background: #2a2a35; color: #7c7c88; cursor: default; }
+
+/* ==== ПРОЧЕЕ ==== */
+.empty { padding: 40px 0; text-align: center; color: #6f6f7a; }
+.error {
+  padding: 16px;
+  border: 1px solid #7a2b2b;
+  background: #2a1414;
+  border-radius: 10px;
+  color: #ffb3b3;
+  margin-top: 12px;
+}
+
+footer {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  padding: 8px 16px;
+  background: #0c0c10;
+  border-top: 1px solid #23232b;
+  color: #6f6f7a;
+  font-size: 12px;
+  text-align: center;
+}
+footer .ok { color: #6ddc8a; }
+footer .err { color: #ff8080; }
+
+@media (max-width: 640px) {
+  body { padding-left: 10px; padding-right: 10px; }
+  .track { flex-direction: column; align-items: stretch; }
+  .track button { width: 100%; }
+  .btns { width: 100%; justify-content: flex-end; }
+}
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 60px;
+  transform: translate(-50%, 20px);
+  background: #1f7a3a;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 14px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.4);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease;
+  z-index: 100;
+  max-width: 90vw;
+  text-align: center;
+}
+.toast.show {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+/* цвет кнопки «Скопировать» — чуть зелёный, чтобы отличалась от «Заказать» */
+.track button {
+  background: #2a6df4;
+}
+.track button:hover { background: #3d7ef7; }
+.track button:disabled { background: #1f7a3a; color: #eaffea; }
+/* ==== шапка: кнопка админа ==== */
+.head-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.head-top h1 { margin: 0 0 0 0; }
+
+button.ghost {
+  background: transparent;
+  color: #6f6f7a;
+  border: 1px solid #2a2a35;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+}
+button.ghost:hover { color: #eaeaea; border-color: #3a3a48; }
+button.ghost.active { color: #2a6df4; border-color: #2a6df4; }
+
+/* ==== админ-бар ==== */
+.admin-bar {
+  margin-top: 12px;
+  padding: 10px 12px;
+  background: #17171d;
+  border: 1px dashed #2a2a35;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.admin-bar[hidden] { display: none; }
+.admin-bar .hint { color: #8a8a95; font-size: 13px; }
+
+button.danger {
+  background: #3a1a1a;
+  color: #ffb3b3;
+  border: 1px solid #5a2a2a;
+}
+button.danger:hover { background: #4a2020; }
+
+/* ==== ручка редактирования у плейлиста ==== */
+.playlist-head .edit {
+  background: transparent;
+  color: #6f6f7a;
+  border: 0;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity .12s ease, background .12s ease;
+}
+.playlist:hover .playlist-head .edit,
+.playlist-head .edit:focus { opacity: 1; }
+.playlist-head .edit:hover { background: #22222c; color: #eaeaea; }
+
+/* когда админ-режим — ручка видна всегда */
+body.admin .playlist-head .edit { opacity: .8; }
+
+/* inline-инпут переименования */
+.playlist-head input.rename {
+  flex: 1;
+  min-width: 0;
+  background: #0f0f14;
+  color: #eaeaea;
+  border: 1px solid #2a6df4;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  outline: none;
+}
+.playlist-head .count { transition: opacity .12s ease; }
