@@ -3,33 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Заказ треков. Almighty9od</title>
+  <title>Заказ треков</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="wrap">
-<header>
-  <div class="head-top">
-    <h1>🎵 Заказать трек. Almighty9od</h1>
-    <button id="admin-toggle" type="button" class="ghost" title="Режим редактирования">⚙</button>
-  </div>
-  <input id="search" placeholder="Поиск: исполнитель, трек, альбом, папка..." autocomplete="off">
-  <div class="row">
-    <span id="count">—</span>
-    <div class="btns">
-      <button id="expand-all"  type="button">Развернуть всё</button>
-      <button id="collapse-all" type="button">Свернуть всё</button>
-    </div>
-  </div>
+    <header>
+      <div class="head-top">
+        <h1>🎵 Заказать трек</h1>
+        <button id="admin-toggle" type="button" class="ghost" title="Режим редактирования">⚙</button>
+      </div>
 
-  <div id="admin-bar" class="admin-bar" hidden>
-    <span class="hint">Режим редактора: жми на ✎ рядом с плейлистом, чтобы переименовать.</span>
-    <div class="btns">
-      <button id="admin-export" type="button">⬇ Экспорт aliases.json</button>
-      <button id="admin-reset"  type="button" class="danger">Сброс всех</button>
-    </div>
-  </div>
-</header>
+      <input id="search" placeholder="Поиск: исполнитель, трек, альбом, папка..." autocomplete="off">
+
+      <div class="row">
+        <span id="count">—</span>
+        <div class="btns">
+          <button id="expand-all"  type="button">Развернуть всё</button>
+          <button id="collapse-all" type="button">Свернуть всё</button>
+        </div>
+      </div>
+
+      <div id="admin-bar" class="admin-bar" hidden>
+        <span class="hint">Режим редактора: жми на ✎ рядом с плейлистом, чтобы переименовать.</span>
+        <div class="btns">
+          <button id="admin-export" type="button">⬇ Экспорт aliases.json</button>
+          <button id="admin-reset"  type="button" class="danger">Сброс всех</button>
+        </div>
+      </div>
+    </header>
 
     <main id="list"></main>
   </div>
