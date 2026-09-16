@@ -18,7 +18,7 @@
   let tracks = [];
   let grouped = {};
   const openState = {};
-  let aliases = {};      // { folderOriginal: "Красивое имя" }
+  let aliases = {};
 
   // ==== АДМИН-РЕЖИМ ====
   const params = new URLSearchParams(location.search);
@@ -30,6 +30,7 @@
     localStorage.setItem("admin", admin ? "1" : "0");
     applyAdminUI();
   });
+
   function applyAdminUI() {
     document.body.classList.toggle("admin", admin);
     adminToggle.classList.toggle("active", admin);
@@ -37,9 +38,6 @@
   }
 
   // ==== ЗАГРУЗКА ====
-  // 1. подтягиваем aliases.json (если есть в репо)
-  // 2. читаем localStorage (перекрывает)
-  // 3. читаем tracks.json
   Promise.all([
     fetch("aliases.json", { cache: "no-cache" })
       .then(r => r.ok ? r.json() : {})
@@ -66,7 +64,11 @@
     .catch(err => {
       console.error("[catalog] ошибка:", err);
       listEl.innerHTML = `<div class="error">
-        Не удалось загрузить <b>tracks.json</b>: ${escapeHtml(err.message)}.
+        Не удалось загрузить <b>tracks.json</b>: ${escapeHtml(err.message)}.<br><br>
+        Проверь:<br>
+        1. файл лежит рядом с index.html;<br>
+        2. открываешь через <b>http(s)</b>, а не file://;<br>
+        3. на GitHub Pages подожди минуту и обнови Ctrl+F5.
       </div>`;
       setStatus("Ошибка загрузки каталога", "err");
     });
@@ -142,7 +144,10 @@
                     <b>${escapeHtml(t.artist)}</b> — <span class="t">${escapeHtml(t.title)}</span>
                     <small>${escapeHtml(t.album || "")}</small>
                   </div>
-                  <button data-idx="${idx}" title="Скопировать и вставить в чат">Скопировать</button>
+                  <div class="actions">
+                    <button class="yt" data-yt="${idx}" title="Искать на YouTube">▶ YouTube</button>
+                    <button data-idx="${idx}" title="Скопировать и вставить в чат">Скопировать</button>
+                  </div>
                 </div>`;
             }).join("")}
           </div>
@@ -157,7 +162,7 @@
 
   // ==== КЛИКИ ====
   listEl.addEventListener("click", (e) => {
-    // ручка «переименовать»
+    // ✎ переименовать плейлист
     const editBtn = e.target.closest(".playlist-head .edit");
     if (editBtn) {
       e.stopPropagation();
@@ -165,7 +170,16 @@
       return;
     }
 
-    // шапка (раскрыть/свернуть) — только если не в инпуте
+    // ▶ YouTube
+    const ytBtn = e.target.closest("button[data-yt]");
+    if (ytBtn) {
+      e.stopPropagation();
+      const t = tracks[Number(ytBtn.dataset.yt)];
+      if (t) youtubeSearch(t);
+      return;
+    }
+
+    // раскрыть/свернуть плейлист
     const head = e.target.closest(".playlist-head");
     if (head && !e.target.closest("input")) {
       const pl = head.parentElement;
@@ -174,7 +188,7 @@
       return;
     }
 
-    // кнопка «Скопировать»
+    // скопировать трек
     const btn = e.target.closest("button[data-idx]");
     if (btn) {
       const t = tracks[Number(btn.dataset.idx)];
@@ -207,7 +221,7 @@
           aliases[folder] = val;
         }
         saveAliasesLocal();
-        buildGroups();  // пересортировать
+        buildGroups();
       }
       render();
     };
@@ -220,7 +234,6 @@
   }
 
   function saveAliasesLocal() {
-    // сохраняем только те, что отличаются от оригинала
     const clean = {};
     for (const [k, v] of Object.entries(aliases)) {
       if (v && v.trim() && v.trim() !== k) clean[k] = v.trim();
@@ -298,6 +311,14 @@
       document.body.removeChild(ta);
       return ok;
     } catch { return false; }
+  }
+
+  // ==== YOUTUBE ====
+  function youtubeSearch(t) {
+    const q = `${t.artist} ${t.title}`.trim();
+    const url = "https://www.youtube.com/results?search_query=" +
+      encodeURIComponent(q) + "&sp=EgIQAQ%253D%253D";
+    window.open(url, "_blank", "noopener");
   }
 
   // ==== ТОСТ ====
