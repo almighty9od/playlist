@@ -24,10 +24,17 @@ header {
   z-index: 10;
 }
 
-h1 { margin: 0 0 12px; font-size: 22px; }
+.head-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.head-top h1 { margin: 0; font-size: 22px; }
 
 #search {
   width: 100%;
+  margin-top: 12px;
   padding: 12px 14px;
   font-size: 16px;
   background: #17171d;
@@ -48,7 +55,7 @@ h1 { margin: 0 0 12px; font-size: 22px; }
 }
 #count { color: #8a8a95; font-size: 13px; }
 
-.btns { display: flex; gap: 8px; }
+.btns { display: flex; gap: 8px; flex-wrap: wrap; }
 .btns button {
   background: #1c1c24;
   color: #cfcfd8;
@@ -56,8 +63,46 @@ h1 { margin: 0 0 12px; font-size: 22px; }
   padding: 6px 12px;
   font-size: 13px;
   border-radius: 8px;
+  cursor: pointer;
 }
 .btns button:hover { background: #26262f; }
+
+/* ==== КНОПКА АДМИНА ==== */
+button.ghost {
+  background: transparent;
+  color: #6f6f7a;
+  border: 1px solid #2a2a35;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+}
+button.ghost:hover { color: #eaeaea; border-color: #3a3a48; }
+button.ghost.active { color: #2a6df4; border-color: #2a6df4; }
+
+/* ==== АДМИН-БАР ==== */
+.admin-bar {
+  margin-top: 12px;
+  padding: 10px 12px;
+  background: #17171d;
+  border: 1px dashed #2a2a35;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.admin-bar[hidden] { display: none; }
+.admin-bar .hint { color: #8a8a95; font-size: 13px; }
+
+button.danger {
+  background: #3a1a1a !important;
+  color: #ffb3b3 !important;
+  border: 1px solid #5a2a2a !important;
+}
+button.danger:hover { background: #4a2020 !important; }
 
 /* ==== СПИСОК ПЛЕЙЛИСТОВ ==== */
 main { margin-top: 16px; display: flex; flex-direction: column; gap: 10px; }
@@ -104,6 +149,35 @@ main { margin-top: 16px; display: flex; flex-direction: column; gap: 10px; }
   border-radius: 20px;
 }
 
+.playlist-head .edit {
+  background: transparent;
+  color: #6f6f7a;
+  border: 0;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity .12s ease, background .12s ease;
+}
+.playlist:hover .playlist-head .edit,
+.playlist-head .edit:focus { opacity: 1; }
+.playlist-head .edit:hover { background: #22222c; color: #eaeaea; }
+body.admin .playlist-head .edit { opacity: .8; }
+
+.playlist-head input.rename {
+  flex: 1;
+  min-width: 0;
+  background: #0f0f14;
+  color: #eaeaea;
+  border: 1px solid #2a6df4;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  outline: none;
+}
+
 .playlist-body {
   display: none;
   border-top: 1px solid #22222c;
@@ -135,6 +209,12 @@ main { margin-top: 16px; display: flex; flex-direction: column; gap: 10px; }
   white-space: nowrap;
 }
 
+.track .actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
 .track button {
   background: #2a6df4;
   color: #fff;
@@ -149,6 +229,10 @@ main { margin-top: 16px; display: flex; flex-direction: column; gap: 10px; }
 .track button:hover { background: #3d7ef7; }
 .track button:active { background: #1f5ad0; }
 .track button:disabled { background: #2a2a35; color: #7c7c88; cursor: default; }
+
+.track button.yt { background: #c4302b; }
+.track button.yt:hover { background: #e13b36; }
+.track button.yt:active { background: #9e221e; }
 
 /* ==== ПРОЧЕЕ ==== */
 .empty { padding: 40px 0; text-align: center; color: #6f6f7a; }
@@ -174,13 +258,7 @@ footer {
 footer .ok { color: #6ddc8a; }
 footer .err { color: #ff8080; }
 
-@media (max-width: 640px) {
-  body { padding-left: 10px; padding-right: 10px; }
-  .track { flex-direction: column; align-items: stretch; }
-  .track button { width: 100%; }
-  .btns { width: 100%; justify-content: flex-end; }
-}
-
+/* ==== ТОСТ ==== */
 .toast {
   position: fixed;
   left: 50%;
@@ -204,87 +282,10 @@ footer .err { color: #ff8080; }
   transform: translate(-50%, 0);
 }
 
-/* цвет кнопки «Скопировать» — чуть зелёный, чтобы отличалась от «Заказать» */
-.track button {
-  background: #2a6df4;
+@media (max-width: 640px) {
+  body { padding-left: 10px; padding-right: 10px; }
+  .track { flex-direction: column; align-items: stretch; }
+  .track .actions { width: 100%; }
+  .track .actions button { flex: 1; }
+  .btns { width: 100%; justify-content: flex-end; }
 }
-.track button:hover { background: #3d7ef7; }
-.track button:disabled { background: #1f7a3a; color: #eaffea; }
-/* ==== шапка: кнопка админа ==== */
-.head-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-}
-.head-top h1 { margin: 0 0 0 0; }
-
-button.ghost {
-  background: transparent;
-  color: #6f6f7a;
-  border: 1px solid #2a2a35;
-  padding: 6px 10px;
-  border-radius: 8px;
-  font-size: 15px;
-  line-height: 1;
-  cursor: pointer;
-}
-button.ghost:hover { color: #eaeaea; border-color: #3a3a48; }
-button.ghost.active { color: #2a6df4; border-color: #2a6df4; }
-
-/* ==== админ-бар ==== */
-.admin-bar {
-  margin-top: 12px;
-  padding: 10px 12px;
-  background: #17171d;
-  border: 1px dashed #2a2a35;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-.admin-bar[hidden] { display: none; }
-.admin-bar .hint { color: #8a8a95; font-size: 13px; }
-
-button.danger {
-  background: #3a1a1a;
-  color: #ffb3b3;
-  border: 1px solid #5a2a2a;
-}
-button.danger:hover { background: #4a2020; }
-
-/* ==== ручка редактирования у плейлиста ==== */
-.playlist-head .edit {
-  background: transparent;
-  color: #6f6f7a;
-  border: 0;
-  padding: 4px 8px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 14px;
-  opacity: 0;
-  transition: opacity .12s ease, background .12s ease;
-}
-.playlist:hover .playlist-head .edit,
-.playlist-head .edit:focus { opacity: 1; }
-.playlist-head .edit:hover { background: #22222c; color: #eaeaea; }
-
-/* когда админ-режим — ручка видна всегда */
-body.admin .playlist-head .edit { opacity: .8; }
-
-/* inline-инпут переименования */
-.playlist-head input.rename {
-  flex: 1;
-  min-width: 0;
-  background: #0f0f14;
-  color: #eaeaea;
-  border: 1px solid #2a6df4;
-  border-radius: 8px;
-  padding: 6px 10px;
-  font-size: 15px;
-  font-weight: 600;
-  outline: none;
-}
-.playlist-head .count { transition: opacity .12s ease; }
