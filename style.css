@@ -201,13 +201,19 @@ main {
   cursor: pointer;
   font-size: 14px;
   opacity: 0;
+  pointer-events: none; /* Отключаем клики, пока скрыт */
   transition: opacity .12s, background .12s, color .12s;
 }
-.playlist:hover .playlist-head .edit,
-.playlist-head .edit:focus { opacity: 1; }
-.playlist-head .edit:hover { background: var(--bg-elev); color: var(--text); }
-body.admin .playlist-head .edit { opacity: .8; }
-
+/* Показываем ТОЛЬКО в админ-режиме */
+body.admin .playlist-head .edit {
+  opacity: 0.6;
+  pointer-events: auto;
+}
+body.admin .playlist-head .edit:hover {
+  opacity: 1;
+  background: var(--bg-elev);
+  color: var(--text);
+}
 .playlist-head input.rename {
   flex: 1;
   min-width: 0;
