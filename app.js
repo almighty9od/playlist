@@ -3,18 +3,35 @@
 
   const CATEGORIES = {
     "ЖАНР": [
-      "Ambient", "Trance/Techno", "Постпанк", "Witch House", "HEXD Trance", 
-      "Dance/Mash core", "Dark Techno", "Euphoric Paradise", "Trance Techno Club",
-      "Breakcore / Mashcore / Dancecore", "Ambient (по исключению)", "hexd"
+      "Witch House", "Crystal Castles", "Snow Strippers", "HEXD Trance", "hexd",
+      "Trance/Techno", "Trance Techno Club", "Euphoric Paradise", "Dark Techno",
+      "Dance/Mash core", "Breakcore / Mashcore / Dancecore", 
+      "Постпанк", "Ambient", "Ambient (по исключению)"
     ],
     "ИСПОЛНИТЕЛЬ": [
-      "Егор Летов", "Черный Лукич", "Коммунизм", "Свид. О Смерти", "Буерак",
-      "Где Фантом?", "Перемотка", "Виктор Цой", "Алексей Вишня", "Андрей Губин",
-      "niteboi", "СМН", "Russian Village Boys", "Snow Strippers", "Crystal Castles",
-      "Сергей Пират", "Fratii din Carbuna", "plenka", "INNA", "Сплин",
-      "Bring Me the Horizon", "ABBA", "Queen", "Queen + Freddie", "КиШ + KnyaZz",
-      "Кровосток", "Король и Шут", "Кино", "Гражданская Оборона", "KinoZz",
-      "Где Фантом", "KnyaZz", "Свидетельство О Смерти", "Серега Пират"
+      "Гражданская Оборона",
+      "Чёрный Лукич", 
+      "Свидетельство О Смерти",
+      "Коммунизм"
+      "КИНО", 
+      "Где Фантом",
+      "Буерак", 
+      "Перемотка",
+      "Алексей Вишня", 
+      "Андрей Губин", 
+      "niteboi", 
+      "Russian Village Boys", 
+      "Fratii din Carbuna", 
+      "Серега Пират", 
+      "СМН",
+      "plenka", 
+      "INNA", 
+      "Сплин", 
+      "Король и Шут", 
+      "KnyaZz",  
+      "Bring Me the Horizon", 
+      "ABBA", 
+      "Queen"  
     ],
     "ОСТАЛЬНОЕ": [
       "moy", 
@@ -132,7 +149,6 @@
     const leftovers = allFolders.filter(f => !usedFolders.has(f));
     if (leftovers.length) {
       leftovers.sort((a, b) => displayName(a).localeCompare(displayName(b), "ru"));
-      
       categorized["🎤 ИСПОЛНИТЕЛЬ"] = categorized["🎤 ИСПОЛНИТЕЛЬ"].concat(leftovers);
     }
 
