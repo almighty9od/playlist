@@ -4,31 +4,36 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Заказ треков</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="wrap">
     <header>
-      <div class="head-top">
-        <h1>🎵 Заказать трек</h1>
-        <button id="admin-toggle" type="button" class="ghost" title="Режим редактирования">⚙</button>
-      </div>
+      <div class="hero">
+        <h1>Найди свой трек 🎵</h1>
+        <p class="sub">Напиши исполнителя или название — вдруг он уже в плейлисте</p>
 
-      <input id="search" placeholder="Поиск: исполнитель, трек, альбом, папка..." autocomplete="off">
+        <input id="search"
+               placeholder="Например: ABBA, Перемотка, Цой…"
+               autocomplete="off">
 
-      <div class="row">
-        <span id="count">—</span>
-        <div class="btns">
-          <button id="expand-all"  type="button">Развернуть всё</button>
-          <button id="collapse-all" type="button">Свернуть всё</button>
+        <div class="row">
+          <span id="count">—</span>
+          <div class="btns">
+            <button id="expand-all"  type="button">Развернуть всё</button>
+            <button id="collapse-all" type="button">Свернуть всё</button>
+          </div>
         </div>
-      </div>
 
-      <div id="admin-bar" class="admin-bar" hidden>
-        <span class="hint">Режим редактора: жми на ✎ рядом с плейлистом, чтобы переименовать.</span>
-        <div class="btns">
-          <button id="admin-export" type="button">⬇ Экспорт aliases.json</button>
-          <button id="admin-reset"  type="button" class="danger">Сброс всех</button>
+        <div id="admin-bar" class="admin-bar" hidden>
+          <span class="hint">Режим редактора: жми на ✎ рядом с плейлистом, чтобы переименовать.</span>
+          <div class="btns">
+            <button id="admin-export" type="button">⬇ Экспорт aliases.json</button>
+            <button id="admin-reset"  type="button" class="danger">Сброс всех</button>
+          </div>
         </div>
       </div>
     </header>
