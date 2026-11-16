@@ -5,7 +5,7 @@
     "ЖАНР": [
       "Ambient", "Trance/Techno", "Постпанк", "Witch House", "HEXD Trance", 
       "Dance/Mash core", "Dark Techno", "Euphoric Paradise", "Trance Techno Club",
-      "Breakcore / Mashcore / Dancecore", "Ambient (по исключению)"
+      "Breakcore / Mashcore / Dancecore", "Ambient (по исключению)", "hexd"
     ],
     "ИСПОЛНИТЕЛЬ": [
       "Егор Летов", "Черный Лукич", "Коммунизм", "Свид. О Смерти", "Буерак",
@@ -13,10 +13,12 @@
       "niteboi", "СМН", "Russian Village Boys", "Snow Strippers", "Crystal Castles",
       "Сергей Пират", "Fratii din Carbuna", "plenka", "INNA", "Сплин",
       "Bring Me the Horizon", "ABBA", "Queen", "Queen + Freddie", "КиШ + KnyaZz",
-      "Кровосток", "Король и Шут", "Кино", "Гражданская Оборона", "KinoZz"
+      "Кровосток", "Король и Шут", "Кино", "Гражданская Оборона", "KinoZz",
+      "Где Фантом", "KnyaZz", "Свидетельство О Смерти", "Серега Пират"
     ],
     "ОСТАЛЬНОЕ": [
-      "ALL RANDOM", "Almighty9od", "Arthas Collection", "Мой Основной Плейлист"
+      "moy", 
+      "Arthas"
     ]
   };
 
@@ -130,7 +132,8 @@
     const leftovers = allFolders.filter(f => !usedFolders.has(f));
     if (leftovers.length) {
       leftovers.sort((a, b) => displayName(a).localeCompare(displayName(b), "ru"));
-      categorized["📦 ОСТАЛЬНОЕ"].push(...leftovers);
+      
+      categorized["🎤 ИСПОЛНИТЕЛЬ"] = categorized["🎤 ИСПОЛНИТЕЛЬ"].concat(leftovers);
     }
 
     for (const key in categorized) {
