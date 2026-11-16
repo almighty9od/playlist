@@ -178,7 +178,7 @@
         });
         if (filtered.length) {
           totalVisible += filtered.length;
-          html += renderPlaylist(folder, filtered, true);
+          html += renderPlaylist(folder, filtered, true, false, q);
         }
       }
     } else {
@@ -187,7 +187,7 @@
         for (const folder of folders) {
           const items = grouped.rawData[folder];
           totalVisible += items.length;
-          html += renderPlaylist(folder, items, !!openState[folder], catName === "🔥 НОВОЕ");
+          html += renderPlaylist(folder, items, !!openState[folder], catName === "🔥 НОВОЕ", q);
         }
       }
     }
@@ -203,10 +203,42 @@
     }
   }
 
-  function renderPlaylist(folder, items, isOpen, isNewSection) {
+  function renderPlaylist(folder, items, isOpen, isNewSection, searchQuery) {
     const name = displayName(folder);
     const renamed = aliases[folder] && aliases[folder].trim() && aliases[folder].trim() !== folder;
     const showNewBadge = isNewSection;
+
+    let tracksHtml = "";
+    
+    if (searchQuery) {
+      tracksHtml = items.map(t => renderTrack(t)).join("");
+    } else {
+      const albums = {};
+      for (const t of items) {
+        const aName = t.album && t.album.trim() ? t.album.trim() : "Синглы / Без альбома";
+        if (!albums[aName]) albums[aName] = [];
+        albums[aName].push(t);
+      }
+
+      const sortedAlbumNames = Object.keys(albums).sort((a, b) => {
+        if (a === "Синглы / Без альбома") return 1;
+        if (b === "Синглы / Без альбома") return -1;
+        
+        const yearA = albums[a][0].year || 9999;
+        const yearB = albums[b][0].year || 9999;
+        
+        if (yearA !== yearB) {
+          return yearA - yearB;
+        }
+        return a.localeCompare(b, "ru");
+      });
+
+      for (const albumName of sortedAlbumNames) {
+        const albumYear = albums[albumName][0].year ? ` <span class="album-year">(${albums[albumName][0].year})</span>` : "";
+        tracksHtml += `<div class="album-header">${escapeHtml(albumName)}${albumYear}</div>`;
+        tracksHtml += albums[albumName].map(t => renderTrack(t)).join("");
+      }
+    }
 
     return `
       <section class="playlist ${isOpen ? "open" : ""} ${showNewBadge ? "is-new" : ""}" data-folder="${escapeAttr(folder)}">
@@ -221,22 +253,26 @@
           <span class="count">${items.length}</span>
         </div>
         <div class="playlist-body">
-          ${items.map(t => {
-            const idx = tracks.indexOf(t);
-            return `
-              <div class="track">
-                <div class="meta">
-                  <b>${escapeHtml(t.artist)}</b> — <span class="t">${escapeHtml(t.title)}</span>
-                  <small>${escapeHtml(t.album || "")}</small>
-                </div>
-                <div class="actions">
-                  <button class="yt" data-yt="${idx}" title="Искать на YouTube">▶ YouTube</button>
-                  <button data-idx="${idx}" title="Скопировать и вставить в чат">Скопировать</button>
-                </div>
-              </div>`;
-          }).join("")}
+          ${tracksHtml}
         </div>
       </section>`;
+  }
+
+  function renderTrack(t) {
+    const idx = tracks.indexOf(t);
+    const trackNum = t.track && t.track !== 999 ? `<span class="track-num">${t.track}.</span> ` : "";
+    
+    return `
+      <div class="track">
+        <div class="meta">
+          ${trackNum}<b>${escapeHtml(t.artist)}</b> — <span class="t">${escapeHtml(t.title)}</span>
+          ${t.album ? `<small>${escapeHtml(t.album)}</small>` : ''}
+        </div>
+        <div class="actions">
+          <button class="yt" data-yt="${idx}" title="Искать на YouTube">▶ YouTube</button>
+          <button data-idx="${idx}" title="Скопировать и вставить в чат">Скопировать</button>
+        </div>
+      </div>`;
   }
 
   listEl.addEventListener("click", (e) => {
