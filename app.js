@@ -1,6 +1,25 @@
 (() => {
   "use strict";
 
+  const CATEGORIES = {
+    "🔥 ЖАНР": [
+      "Ambient", "Trance/Techno", "Постпанк", "Witch House", "HEXD Trance", 
+      "Dance/Mash core", "Dark Techno"
+    ],
+    "🎤 ИСПОЛНИТЕЛЬ": [
+      "Егор Летов", "Черный Лукич", "Коммунизм", "Свид. О Смерти", "Буерак",
+      "Где Фантом?", "Перемотка", "Виктор Цой", "Алексей Вишня", "Андрей Губин",
+      "niteboi", "СМН", "Russian Village Boys", "Snow Strippers", "Crystal Castles",
+      "Сергей Пират", "Fratii din Carbuna", "plenka", "INNA", "Сплин",
+      "Bring Me the Horizon", "ABBA", "Queen + Freddie", "КиШ + KnyaZz"
+    ],
+    "🎲 ОСТАЛЬНОЕ": [
+      "ALL RANDOM", "Almighty9od", "Arthas Collection"
+    ]
+  };
+
+  const NEW_PLAYLISTS = ["Witch House", "Crystal Castles", "Snow Strippers"];
+
   const listEl   = document.getElementById("list");
   const searchEl = document.getElementById("search");
   const countEl  = document.getElementById("count");
@@ -8,7 +27,6 @@
   const expandAllBtn   = document.getElementById("expand-all");
   const collapseAllBtn = document.getElementById("collapse-all");
 
-  const adminToggle = document.getElementById("admin-toggle"); // может быть null
   const adminBar    = document.getElementById("admin-bar");
   const adminExport = document.getElementById("admin-export");
   const adminReset  = document.getElementById("admin-reset");
@@ -20,35 +38,21 @@
   const openState = {};
   let aliases = {};
 
-  // ==== АДМИН-РЕЖИМ ====
   const params = new URLSearchParams(location.search);
   let admin = params.get("admin") === "1" || localStorage.getItem("admin") === "1";
   applyAdminUI();
 
-  if (adminToggle) {
-    adminToggle.addEventListener("click", () => {
-      admin = !admin;
-      localStorage.setItem("admin", admin ? "1" : "0");
-      applyAdminUI();
-    });
-  }
-
   function applyAdminUI() {
     document.body.classList.toggle("admin", admin);
-    if (adminToggle) adminToggle.classList.toggle("active", admin);
     if (adminBar) adminBar.hidden = !admin;
   }
 
-  // ==== ЗАГРУЗКА ====
   Promise.all([
-    fetch("aliases.json", { cache: "no-cache" })
-      .then(r => r.ok ? r.json() : {})
-      .catch(() => ({})),
-    fetch("tracks.json", { cache: "no-cache" })
-      .then(r => {
-        if (!r.ok) throw new Error("HTTP " + r.status + " " + r.statusText);
-        return r.json();
-      }),
+    fetch("aliases.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    fetch("tracks.json", { cache: "no-cache" }).then(r => {
+      if (!r.ok) throw new Error("HTTP " + r.status + " " + r.statusText);
+      return r.json();
+    }),
   ])
     .then(([fileAliases, data]) => {
       if (!Array.isArray(data)) throw new Error("tracks.json — не массив");
@@ -61,32 +65,43 @@
 
       buildGroups();
       render();
-      setStatus(`Загружено ${tracks.length} треков. Жми «Скопировать» и вставляй в чат.`, "ok");
+      setStatus(`Загружено ${tracks.length} треков.`, "ok");
     })
     .catch(err => {
       console.error("[catalog] ошибка:", err);
       listEl.innerHTML = `<div class="error">
         Не удалось загрузить <b>tracks.json</b>: ${escapeHtml(err.message)}.<br><br>
-        Проверь:<br>
-        1. файл лежит рядом с index.html;<br>
-        2. открываешь через <b>http(s)</b>, а не file://;<br>
-        3. на GitHub Pages подожди минуту и обнови Ctrl+F5.
+        Проверь, что файл лежит рядом с index.html и ты открываешь сайт через http(s).
       </div>`;
       setStatus("Ошибка загрузки каталога", "err");
     });
 
-  // ==== ГРУППИРОВКА ====
   function buildGroups() {
     grouped = {};
     for (const t of tracks) {
       const key = (t.folder && t.folder.trim()) || "Без папки";
       (grouped[key] ||= []).push(t);
     }
-    const sorted = {};
-    Object.keys(grouped)
-      .sort((a, b) => displayName(a).localeCompare(displayName(b), "ru"))
-      .forEach(k => { sorted[k] = grouped[k]; });
-    grouped = sorted;
+
+    const categorized = {};
+    const allFolders = Object.keys(grouped);
+
+    for (const [catName, folderList] of Object.entries(CATEGORIES)) {
+      const items = folderList.filter(f => allFolders.includes(f));
+      if (items.length) {
+        categorized[catName] = items;
+        items.forEach(f => {
+          const idx = allFolders.indexOf(f);
+          if (idx > -1) allFolders.splice(idx, 1);
+        });
+      }
+    }
+
+    if (allFolders.length) {
+      categorized["📦 ПРОЧЕЕ"] = allFolders.sort((a, b) => displayName(a).localeCompare(displayName(b), "ru"));
+    }
+
+    grouped = { categorized, rawData: grouped };
   }
 
   function displayName(folder) {
@@ -94,75 +109,83 @@
     return (a && a.trim()) || folder;
   }
 
-  // ==== РЕНДЕР ====
   function render() {
     const q = searchEl.value.trim().toLowerCase();
 
-    const visibleGroups = {};
     let totalVisible = 0;
+    let html = "";
 
-    for (const [folder, items] of Object.entries(grouped)) {
-      const filtered = q
-        ? items.filter(t => {
-            const hay = `${t.artist} ${t.title} ${t.album} ${t.folder} ${displayName(t.folder)}`.toLowerCase();
-            return hay.includes(q);
-          })
-        : items;
-      if (filtered.length) {
-        visibleGroups[folder] = filtered;
-        totalVisible += filtered.length;
+    if (q) {
+      for (const [folder, items] of Object.entries(grouped.rawData)) {
+        const filtered = items.filter(t => {
+          const hay = `${t.artist} ${t.title} ${t.album} ${t.folder} ${displayName(t.folder)}`.toLowerCase();
+          return hay.includes(q);
+        });
+        if (filtered.length) {
+          totalVisible += filtered.length;
+          html += renderPlaylist(folder, filtered, true);
+        }
+      }
+    } else {
+      for (const [catName, folders] of Object.entries(grouped.categorized)) {
+        html += `<div class="category-title">${catName}</div>`;
+        for (const folder of folders) {
+          const items = grouped.rawData[folder];
+          totalVisible += items.length;
+          html += renderPlaylist(folder, items, !!openState[folder]);
+        }
       }
     }
 
     countEl.textContent = q
       ? `Найдено: ${totalVisible} из ${tracks.length}`
-      : `${tracks.length} треков • ${Object.keys(grouped).length} плейлистов`;
+      : `${tracks.length} треков • ${Object.keys(grouped.rawData).length} плейлистов`;
 
-    const entries = Object.entries(visibleGroups);
-    if (!entries.length) {
+    if (!html) {
       listEl.innerHTML = `<div class="empty">Ничего не найдено 🤷</div>`;
-      return;
+    } else {
+      listEl.innerHTML = html;
     }
-
-    listEl.innerHTML = entries.map(([folder, items]) => {
-      const isOpen = q ? true : !!openState[folder];
-      const name = displayName(folder);
-      const renamed = aliases[folder] && aliases[folder].trim() && aliases[folder].trim() !== folder;
-
-      return `
-        <section class="playlist ${isOpen ? "open" : ""}" data-folder="${escapeAttr(folder)}">
-          <div class="playlist-head">
-            <span class="arrow">▶</span>
-            <span class="name" title="${escapeAttr(folder)}">${escapeHtml(name)}${renamed ? ' <small style="color:#6f6f7a;font-weight:400">('+escapeHtml(folder)+')</small>' : ''}</span>
-            <button class="edit" type="button" title="Переименовать">✎</button>
-            <span class="count">${items.length}</span>
-          </div>
-          <div class="playlist-body">
-            ${items.map(t => {
-              const idx = tracks.indexOf(t);
-              return `
-                <div class="track">
-                  <div class="meta">
-                    <b>${escapeHtml(t.artist)}</b> — <span class="t">${escapeHtml(t.title)}</span>
-                    <small>${escapeHtml(t.album || "")}</small>
-                  </div>
-                  <div class="actions">
-                    <button class="yt" data-yt="${idx}" title="Искать на YouTube">▶ YouTube</button>
-                    <button data-idx="${idx}" title="Скопировать и вставить в чат">Скопировать</button>
-                  </div>
-                </div>`;
-            }).join("")}
-          </div>
-        </section>`;
-    }).join("");
   }
 
-  // ==== ФОРМАТ ДЛЯ ЧАТА ====
-  function formatForChat(t) {
-    return `${t.artist} — ${t.title}`;
+  function renderPlaylist(folder, items, isOpen) {
+    const name = displayName(folder);
+    const renamed = aliases[folder] && aliases[folder].trim() && aliases[folder].trim() !== folder;
+    const isNew = NEW_PLAYLISTS.includes(folder);
+    const isNewByAlias = NEW_PLAYLISTS.includes(name);
+    const showNewBadge = isNew || isNewByAlias;
+
+    return `
+      <section class="playlist ${isOpen ? "open" : ""} ${showNewBadge ? "is-new" : ""}" data-folder="${escapeAttr(folder)}">
+        <div class="playlist-head">
+          <span class="arrow">▶</span>
+          <span class="name" title="${escapeAttr(folder)}">
+            ${escapeHtml(name)}
+            ${renamed ? `<small style="color:#6f6f7a;font-weight:400">(${escapeHtml(folder)})</small>` : ''}
+          </span>
+          ${showNewBadge ? '<span class="badge-new">NEW</span>' : ''}
+          <button class="edit" type="button" title="Переименовать">✎</button>
+          <span class="count">${items.length}</span>
+        </div>
+        <div class="playlist-body">
+          ${items.map(t => {
+            const idx = tracks.indexOf(t);
+            return `
+              <div class="track">
+                <div class="meta">
+                  <b>${escapeHtml(t.artist)}</b> — <span class="t">${escapeHtml(t.title)}</span>
+                  <small>${escapeHtml(t.album || "")}</small>
+                </div>
+                <div class="actions">
+                  <button class="yt" data-yt="${idx}" title="Искать на YouTube">▶ YouTube</button>
+                  <button data-idx="${idx}" title="Скопировать и вставить в чат">Скопировать</button>
+                </div>
+              </div>`;
+          }).join("")}
+        </div>
+      </section>`;
   }
 
-  // ==== КЛИКИ ====
   listEl.addEventListener("click", (e) => {
     const editBtn = e.target.closest(".playlist-head .edit");
     if (editBtn) {
@@ -194,7 +217,6 @@
     }
   });
 
-  // ==== ПЕРЕИМЕНОВАНИЕ ====
   function startRename(pl) {
     if (!pl || pl.querySelector("input.rename")) return;
     const folder = pl.dataset.folder;
@@ -213,11 +235,8 @@
     const finish = (save) => {
       const val = input.value.trim();
       if (save) {
-        if (!val || val === folder) {
-          delete aliases[folder];
-        } else {
-          aliases[folder] = val;
-        }
+        if (!val || val === folder) delete aliases[folder];
+        else aliases[folder] = val;
         saveAliasesLocal();
         buildGroups();
       }
@@ -240,25 +259,21 @@
     localStorage.setItem(LS_KEY, JSON.stringify(clean));
   }
 
-  // ==== ЭКСПОРТ / СБРОС ====
   if (adminExport) {
     adminExport.addEventListener("click", () => {
-      const blob = new Blob(
-        [JSON.stringify(aliases, null, 2)],
-        { type: "application/json" }
-      );
+      const blob = new Blob([JSON.stringify(aliases, null, 2)], { type: "application/json" });
       const a = document.createElement("a");
       a.href = URL.createObjectURL(blob);
       a.download = "aliases.json";
       a.click();
       URL.revokeObjectURL(a.href);
-      setStatus("aliases.json скачан — закинь его в репо рядом с tracks.json", "ok");
+      setStatus("aliases.json скачан", "ok");
     });
   }
 
   if (adminReset) {
     adminReset.addEventListener("click", () => {
-      if (!confirm("Сбросить ВСЕ переименования? (локально)")) return;
+      if (!confirm("Сбросить ВСЕ переименования?")) return;
       aliases = {};
       localStorage.removeItem(LS_KEY);
       buildGroups();
@@ -267,10 +282,8 @@
     });
   }
 
-  // ==== КОПИРОВАНИЕ ====
   async function copyTrack(t, btn) {
-    const text = formatForChat(t);
-
+    const text = `${t.artist} — ${t.title}`;
     let ok = false;
     try {
       if (navigator.clipboard && window.isSecureContext) {
@@ -279,22 +292,19 @@
       } else {
         ok = fallbackCopy(text);
       }
-    } catch {
-      ok = fallbackCopy(text);
-    }
+    } catch { ok = fallbackCopy(text); }
 
     if (ok) {
-      showToast(`Скопировано: «${text}». Вставь в чат 👉 Ctrl+V`);
+      showToast(`Скопировано: «${text}»`);
       setStatus(`Скопировано: ${text}`, "ok");
       if (btn) {
         const old = btn.textContent;
-        btn.textContent = "✓ Скопировано";
+        btn.textContent = "✓";
         btn.disabled = true;
         setTimeout(() => { btn.textContent = old; btn.disabled = false; }, 1400);
       }
     } else {
-      prompt("Скопируй вручную и вставь в чат:", text);
-      setStatus("Скопируй вручную (Ctrl+C)", "err");
+      prompt("Скопируй вручную:", text);
     }
   }
 
@@ -302,28 +312,21 @@
     try {
       const ta = document.createElement("textarea");
       ta.value = text;
-      ta.setAttribute("readonly", "");
       ta.style.position = "fixed";
       ta.style.opacity = "0";
-      ta.style.top = "0";
       document.body.appendChild(ta);
       ta.select();
-      ta.setSelectionRange(0, ta.value.length);
       const ok = document.execCommand("copy");
       document.body.removeChild(ta);
       return ok;
     } catch { return false; }
   }
 
-  // ==== YOUTUBE ====
   function youtubeSearch(t) {
     const q = `${t.artist} ${t.title}`.trim();
-    const url = "https://www.youtube.com/results?search_query=" +
-      encodeURIComponent(q) + "&sp=EgIQAQ%253D%253D";
-    window.open(url, "_blank", "noopener");
+    window.open("https://www.youtube.com/results?search_query=" + encodeURIComponent(q), "_blank", "noopener");
   }
 
-  // ==== ТОСТ ====
   let toastEl, toastTimer;
   function showToast(msg) {
     if (!toastEl) {
@@ -337,7 +340,6 @@
     toastTimer = setTimeout(() => toastEl.classList.remove("show"), 2200);
   }
 
-  // ==== РАЗВЕРНУТЬ / СВЕРНУТЬ ====
   expandAllBtn.addEventListener("click", () => {
     document.querySelectorAll(".playlist").forEach(pl => {
       pl.classList.add("open");
@@ -351,14 +353,12 @@
     });
   });
 
-  // ==== ПОИСК ====
   let tmr;
   searchEl.addEventListener("input", () => {
     clearTimeout(tmr);
     tmr = setTimeout(render, 120);
   });
 
-  // ==== УТИЛЫ ====
   function escapeHtml(s) {
     return String(s == null ? "" : s)
       .replace(/&/g, "&amp;").replace(/</g, "&lt;")
