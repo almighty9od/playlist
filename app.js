@@ -8,7 +8,7 @@
   const expandAllBtn   = document.getElementById("expand-all");
   const collapseAllBtn = document.getElementById("collapse-all");
 
-  const adminToggle = document.getElementById("admin-toggle");
+  const adminToggle = document.getElementById("admin-toggle"); // может быть null
   const adminBar    = document.getElementById("admin-bar");
   const adminExport = document.getElementById("admin-export");
   const adminReset  = document.getElementById("admin-reset");
@@ -25,16 +25,18 @@
   let admin = params.get("admin") === "1" || localStorage.getItem("admin") === "1";
   applyAdminUI();
 
-  adminToggle.addEventListener("click", () => {
-    admin = !admin;
-    localStorage.setItem("admin", admin ? "1" : "0");
-    applyAdminUI();
-  });
+  if (adminToggle) {
+    adminToggle.addEventListener("click", () => {
+      admin = !admin;
+      localStorage.setItem("admin", admin ? "1" : "0");
+      applyAdminUI();
+    });
+  }
 
   function applyAdminUI() {
     document.body.classList.toggle("admin", admin);
-    adminToggle.classList.toggle("active", admin);
-    adminBar.hidden = !admin;
+    if (adminToggle) adminToggle.classList.toggle("active", admin);
+    if (adminBar) adminBar.hidden = !admin;
   }
 
   // ==== ЗАГРУЗКА ====
@@ -162,7 +164,6 @@
 
   // ==== КЛИКИ ====
   listEl.addEventListener("click", (e) => {
-    // ✎ переименовать плейлист
     const editBtn = e.target.closest(".playlist-head .edit");
     if (editBtn) {
       e.stopPropagation();
@@ -170,7 +171,6 @@
       return;
     }
 
-    // ▶ YouTube
     const ytBtn = e.target.closest("button[data-yt]");
     if (ytBtn) {
       e.stopPropagation();
@@ -179,7 +179,6 @@
       return;
     }
 
-    // раскрыть/свернуть плейлист
     const head = e.target.closest(".playlist-head");
     if (head && !e.target.closest("input")) {
       const pl = head.parentElement;
@@ -188,7 +187,6 @@
       return;
     }
 
-    // скопировать трек
     const btn = e.target.closest("button[data-idx]");
     if (btn) {
       const t = tracks[Number(btn.dataset.idx)];
@@ -243,27 +241,31 @@
   }
 
   // ==== ЭКСПОРТ / СБРОС ====
-  adminExport.addEventListener("click", () => {
-    const blob = new Blob(
-      [JSON.stringify(aliases, null, 2)],
-      { type: "application/json" }
-    );
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(blob);
-    a.download = "aliases.json";
-    a.click();
-    URL.revokeObjectURL(a.href);
-    setStatus("aliases.json скачан — закинь его в репо рядом с tracks.json", "ok");
-  });
+  if (adminExport) {
+    adminExport.addEventListener("click", () => {
+      const blob = new Blob(
+        [JSON.stringify(aliases, null, 2)],
+        { type: "application/json" }
+      );
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "aliases.json";
+      a.click();
+      URL.revokeObjectURL(a.href);
+      setStatus("aliases.json скачан — закинь его в репо рядом с tracks.json", "ok");
+    });
+  }
 
-  adminReset.addEventListener("click", () => {
-    if (!confirm("Сбросить ВСЕ переименования? (локально)")) return;
-    aliases = {};
-    localStorage.removeItem(LS_KEY);
-    buildGroups();
-    render();
-    setStatus("Локальные переименования сброшены", "ok");
-  });
+  if (adminReset) {
+    adminReset.addEventListener("click", () => {
+      if (!confirm("Сбросить ВСЕ переименования? (локально)")) return;
+      aliases = {};
+      localStorage.removeItem(LS_KEY);
+      buildGroups();
+      render();
+      setStatus("Локальные переименования сброшены", "ok");
+    });
+  }
 
   // ==== КОПИРОВАНИЕ ====
   async function copyTrack(t, btn) {
