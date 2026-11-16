@@ -1,5 +1,185 @@
 [
  {
+  "artist": "#ff85f7",
+  "title": "222",
+  "album": "Agony",
+  "folder": "hexd",
+  "file": "hexd/222.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "Bounce to this!!!!!!",
+  "album": "Agony",
+  "folder": "hexd",
+  "file": "hexd/Bounce to this!!!!!!.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "367923v",
+  "album": "Agony",
+  "folder": "hexd",
+  "file": "hexd/367923v.m4a",
+  "track": 5,
+  "year": 2022
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "Overdrive",
+  "album": "Agony",
+  "folder": "hexd",
+  "file": "hexd/Overdrive.m4a",
+  "track": 6,
+  "year": 2022
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "Burst Shot!",
+  "album": "Burst Shot!",
+  "folder": "hexd",
+  "file": "hexd/Burst Shot!.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "Purity://Tech",
+  "album": "Cyber Trance",
+  "folder": "hexd",
+  "file": "hexd/PurityTech.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "Resurrection",
+  "album": "Cyber Trance",
+  "folder": "hexd",
+  "file": "hexd/Resurrection.m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "Espeonfan22",
+  "album": "Cyber Trance",
+  "folder": "hexd",
+  "file": "hexd/Espeonfan22.m4a",
+  "track": 4,
+  "year": 2022
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "Crystal444",
+  "album": "Cyber Trance",
+  "folder": "hexd",
+  "file": "hexd/Crystal444.m4a",
+  "track": 5,
+  "year": 2022
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "distant",
+  "album": "Cyber Trance",
+  "folder": "hexd",
+  "file": "hexd/distant.m4a",
+  "track": 6,
+  "year": 2022
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "MEW RAVE",
+  "album": "Cyber Trance",
+  "folder": "hexd",
+  "file": "hexd/MEW RAVE.m4a",
+  "track": 7,
+  "year": 2022
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "until we meet again",
+  "album": "Cyber Trance",
+  "folder": "hexd",
+  "file": "hexd/until we meet again.m4a",
+  "track": 8,
+  "year": 2022
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "Good Ending",
+  "album": "Cyber Trance",
+  "folder": "hexd",
+  "file": "hexd/Good Ending.m4a",
+  "track": 9,
+  "year": 2022
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "BAD ENDING",
+  "album": "Cyber Trance",
+  "folder": "hexd",
+  "file": "hexd/BAD ENDING.m4a",
+  "track": 10,
+  "year": 2022
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "I wish this blade was sharper",
+  "album": "Despite Everything",
+  "folder": "hexd",
+  "file": "hexd/I wish this blade was sharper.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "Shame",
+  "album": "Despite Everything",
+  "folder": "hexd",
+  "file": "hexd/Shame.m4a",
+  "track": 3,
+  "year": 2023
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "Encryption",
+  "album": "Encryption",
+  "folder": "hexd",
+  "file": "hexd/Encryption.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "Pecha Pluck",
+  "album": "Pecha Pluck",
+  "folder": "hexd",
+  "file": "hexd/Pecha Pluck.m4a",
+  "track": 1,
+  "year": 2026
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "Nightmares",
+  "album": "PTSD DREAMS",
+  "folder": "hexd",
+  "file": "hexd/Nightmares.m4a",
+  "track": 1,
+  "year": 1920
+ },
+ {
+  "artist": "#ff85f7",
+  "title": "Something About You ~",
+  "album": "Something About You ~",
+  "folder": "hexd",
+  "file": "hexd/Something About You ~.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
   "artist": ".alome, hiræth",
   "title": "is silence the answer?",
   "album": "is silence the answer?",
@@ -781,11 +961,83 @@
  },
  {
   "artist": "2040x2040",
+  "title": "End Of Time",
+  "album": "End Of Time",
+  "folder": "hexd",
+  "file": "hexd/End Of Time.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "2040x2040",
+  "title": "error",
+  "album": "error",
+  "folder": "hexd",
+  "file": "hexd/error.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "2040x2040",
   "title": "ascension0001 [under.net]",
   "album": "hexd",
   "folder": "hexd",
   "file": "hexd/hexd trance/2040x2040 - ascension0001 [under.net].mp3",
   "track": 999
+ },
+ {
+  "artist": "2040x2040",
+  "title": "in your arms",
+  "album": "in your arms",
+  "folder": "hexd",
+  "file": "hexd/in your arms.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "2040x2040",
+  "title": "LonelyHeart.mp3",
+  "album": "LonelyHeart.mp3",
+  "folder": "hexd",
+  "file": "hexd/LonelyHeart.mp3.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "2040x2040",
+  "title": "Simulation",
+  "album": "Simulation",
+  "folder": "hexd",
+  "file": "hexd/Simulation.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "2040x2040",
+  "title": "something about you",
+  "album": "something about you",
+  "folder": "hexd",
+  "file": "hexd/something about you.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "2040x2040",
+  "title": "spiralスパイラル",
+  "album": "spiralスパイラル",
+  "folder": "hexd",
+  "file": "hexd/spiral.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "2040x2040",
+  "title": "wondersphere",
+  "album": "wondersphere",
+  "folder": "hexd",
+  "file": "hexd/wondersphere.m4a",
+  "track": 1,
+  "year": 2023
  },
  {
   "artist": "21. Jardin",
@@ -1010,6 +1262,141 @@
   "track": 32
  },
  {
+  "artist": "4evrx",
+  "title": "luna",
+  "album": "luna",
+  "folder": "hexd",
+  "file": "hexd/luna.m4a",
+  "track": 1,
+  "year": 2026
+ },
+ {
+  "artist": "4evrx",
+  "title": "SOULFLUX",
+  "album": "SOULFLUX",
+  "folder": "hexd",
+  "file": "hexd/SOULFLUX.m4a",
+  "track": 1,
+  "year": 2026
+ },
+ {
+  "artist": "4evrx",
+  "title": "Wish It All Away",
+  "album": "Wish It All Away",
+  "folder": "hexd",
+  "file": "hexd/Wish It All Away.m4a",
+  "track": 1,
+  "year": 2026
+ },
+ {
+  "artist": "4evrx",
+  "title": "lie to me",
+  "album": "WITCHTRANCE",
+  "folder": "hexd",
+  "file": "hexd/lie to me.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "4evrx",
+  "title": "lost between us",
+  "album": "WITCHTRANCE",
+  "folder": "hexd",
+  "file": "hexd/lost between us.m4a",
+  "track": 2,
+  "year": 2025
+ },
+ {
+  "artist": "4evrx",
+  "title": "session timeout",
+  "album": "WITCHTRANCE",
+  "folder": "hexd",
+  "file": "hexd/session timeout.m4a",
+  "track": 3,
+  "year": 2025
+ },
+ {
+  "artist": "4evrx",
+  "title": "hearts racing at night",
+  "album": "WITCHTRANCE",
+  "folder": "hexd",
+  "file": "hexd/hearts racing at night.m4a",
+  "track": 4,
+  "year": 2025
+ },
+ {
+  "artist": "4evrx",
+  "title": "can you see me",
+  "album": "WITCHTRANCE",
+  "folder": "hexd",
+  "file": "hexd/can you see me.m4a",
+  "track": 5,
+  "year": 2025
+ },
+ {
+  "artist": "4evrx",
+  "title": "plz hold me forever",
+  "album": "WITCHTRANCE",
+  "folder": "hexd",
+  "file": "hexd/plz hold me forever.m4a",
+  "track": 6,
+  "year": 2025
+ },
+ {
+  "artist": "4evrx",
+  "title": "until it feels like nothing",
+  "album": "WITCHTRANCE",
+  "folder": "hexd",
+  "file": "hexd/until it feels like nothing.m4a",
+  "track": 7,
+  "year": 2025
+ },
+ {
+  "artist": "4evrx",
+  "title": "cast me away",
+  "album": "WITCHTRANCE",
+  "folder": "hexd",
+  "file": "hexd/cast me away.m4a",
+  "track": 8,
+  "year": 2025
+ },
+ {
+  "artist": "5ubaruu",
+  "title": "it's just me and the empty roads at midnight",
+  "album": "it's just me and the empty roads at midnight",
+  "folder": "hexd",
+  "file": "hexd/it's just me and the empty roads at midnight.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
+  "artist": "5ubaruu",
+  "title": "pwm angelic",
+  "album": "pwm angelic",
+  "folder": "hexd",
+  "file": "hexd/pwm angelic.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
+  "artist": "77yolan",
+  "title": "inter_92",
+  "album": "inter_92",
+  "folder": "hexd",
+  "file": "hexd/inter_92.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "8hoven",
+  "title": "Redlight",
+  "album": "Redlight",
+  "folder": "hexd",
+  "file": "hexd/Redlight.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
   "artist": ":Waijdan:",
   "title": "Zerstört (Grendel Remix)",
   "album": "2022 Label Compilation",
@@ -1017,6 +1404,24 @@
   "file": "Witch House/VA - 2022 - Re-Mission Entertainment 2022 Label Compilation/1.10. -Waijdan- - Zerstört (Grendel Remix).mp3",
   "track": 10,
   "year": 2022
+ },
+ {
+  "artist": "_skott.y",
+  "title": "nobodyelse",
+  "album": "nobodyelse",
+  "folder": "hexd",
+  "file": "hexd/nobodyelse.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "_skott.y",
+  "title": "u know wat u gotta do",
+  "album": "u know wat u gotta do",
+  "folder": "hexd",
+  "file": "hexd/u know wat u gotta do.m4a",
+  "track": 1,
+  "year": 2023
  },
  {
   "artist": "A Perfect Error",
@@ -2462,6 +2867,15 @@
   "year": 2014
  },
  {
+  "artist": "Acreage",
+  "title": "Essence VIP",
+  "album": "Essence VIP",
+  "folder": "hexd",
+  "file": "hexd/Essence VIP.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
   "artist": "Act of Rage/N-Vitral",
   "title": "The Next Level",
   "album": "moy",
@@ -2661,6 +3075,33 @@
   "year": 2026
  },
  {
+  "artist": "Aeriu Ika",
+  "title": "Euphoria",
+  "album": "Euphoria",
+  "folder": "hexd",
+  "file": "hexd/Euphoria.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Aero-Ji",
+  "title": "sex_motion",
+  "album": "e_motion / sex_motion",
+  "folder": "hexd",
+  "file": "hexd/sex_motion.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "Aero-Ji",
+  "title": "I Found You",
+  "album": "I Found You",
+  "folder": "hexd",
+  "file": "hexd/I Found You.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
   "artist": "Aerosmith",
   "title": "Dream On",
   "album": "Arthas",
@@ -2668,6 +3109,24 @@
   "file": "Arthas/Aerosmith - Dream On.mp3",
   "track": 3,
   "year": 1973
+ },
+ {
+  "artist": "Aexhy",
+  "title": "Aexhy x DJ Traytex - Fragments",
+  "album": "Crystal Fragments",
+  "folder": "hexd",
+  "file": "hexd/Aexhy x DJ Traytex - Fragments.m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "Affl1kti0n",
+  "title": "LasTTime",
+  "album": "LasTTime",
+  "folder": "hexd",
+  "file": "hexd/LasTTime.m4a",
+  "track": 1,
+  "year": 2025
  },
  {
   "artist": "Afric Simone",
@@ -2721,6 +3180,33 @@
   "folder": "moy",
   "file": "moy/Aircraft - My Baby's Got to Go - Super Slowed.mp3",
   "track": 2
+ },
+ {
+  "artist": "AITANA★★OFICIAL",
+  "title": "37564",
+  "album": "37564",
+  "folder": "hexd",
+  "file": "hexd/37564.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "AITANA★★OFICIAL",
+  "title": "shadows",
+  "album": "shadows",
+  "folder": "hexd",
+  "file": "hexd/shadows.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "AITANA★★OFICIAL",
+  "title": "storm",
+  "album": "storm",
+  "folder": "hexd",
+  "file": "hexd/storm.m4a",
+  "track": 1,
+  "year": 2024
  },
  {
   "artist": "Akcent",
@@ -2881,6 +3367,33 @@
   "folder": "Arthas",
   "file": "Arthas/Soundtrack/Akira Yamaoka - True.mp3",
   "track": 999
+ },
+ {
+  "artist": "Akts",
+  "title": "Fractured Sky",
+  "album": "Fractured Sky",
+  "folder": "hexd",
+  "file": "hexd/Fractured Sky.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "Akts",
+  "title": "That Ghost",
+  "album": "That Ghost",
+  "folder": "hexd",
+  "file": "hexd/That Ghost.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "Akts",
+  "title": "Wasting Away - Sped-Up",
+  "album": "Wasting Away (Sped-Up)",
+  "folder": "hexd",
+  "file": "hexd/Sped-Up.m4a",
+  "track": 1,
+  "year": 2025
  },
  {
   "artist": "Alchemyst (UY)",
@@ -3347,6 +3860,60 @@
   "folder": "moy",
   "file": "moy/Among The Lonely Stars - Вечный Сон.mp3",
   "track": 45
+ },
+ {
+  "artist": "amore",
+  "title": "Canary",
+  "album": "Canary",
+  "folder": "hexd",
+  "file": "hexd/Canary.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "amore",
+  "title": "Daylight's End",
+  "album": "Epiphany",
+  "folder": "hexd",
+  "file": "hexd/Daylight's End.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "amore",
+  "title": "OPEN WORLD",
+  "album": "OPEN WORLD",
+  "folder": "hexd",
+  "file": "hexd/OPEN WORLD.m4a",
+  "track": 1,
+  "year": 2026
+ },
+ {
+  "artist": "amore",
+  "title": "Pure Judgement",
+  "album": "Pure Judgement",
+  "folder": "hexd",
+  "file": "hexd/Pure Judgement.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "amore",
+  "title": "AWAKENER",
+  "album": "TEARS OF BURNING FIRE",
+  "folder": "hexd",
+  "file": "hexd/AWAKENER.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "amore",
+  "title": "Tonight",
+  "album": "Tonight",
+  "folder": "hexd",
+  "file": "hexd/Tonight.m4a",
+  "track": 1,
+  "year": 2023
  },
  {
   "artist": "Amos",
@@ -4126,6 +4693,204 @@
   "year": 2022
  },
  {
+  "artist": "Anthony1",
+  "title": "Illusion of Quality",
+  "album": "!!!",
+  "folder": "hexd",
+  "file": "hexd/Illusion of Quality.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
+  "artist": "Anthony1",
+  "title": ".Rinselooks",
+  "album": "!!!",
+  "folder": "hexd",
+  "file": "hexd/.Rinselooks.m4a",
+  "track": 2,
+  "year": 2021
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Change",
+  "album": "!!!",
+  "folder": "hexd",
+  "file": "hexd/Change.m4a",
+  "track": 3,
+  "year": 2021
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Acuvue in the Oasis",
+  "album": "!!!",
+  "folder": "hexd",
+  "file": "hexd/Acuvue in the Oasis.m4a",
+  "track": 4,
+  "year": 2021
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Human Composed",
+  "album": "!!!",
+  "folder": "hexd",
+  "file": "hexd/Human Composed.m4a",
+  "track": 5,
+  "year": 2021
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Z3 PLUS",
+  "album": "???",
+  "folder": "hexd",
+  "file": "hexd/Z3 PLUS.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Gurami",
+  "album": "???",
+  "folder": "hexd",
+  "file": "hexd/Gurami.m4a",
+  "track": 2,
+  "year": 2021
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Crisis Core",
+  "album": "???",
+  "folder": "hexd",
+  "file": "hexd/Crisis Core.m4a",
+  "track": 3,
+  "year": 2021
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Sveiki",
+  "album": "???",
+  "folder": "hexd",
+  "file": "hexd/Sveiki.m4a",
+  "track": 4,
+  "year": 2021
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Rider",
+  "album": "???",
+  "folder": "hexd",
+  "file": "hexd/Rider.m4a",
+  "track": 5,
+  "year": 2021
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Sinotrans",
+  "album": "???",
+  "folder": "hexd",
+  "file": "hexd/Sinotrans.m4a",
+  "track": 6,
+  "year": 2021
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Alice Gate",
+  "album": "Alice Gate",
+  "folder": "hexd",
+  "file": "hexd/Alice Gate.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Amplified Ascension",
+  "album": "Amplified Ascension",
+  "folder": "hexd",
+  "file": "hexd/Amplified Ascension.m4a",
+  "track": 1,
+  "year": 2020
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Arreglo Floral",
+  "album": "Arreglo Floral",
+  "folder": "hexd",
+  "file": "hexd/Arreglo Floral.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Eostre",
+  "album": "Ateriavia",
+  "folder": "hexd",
+  "file": "hexd/Eostre.m4a",
+  "track": 1,
+  "year": 2020
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Archangel",
+  "album": "Ateriavia",
+  "folder": "hexd",
+  "file": "hexd/Archangel.m4a",
+  "track": 2,
+  "year": 2020
+ },
+ {
+  "artist": "Anthony1",
+  "title": "BOBBACORE IS REAL",
+  "album": "BOBBACORE IS REAL",
+  "folder": "hexd",
+  "file": "hexd/BOBBACORE IS REAL.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Soul",
+  "album": "Body and Soul",
+  "folder": "hexd",
+  "file": "hexd/Soul.m4a",
+  "track": 2,
+  "year": 2020
+ },
+ {
+  "artist": "Anthony1",
+  "title": "joyride into dawn",
+  "album": "joyride into dawn",
+  "folder": "hexd",
+  "file": "hexd/joyride into dawn.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Every Moment is Precious (Bonus Track)",
+  "album": "Sextrance Worldwide",
+  "folder": "hexd",
+  "file": "hexd/Every Moment is Precious (Bonus Track).m4a",
+  "track": 11,
+  "year": 2022
+ },
+ {
+  "artist": "Anthony1",
+  "title": "Trail Night",
+  "album": "Trail Night",
+  "folder": "hexd",
+  "file": "hexd/Trail Night.m4a",
+  "track": 1,
+  "year": 2020
+ },
+ {
+  "artist": "Anthony1",
+  "title": "vvvvv",
+  "album": "vvvvv",
+  "folder": "hexd",
+  "file": "hexd/vvvvv.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
   "artist": "Antique",
   "title": "Dinata Dinata",
   "album": "Arthas",
@@ -4883,6 +5648,24 @@
   "year": 2019
  },
  {
+  "artist": "ayrea",
+  "title": "(sex)trance_ruined_my.life",
+  "album": "(sex)trance_ruined_my.life",
+  "folder": "hexd",
+  "file": "hexd/(sex)trance_ruined_my.life.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "ayrea",
+  "title": "walk alone",
+  "album": "walk alone",
+  "folder": "hexd",
+  "file": "hexd/walk alone.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
   "artist": "B Complex",
   "title": "Beautiful Lies",
   "album": "Sick Music",
@@ -5081,11 +5864,47 @@
  },
  {
   "artist": "beansclub",
+  "title": "again",
+  "album": "again",
+  "folder": "hexd",
+  "file": "hexd/again.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "all i can do is cry",
+  "album": "all i can do is cry",
+  "folder": "hexd",
+  "file": "hexd/all i can do is cry.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
   "title": "ALREADY HERE!",
   "album": "ALREADY HERE!",
   "folder": "hexd",
   "file": "hexd/beansclub/pixygarden & beansclub - ALREADY HERE!.mp3",
   "track": 999
+ },
+ {
+  "artist": "beansclub",
+  "title": "angel tear drop",
+  "album": "angel tear drop",
+  "folder": "hexd",
+  "file": "hexd/angel tear drop.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "around and around",
+  "album": "around and around",
+  "folder": "hexd",
+  "file": "hexd/around and around.m4a",
+  "track": 1,
+  "year": 2024
  },
  {
   "artist": "beansclub",
@@ -5169,6 +5988,51 @@
  },
  {
   "artist": "beansclub",
+  "title": "crossroad - instrumental",
+  "album": "BREAKING",
+  "folder": "hexd",
+  "file": "hexd/instrumental.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "breaking",
+  "album": "BREAKING",
+  "folder": "hexd",
+  "file": "hexd/breaking.m4a",
+  "track": 2,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "once in a lifetime",
+  "album": "BREAKING",
+  "folder": "hexd",
+  "file": "hexd/once in a lifetime.m4a",
+  "track": 3,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "eastern air",
+  "album": "BREAKING",
+  "folder": "hexd",
+  "file": "hexd/eastern air.m4a",
+  "track": 4,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "less discussion - (bonus track)",
+  "album": "BREAKING",
+  "folder": "hexd",
+  "file": "hexd/(bonus track).m4a",
+  "track": 5,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
   "title": "sachiel",
   "album": "CARRY ME AWAY",
   "folder": "hexd",
@@ -5182,6 +6046,24 @@
   "folder": "hexd",
   "file": "hexd/beansclub/beansclub - castles.mp3",
   "track": 999
+ },
+ {
+  "artist": "beansclub",
+  "title": "rediscovery",
+  "album": "EVERYTHING IS BITTERSWEET",
+  "folder": "hexd",
+  "file": "hexd/rediscovery.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "recall",
+  "album": "EVERYTHING IS BITTERSWEET",
+  "folder": "hexd",
+  "file": "hexd/recall.m4a",
+  "track": 6,
+  "year": 2025
  },
  {
   "artist": "beansclub",
@@ -5201,11 +6083,92 @@
  },
  {
   "artist": "beansclub",
+  "title": "back to how we were",
+  "album": "FIGURINES AND PLASTIC DREAMS",
+  "folder": "hexd",
+  "file": "hexd/back to how we were.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "touch",
+  "album": "FIGURINES AND PLASTIC DREAMS",
+  "folder": "hexd",
+  "file": "hexd/touch.m4a",
+  "track": 2,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "on my love",
+  "album": "FIGURINES AND PLASTIC DREAMS",
+  "folder": "hexd",
+  "file": "hexd/on my love.m4a",
+  "track": 4,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "love me (dreamloader interlude)",
+  "album": "FIGURINES AND PLASTIC DREAMS",
+  "folder": "hexd",
+  "file": "hexd/love me (dreamloader interlude).m4a",
+  "track": 6,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "in and out of love",
+  "album": "FIGURINES AND PLASTIC DREAMS",
+  "folder": "hexd",
+  "file": "hexd/beansclub - in and out of love.m4a",
+  "track": 9,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "face to face",
+  "album": "FIGURINES AND PLASTIC DREAMS",
+  "folder": "hexd",
+  "file": "hexd/face to face.m4a",
+  "track": 11,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "angel tear drop",
+  "album": "FIGURINES AND PLASTIC DREAMS",
+  "folder": "hexd",
+  "file": "hexd/beansclub - angel tear drop.m4a",
+  "track": 13,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "desire",
+  "album": "FIGURINES AND PLASTIC DREAMS",
+  "folder": "hexd",
+  "file": "hexd/desire.m4a",
+  "track": 15,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
   "title": "Honeymoon",
   "album": "Greatest Hits",
   "folder": "hexd",
   "file": "hexd/beansclub/lana del rey - honeymoon (beansclub bootleg).mp3",
   "track": 999
+ },
+ {
+  "artist": "beansclub",
+  "title": "hanshin",
+  "album": "hanshin",
+  "folder": "hexd",
+  "file": "hexd/hanshin.m4a",
+  "track": 1,
+  "year": 2024
  },
  {
   "artist": "beansclub",
@@ -5625,6 +6588,24 @@
  },
  {
   "artist": "beansclub",
+  "title": "i know this dream is also yours",
+  "album": "i know this dream is also yours",
+  "folder": "hexd",
+  "file": "hexd/i know this dream is also yours.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "beansclub",
+  "title": "i wish u never met me,",
+  "album": "i wish u never met me,",
+  "folder": "hexd",
+  "file": "hexd/i wish u never met me,.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "beansclub",
   "title": "if i could be you",
   "album": "if i could be you",
   "folder": "hexd",
@@ -5638,6 +6619,24 @@
   "folder": "hexd",
   "file": "hexd/beansclub/beansclub - ilikethewayyoukissme.mp3",
   "track": 999
+ },
+ {
+  "artist": "beansclub",
+  "title": "in and out of love",
+  "album": "in and out of love",
+  "folder": "hexd",
+  "file": "hexd/in and out of love.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "in her eyes",
+  "album": "in her eyes",
+  "folder": "hexd",
+  "file": "hexd/in her eyes.m4a",
+  "track": 1,
+  "year": 2024
  },
  {
   "artist": "beansclub",
@@ -5662,6 +6661,33 @@
   "folder": "hexd",
   "file": "hexd/beansclub/beansclub - it's a dream.mp3",
   "track": 999
+ },
+ {
+  "artist": "beansclub",
+  "title": "keep straight until you're gone",
+  "album": "keep straight until you're gone",
+  "folder": "hexd",
+  "file": "hexd/keep straight until you're gone.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "lies",
+  "album": "lies",
+  "folder": "hexd",
+  "file": "hexd/lies.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
+  "title": "like you do",
+  "album": "like you do",
+  "folder": "hexd",
+  "file": "hexd/like you do.m4a",
+  "track": 1,
+  "year": 2025
  },
  {
   "artist": "beansclub",
@@ -5740,8 +6766,62 @@
   "title": "need2feellove",
   "album": "need2feellove",
   "folder": "hexd",
+  "file": "hexd/need2feellove.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "beansclub",
+  "title": "need2feellove",
+  "album": "need2feellove",
+  "folder": "hexd",
   "file": "hexd/beansclub/beansclub - need2feellove.mp3",
   "track": 999
+ },
+ {
+  "artist": "beansclub",
+  "title": "time of my life",
+  "album": "NOTHING LEFT TO SAY",
+  "folder": "hexd",
+  "file": "hexd/time of my life.m4a",
+  "track": 1,
+  "year": 2026
+ },
+ {
+  "artist": "beansclub",
+  "title": "rain falls down",
+  "album": "NOTHING LEFT TO SAY",
+  "folder": "hexd",
+  "file": "hexd/rain falls down.m4a",
+  "track": 2,
+  "year": 2026
+ },
+ {
+  "artist": "beansclub",
+  "title": "look for me in heaven",
+  "album": "NOTHING LEFT TO SAY",
+  "folder": "hexd",
+  "file": "hexd/look for me in heaven.m4a",
+  "track": 4,
+  "year": 2026
+ },
+ {
+  "artist": "beansclub",
+  "title": "hate to see you cry",
+  "album": "NOTHING LEFT TO SAY",
+  "folder": "hexd",
+  "file": "hexd/hate to see you cry.m4a",
+  "track": 7,
+  "year": 2026
+ },
+ {
+  "artist": "beansclub",
+  "title": "hand on heart",
+  "album": "NOTHING LEFT TO SAY",
+  "folder": "hexd",
+  "file": "hexd/hand on heart.m4a",
+  "track": 8,
+  "year": 2026
  },
  {
   "artist": "beansclub",
@@ -5753,11 +6833,47 @@
  },
  {
   "artist": "beansclub",
+  "title": "oh my god i want that shit",
+  "album": "oh my god i want that shit",
+  "folder": "hexd",
+  "file": "hexd/oh my god i want that shit.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "beansclub",
+  "title": "one, two, three!",
+  "album": "one, two, three!",
+  "folder": "hexd",
+  "file": "hexd/one, two, three!.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "beansclub",
+  "title": "don't turn around",
+  "album": "PHOTON STRiKE COMPILATION 01 - Universe -",
+  "folder": "hexd",
+  "file": "hexd/don't turn around.m4a",
+  "track": 3,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
   "title": "prescription",
   "album": "prescription",
   "folder": "hexd",
   "file": "hexd/beansclub/beansclub - prescription.mp3",
   "track": 999
+ },
+ {
+  "artist": "beansclub",
+  "title": "put em high",
+  "album": "put em high",
+  "folder": "hexd",
+  "file": "hexd/put em high.m4a",
+  "track": 1,
+  "year": 2023
  },
  {
   "artist": "beansclub",
@@ -5777,11 +6893,29 @@
  },
  {
   "artist": "beansclub",
+  "title": "superstar4k!",
+  "album": "superstar4k!",
+  "folder": "hexd",
+  "file": "hexd/superstar4k!.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "beansclub",
   "title": "surrender to you",
   "album": "surrender to you",
   "folder": "hexd",
   "file": "hexd/beansclub/beansclub - surrender to you.mp3",
   "track": 999
+ },
+ {
+  "artist": "beansclub",
+  "title": "falling4u",
+  "album": "TAKE ALL YOU NEED FROM ME",
+  "folder": "hexd",
+  "file": "hexd/falling4u.m4a",
+  "track": 2,
+  "year": 2024
  },
  {
   "artist": "beansclub",
@@ -5809,6 +6943,96 @@
  },
  {
   "artist": "beansclub",
+  "title": "never let me go",
+  "album": "TRANSIENT FLEETING MEMOIRS",
+  "folder": "hexd",
+  "file": "hexd/never let me go.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "beansclub",
+  "title": "sweet",
+  "album": "TRANSIENT FLEETING MEMOIRS",
+  "folder": "hexd",
+  "file": "hexd/sweet.m4a",
+  "track": 2,
+  "year": 2024
+ },
+ {
+  "artist": "beansclub",
+  "title": "into your tender eyes",
+  "album": "TRANSIENT FLEETING MEMOIRS",
+  "folder": "hexd",
+  "file": "hexd/into your tender eyes.m4a",
+  "track": 4,
+  "year": 2024
+ },
+ {
+  "artist": "beansclub",
+  "title": "i will never see the sun rise again",
+  "album": "TRANSIENT FLEETING MEMOIRS",
+  "folder": "hexd",
+  "file": "hexd/i will never see the sun rise again.m4a",
+  "track": 5,
+  "year": 2024
+ },
+ {
+  "artist": "beansclub",
+  "title": "leave the past behind",
+  "album": "TRANSIENT FLEETING MEMOIRS",
+  "folder": "hexd",
+  "file": "hexd/leave the past behind.m4a",
+  "track": 6,
+  "year": 2024
+ },
+ {
+  "artist": "beansclub",
+  "title": "transient fleeting memoirs",
+  "album": "TRANSIENT FLEETING MEMOIRS",
+  "folder": "hexd",
+  "file": "hexd/transient fleeting memoirs.m4a",
+  "track": 10,
+  "year": 2024
+ },
+ {
+  "artist": "beansclub",
+  "title": "i know this dream is also yours",
+  "album": "TRANSIENT FLEETING MEMOIRS",
+  "folder": "hexd",
+  "file": "hexd/beansclub - i know this dream is also yours.m4a",
+  "track": 11,
+  "year": 2024
+ },
+ {
+  "artist": "beansclub",
+  "title": "feel the distance, in the moment, with you",
+  "album": "TRANSIENT FLEETING MEMOIRS",
+  "folder": "hexd",
+  "file": "hexd/feel the distance, in the moment, with you.m4a",
+  "track": 12,
+  "year": 2024
+ },
+ {
+  "artist": "beansclub",
+  "title": "blame",
+  "album": "TRANSIENT FLEETING MEMOIRS",
+  "folder": "hexd",
+  "file": "hexd/blame.m4a",
+  "track": 13,
+  "year": 2024
+ },
+ {
+  "artist": "beansclub",
+  "title": "still thinking bout you",
+  "album": "under.net compilation vol. 3",
+  "folder": "hexd",
+  "file": "hexd/still thinking bout you.m4a",
+  "track": 14,
+  "year": 2025
+ },
+ {
+  "artist": "beansclub",
   "title": "hanshin",
   "album": "under.net compilation vol.1",
   "folder": "hexd",
@@ -5820,8 +7044,35 @@
   "title": "wadio",
   "album": "wadio",
   "folder": "hexd",
+  "file": "hexd/wadio.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "beansclub",
+  "title": "wadio",
+  "album": "wadio",
+  "folder": "hexd",
   "file": "hexd/beansclub/beansclub - wadio.mp3",
   "track": 999
+ },
+ {
+  "artist": "beansclub",
+  "title": "whoiam",
+  "album": "whoiam",
+  "folder": "hexd",
+  "file": "hexd/whoiam.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "beansclub",
+  "title": "yes, you are",
+  "album": "yes, you are",
+  "folder": "hexd",
+  "file": "hexd/yes, you are.m4a",
+  "track": 1,
+  "year": 2025
  },
  {
   "artist": "beansclub",
@@ -5908,6 +7159,15 @@
   "file": "Dark Techno/VA - Soft- Deep & Dark #7 [Seven Villas Music] FLAC-2021/03-Ben Preisinger - Blindness.flac",
   "track": 3,
   "year": 2021
+ },
+ {
+  "artist": "Bendel",
+  "title": "Ghost of You",
+  "album": "Ghost of You",
+  "folder": "hexd",
+  "file": "hexd/Ghost of You.m4a",
+  "track": 1,
+  "year": 2026
  },
  {
   "artist": "Beneath My Shade",
@@ -6397,6 +7657,15 @@
   "year": 2008
  },
  {
+  "artist": "Blue Hour",
+  "title": "Radiance/Limelight - Sugar Remix",
+  "album": "Fast Forward Productions (Remixes)",
+  "folder": "hexd",
+  "file": "hexd/Sugar Remix.m4a",
+  "track": 2,
+  "year": 2019
+ },
+ {
   "artist": "Blue Stahli",
   "title": "ULTRAnumb",
   "album": "Ultranumb",
@@ -6449,6 +7718,24 @@
   "file": "Arthas/Blur - Song 2.mp3",
   "track": 2,
   "year": 1998
+ },
+ {
+  "artist": "blushʕ ꈍᴥꈍʔ",
+  "title": "holy",
+  "album": "obscura",
+  "folder": "hexd",
+  "file": "hexd/holy.m4a",
+  "track": 3,
+  "year": 2023
+ },
+ {
+  "artist": "blushʕ ꈍᴥꈍʔ",
+  "title": "positive+",
+  "album": "obscura",
+  "folder": "hexd",
+  "file": "hexd/positive+.m4a",
+  "track": 7,
+  "year": 2023
  },
  {
   "artist": "Blvckholes",
@@ -6659,11 +7946,29 @@
  },
  {
   "artist": "Bootee",
+  "title": "Metanoia",
+  "album": "Bio-Regenesis",
+  "folder": "hexd",
+  "file": "hexd/Metanoia.m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "Bootee",
   "title": "Passion (Sienna Sleep Trance Mix)",
   "album": "hexd",
   "folder": "hexd",
   "file": "hexd/hexd trance/Bootee - Passion (Sienna Sleep Trance Mix).mp3",
   "track": 999
+ },
+ {
+  "artist": "Bootee",
+  "title": "Safe with you",
+  "album": "Secrets of the heart",
+  "folder": "hexd",
+  "file": "hexd/Safe with you.m4a",
+  "track": 4,
+  "year": 2021
  },
  {
   "artist": "Borislav Slavov",
@@ -8854,6 +10159,15 @@
   "year": 2008
  },
  {
+  "artist": "C!erra My$t",
+  "title": "KIDJUNKIE",
+  "album": "Hysteria Format V.1",
+  "folder": "hexd",
+  "file": "hexd/KIDJUNKIE.m4a",
+  "track": 8,
+  "year": 2022
+ },
+ {
   "artist": "C-Quence vs. Fictivision",
   "title": "Symbols (Will Atkinson 5000 Remix)",
   "album": "Trance Techno Club",
@@ -8925,6 +10239,69 @@
   "year": 2024
  },
  {
+  "artist": "C3NTELL4",
+  "title": "This Shit",
+  "album": "4Bill4",
+  "folder": "hexd",
+  "file": "hexd/This Shit.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "C3NTELL4",
+  "title": "Change",
+  "album": "4Bill4",
+  "folder": "hexd",
+  "file": "hexd/C3NTELL4 - Change.m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "C3NTELL4",
+  "title": "City Of Nothing",
+  "album": "5AV0RY",
+  "folder": "hexd",
+  "file": "hexd/City Of Nothing.m4a",
+  "track": 3,
+  "year": 2023
+ },
+ {
+  "artist": "C3NTELL4",
+  "title": "Jumping Between Cl00uds",
+  "album": "5AV0RY",
+  "folder": "hexd",
+  "file": "hexd/Jumping Between Cl00uds.m4a",
+  "track": 4,
+  "year": 2023
+ },
+ {
+  "artist": "C3NTELL4",
+  "title": "909db",
+  "album": "5AV0RY",
+  "folder": "hexd",
+  "file": "hexd/909db.m4a",
+  "track": 5,
+  "year": 2023
+ },
+ {
+  "artist": "C3NTELL4",
+  "title": "Desorientado",
+  "album": "Desorientado",
+  "folder": "hexd",
+  "file": "hexd/Desorientado.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "C3NTELL4",
+  "title": "The Realm Of Haruko",
+  "album": "The Realm Of Haruko",
+  "folder": "hexd",
+  "file": "hexd/The Realm Of Haruko.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
   "artist": "C418",
   "title": "Axolotl",
   "album": "moy",
@@ -8939,6 +10316,114 @@
   "folder": "moy",
   "file": "moy/C418 - Key.mp3",
   "track": 51
+ },
+ {
+  "artist": "c678924",
+  "title": ")))",
+  "album": "678924",
+  "folder": "hexd",
+  "file": "hexd/))).m4a",
+  "track": 2,
+  "year": 2021
+ },
+ {
+  "artist": "c678924",
+  "title": "???",
+  "album": "678924",
+  "folder": "hexd",
+  "file": "hexd/c678924 - .m4a",
+  "track": 7,
+  "year": 2021
+ },
+ {
+  "artist": "c678924",
+  "title": "pseudogarden",
+  "album": "divine:analogue",
+  "folder": "hexd",
+  "file": "hexd/pseudogarden.m4a",
+  "track": 7,
+  "year": 2023
+ },
+ {
+  "artist": "c678924",
+  "title": "End Sky",
+  "album": "End Sky",
+  "folder": "hexd",
+  "file": "hexd/End Sky.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "c678924",
+  "title": "HD.189733.B",
+  "album": "HD.189733.B",
+  "folder": "hexd",
+  "file": "hexd/HD.189733.B.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
+  "artist": "c678924",
+  "title": "Nymphlight",
+  "album": "Nymphlight",
+  "folder": "hexd",
+  "file": "hexd/Nymphlight.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "c678924",
+  "title": "Ondervoeding",
+  "album": "Ondervoeding",
+  "folder": "hexd",
+  "file": "hexd/Ondervoeding.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
+  "artist": "c678924",
+  "title": "Quavers",
+  "album": "Quavers",
+  "folder": "hexd",
+  "file": "hexd/Quavers.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "c678924",
+  "title": "Yorh4 R4ve",
+  "album": "Yorh4 R4ve",
+  "folder": "hexd",
+  "file": "hexd/Yorh4 R4ve.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
+  "artist": "calmface",
+  "title": "Diskoteka (1996 dj antaniukas kupiskis disco mix)",
+  "album": "Diskoteka (1996 dj antaniukas kupiskis disco mix)",
+  "folder": "hexd",
+  "file": "hexd/Diskoteka (1996 dj antaniukas kupiskis disco mix).m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "calmface",
+  "title": "layering distorted kicks on random tracks because i lack creativity",
+  "album": "layering distorted kicks on random tracks because i lack creativity",
+  "folder": "hexd",
+  "file": "hexd/layering distorted kicks on random tracks because i lack creativity.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "calmface",
+  "title": "123456789",
+  "album": "OOTGY001",
+  "folder": "hexd",
+  "file": "hexd/123456789.m4a",
+  "track": 12,
+  "year": 2020
  },
  {
   "artist": "Calogero & Passi",
@@ -9020,6 +10505,24 @@
   "year": 2020
  },
  {
+  "artist": "Casper Mcfadden",
+  "title": ".f33ling",
+  "album": "Audio Diary",
+  "folder": "hexd",
+  "file": "hexd/.f33ling.m4a",
+  "track": 10,
+  "year": 2020
+ },
+ {
+  "artist": "cast heal",
+  "title": "mana blossom",
+  "album": "mana blossom",
+  "folder": "hexd",
+  "file": "hexd/mana blossom.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
   "artist": "Castaways",
   "title": "Liar Liar",
   "album": "Lock Stock & 2 Smoking Barrels",
@@ -9027,6 +10530,33 @@
   "file": "Arthas/Castaways - Liar Liar.mp3",
   "track": 16,
   "year": 1998
+ },
+ {
+  "artist": "CAT GRAY EYES",
+  "title": "daily life is trash",
+  "album": "daily life is trash",
+  "folder": "hexd",
+  "file": "hexd/daily life is trash.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "CAT GRAY EYES",
+  "title": "romantic",
+  "album": "little self destruction",
+  "folder": "hexd",
+  "file": "hexd/romantic.m4a",
+  "track": 4,
+  "year": 2026
+ },
+ {
+  "artist": "ceecide",
+  "title": "save me - Kiitzuna Remix",
+  "album": "never find me (remix)",
+  "folder": "hexd",
+  "file": "hexd/Kiitzuna Remix.m4a",
+  "track": 1,
+  "year": 2025
  },
  {
   "artist": "Celine Dion",
@@ -9302,6 +10832,15 @@
   "folder": "Arthas",
   "file": "Arthas/Classic/Christopher Slaski - Bosque [Stings].mp3",
   "track": 999
+ },
+ {
+  "artist": "Chrome Miser",
+  "title": "3ternal gyr3",
+  "album": "3ternal gyr3",
+  "folder": "hexd",
+  "file": "hexd/3ternal gyr3.m4a",
+  "track": 1,
+  "year": 2026
  },
  {
   "artist": "Ciaran McAuley",
@@ -10912,6 +12451,33 @@
   "track": 999
  },
  {
+  "artist": "crayvxn",
+  "title": "Dephasing",
+  "album": "Ether Drive",
+  "folder": "hexd",
+  "file": "hexd/Dephasing.m4a",
+  "track": 6,
+  "year": 2024
+ },
+ {
+  "artist": "crayvxn",
+  "title": "Ghost Phonon",
+  "album": "Ether Drive",
+  "folder": "hexd",
+  "file": "hexd/Ghost Phonon.m4a",
+  "track": 9,
+  "year": 2024
+ },
+ {
+  "artist": "crayvxn",
+  "title": "Ghost Wire",
+  "album": "Ghost Wire",
+  "folder": "hexd",
+  "file": "hexd/Ghost Wire.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
   "artist": "Crazy Town",
   "title": "Butterfly (album version)",
   "album": "Drowning [UK CD #2]",
@@ -11703,6 +13269,132 @@
   "track": 632
  },
  {
+  "artist": "CTRLFR33K",
+  "title": "4u&2u",
+  "album": "Angenica",
+  "folder": "hexd",
+  "file": "hexd/4u&2u.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "CTRLFR33K",
+  "title": "Heal Pulse",
+  "album": "Angenica",
+  "folder": "hexd",
+  "file": "hexd/Heal Pulse.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "CTRLFR33K",
+  "title": "Arcade Odyssey",
+  "album": "Angenica",
+  "folder": "hexd",
+  "file": "hexd/Arcade Odyssey.m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "CTRLFR33K",
+  "title": "Pretty When I Cry",
+  "album": "Angenica",
+  "folder": "hexd",
+  "file": "hexd/Pretty When I Cry.m4a",
+  "track": 4,
+  "year": 2022
+ },
+ {
+  "artist": "CTRLFR33K",
+  "title": "Mirror Petals",
+  "album": "Angenica",
+  "folder": "hexd",
+  "file": "hexd/Mirror Petals.m4a",
+  "track": 6,
+  "year": 2022
+ },
+ {
+  "artist": "CTRLFR33K",
+  "title": "Borrowed Time",
+  "album": "Angenica",
+  "folder": "hexd",
+  "file": "hexd/CTRLFR33K - Borrowed Time 1.m4a",
+  "track": 7,
+  "year": 2022
+ },
+ {
+  "artist": "CTRLFR33K",
+  "title": "Arcade Odyssey",
+  "album": "Arcade Odyssey",
+  "folder": "hexd",
+  "file": "hexd/CTRLFR33K - Arcade Odyssey.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "CTRLFR33K",
+  "title": "Borrowed Time",
+  "album": "Borrowed Time",
+  "folder": "hexd",
+  "file": "hexd/CTRLFR33K - Borrowed Time.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "CTRLFR33K",
+  "title": "Keto Cereal",
+  "album": "Keto Cereal",
+  "folder": "hexd",
+  "file": "hexd/Keto Cereal.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "CTRLFR33K",
+  "title": "Securely Connected (Crystallized)",
+  "album": "Serenixima",
+  "folder": "hexd",
+  "file": "hexd/Securely Connected (Crystallized).m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "CTRLFR33K",
+  "title": "Securely Connected",
+  "album": "Serenixima",
+  "folder": "hexd",
+  "file": "hexd/Securely Connected.m4a",
+  "track": 9,
+  "year": 2023
+ },
+ {
+  "artist": "CTRLFR33K",
+  "title": "borrowed time",
+  "album": "Sextrance Worldwide",
+  "folder": "hexd",
+  "file": "hexd/borrowed time.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "CTRLFR33K",
+  "title": "4u_2u",
+  "album": "Sextrance Worldwide",
+  "folder": "hexd",
+  "file": "hexd/4u_2u.m4a",
+  "track": 9,
+  "year": 2022
+ },
+ {
+  "artist": "CTRLFR33K",
+  "title": "Eternaluv",
+  "album": "Sextrance Worldwide Vol. 2",
+  "folder": "hexd",
+  "file": "hexd/Eternaluv.m4a",
+  "track": 5,
+  "year": 2023
+ },
+ {
   "artist": "Cults",
   "title": "Always Forever",
   "album": "moy",
@@ -11733,6 +13425,60 @@
   "folder": "Arthas",
   "file": "Arthas/Cutting Crew - I Just Die In Your Arms Tonight.mp3",
   "track": 1
+ },
+ {
+  "artist": "Cvmpliant",
+  "title": "Another World (Breath)",
+  "album": "ASTROGIRL",
+  "folder": "hexd",
+  "file": "hexd/Another World (Breath).m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "Cvmpliant",
+  "title": "Luminescence",
+  "album": "Luminescence",
+  "folder": "hexd",
+  "file": "hexd/Luminescence.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "Cvmpliant",
+  "title": "Vulcan - Y2K Alternate Version",
+  "album": "Vulcan",
+  "folder": "hexd",
+  "file": "hexd/Y2K Alternate Version.m4a",
+  "track": 3,
+  "year": 2024
+ },
+ {
+  "artist": "Cyber Prince",
+  "title": "Summoned Skull",
+  "album": "Summoned Skull",
+  "folder": "hexd",
+  "file": "hexd/Summoned Skull.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "cybermonk",
+  "title": "hazard trance",
+  "album": "data hazard",
+  "folder": "hexd",
+  "file": "hexd/hazard trance.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "cybermonk",
+  "title": "Parasyte",
+  "album": "Parasyte",
+  "folder": "hexd",
+  "file": "hexd/Parasyte.m4a",
+  "track": 1,
+  "year": 2024
  },
  {
   "artist": "Cyclon",
@@ -11903,6 +13649,15 @@
   "file": "dancemashcore/sewerslvt/Sewerslvt - Lvstlove (2025)/02 - Lvstlove (Night Drive At 177mph Mix).flac",
   "track": 2,
   "year": 2025
+ },
+ {
+  "artist": "Cynthoni",
+  "title": "Ekstaasi",
+  "album": "Sewerslvt Presents: Cynthoni, Pt. 2",
+  "folder": "hexd",
+  "file": "hexd/Ekstaasi.m4a",
+  "track": 5,
+  "year": 2024
  },
  {
   "artist": "D Vice",
@@ -12582,6 +14337,15 @@
   "year": 2025
  },
  {
+  "artist": "Dark0",
+  "title": "Scrapyard 1v2",
+  "album": "YEAR0001 - RIFT One",
+  "folder": "hexd",
+  "file": "hexd/Scrapyard 1v2.m4a",
+  "track": 4,
+  "year": 2020
+ },
+ {
   "artist": "Darper",
   "title": "Octopus (And Yes She Know)",
   "album": "Soft, Deep & Dark #11",
@@ -12702,6 +14466,15 @@
   "folder": "moy",
   "file": "moy/David Wise - Donkey Kong Country - Theme Restored to HD.mp3",
   "track": 999
+ },
+ {
+  "artist": "DawnZ",
+  "title": "REMINISCENCE",
+  "album": "REMINISCENCE",
+  "folder": "hexd",
+  "file": "hexd/REMINISCENCE.m4a",
+  "track": 1,
+  "year": 2023
  },
  {
   "artist": "Daxson",
@@ -13266,6 +15039,15 @@
   "track": 12
  },
  {
+  "artist": "DJ ANGST",
+  "title": "untitled",
+  "album": "OOTGY007",
+  "folder": "hexd",
+  "file": "hexd/untitled.m4a",
+  "track": 15,
+  "year": 2021
+ },
+ {
   "artist": "DJ BEATCOIN/CHVRØN/SLVSHY",
   "title": "ULTRAKILL",
   "album": "moy",
@@ -13355,6 +15137,78 @@
   "track": 548
  },
  {
+  "artist": "DJ Break da Law",
+  "title": "Magic Potion",
+  "album": "claymatics",
+  "folder": "hexd",
+  "file": "hexd/Magic Potion.m4a",
+  "track": 4,
+  "year": 2022
+ },
+ {
+  "artist": "DJ Break Da Law",
+  "title": "Opium Dreams - Transki Remix",
+  "album": "Varios Artistas III",
+  "folder": "hexd",
+  "file": "hexd/Transki Remix.m4a",
+  "track": 9,
+  "year": 2021
+ },
+ {
+  "artist": "DJ Coldsteel",
+  "title": "Compare You to a Summer's Day",
+  "album": "Purifier - EP",
+  "folder": "hexd",
+  "file": "hexd/Compare You to a Summer's Day.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
+  "artist": "DJ Coldsteel",
+  "title": "Youthmaxxing",
+  "album": "Purifier - EP",
+  "folder": "hexd",
+  "file": "hexd/Youthmaxxing.m4a",
+  "track": 2,
+  "year": 2021
+ },
+ {
+  "artist": "DJ Coldsteel",
+  "title": "Starseed Activations",
+  "album": "Purifier - EP",
+  "folder": "hexd",
+  "file": "hexd/Starseed Activations.m4a",
+  "track": 3,
+  "year": 2021
+ },
+ {
+  "artist": "DJ Coldsteel",
+  "title": "Consumer Magick",
+  "album": "Purifier - EP",
+  "folder": "hexd",
+  "file": "hexd/Consumer Magick.m4a",
+  "track": 4,
+  "year": 2021
+ },
+ {
+  "artist": "DJ Coldsteel",
+  "title": "Pure Tweaker Tears",
+  "album": "Sextrance Worldwide Vol. 2",
+  "folder": "hexd",
+  "file": "hexd/Pure Tweaker Tears.m4a",
+  "track": 7,
+  "year": 2023
+ },
+ {
+  "artist": "DJ Coldsteel",
+  "title": "Intron Depot",
+  "album": "Simply Trance, Vol. 08",
+  "folder": "hexd",
+  "file": "hexd/Intron Depot.m4a",
+  "track": 9,
+  "year": 2021
+ },
+ {
   "artist": "DJ Distortion & MC Raw vs. Bass-D & King Matthew",
   "title": "Lost Zehn",
   "album": "moy",
@@ -13434,6 +15288,24 @@
   "year": 2026
  },
  {
+  "artist": "DJ Kuroneko",
+  "title": "missing u",
+  "album": "Kamineko",
+  "folder": "hexd",
+  "file": "hexd/missing u.m4a",
+  "track": 1,
+  "year": 2020
+ },
+ {
+  "artist": "DJ Kuroneko",
+  "title": "tru love",
+  "album": "street glow",
+  "folder": "hexd",
+  "file": "hexd/tru love.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
   "artist": "DJ LOM",
   "title": "Put a Tune On",
   "album": "Euphoric Paradise 079",
@@ -13468,6 +15340,15 @@
   "year": 2021
  },
  {
+  "artist": "Dj Rikka",
+  "title": "listen 2 me",
+  "album": "listen 2 me",
+  "folder": "hexd",
+  "file": "hexd/listen 2 me.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
   "artist": "DJ Sakin & Friends",
   "title": "Protect your Mind (Lange Remix)",
   "album": "Techno Club, Vol. 56",
@@ -13475,6 +15356,60 @@
   "file": "Trance Techno Club/VA - Techno Club  Vol. 56-(ZYX82968-2)-16BIT-WEB-FLAC-2019-TT/28-dj_sakin_and_friends-protect_your_mind_(lange_remix)-tt.flac",
   "track": 28,
   "year": 2019
+ },
+ {
+  "artist": "dj saratonin",
+  "title": "angel masquerade",
+  "album": "a scarlet in the heart, for rest tonight",
+  "folder": "hexd",
+  "file": "hexd/angel masquerade.m4a",
+  "track": 3,
+  "year": 2023
+ },
+ {
+  "artist": "dj saratonin",
+  "title": "Just one taste and you'll see",
+  "album": "My Songs from Butterflies on Acid",
+  "folder": "hexd",
+  "file": "hexd/Just one taste and you'll see.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "dj saratonin",
+  "title": "i dream of sextrance",
+  "album": "Sextrance Worldwide",
+  "folder": "hexd",
+  "file": "hexd/i dream of sextrance.m4a",
+  "track": 6,
+  "year": 2022
+ },
+ {
+  "artist": "dj saratonin",
+  "title": "say_yu_wanna_love_me",
+  "album": "Sextrance Worldwide Vol. 2",
+  "folder": "hexd",
+  "file": "hexd/say_yu_wanna_love_me.m4a",
+  "track": 6,
+  "year": 2023
+ },
+ {
+  "artist": "DJ SCAMLIKELY",
+  "title": "Tranceaholics",
+  "album": "CYBER DUNGEON",
+  "folder": "hexd",
+  "file": "hexd/Tranceaholics.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
+  "artist": "DJ SCAMLIKELY",
+  "title": "Know Your Place",
+  "album": "CYBER DUNGEON",
+  "folder": "hexd",
+  "file": "hexd/Know Your Place.m4a",
+  "track": 2,
+  "year": 2021
  },
  {
   "artist": "DJ Schwede",
@@ -13546,6 +15481,15 @@
   "year": 2026
  },
  {
+  "artist": "dj try",
+  "title": "Vision",
+  "album": "Vision",
+  "folder": "hexd",
+  "file": "hexd/Vision.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
   "artist": "DJ Äîæäèê",
   "title": "ß íåíàâèæó",
   "album": "Arthas",
@@ -13569,6 +15513,24 @@
   "folder": "moy",
   "file": "moy/DJ ÖTZI & BKJN - Anton Aus Tirol (Distorted Voices Bootleg).mp3",
   "track": 278
+ },
+ {
+  "artist": "djacc v hearteyesL",
+  "title": "passing of time",
+  "album": "DropLeafShoujo, passing of time EP - (hearteyesL)",
+  "folder": "hexd",
+  "file": "hexd/passing of time.m4a",
+  "track": 8,
+  "year": 2022
+ },
+ {
+  "artist": "DjRUM",
+  "title": "Hard to Say",
+  "album": "Hard to Say / Tournesol",
+  "folder": "hexd",
+  "file": "hexd/Hard to Say.m4a",
+  "track": 1,
+  "year": 2019
  },
  {
   "artist": "DK",
@@ -13974,6 +15936,15 @@
   "track": 2
  },
  {
+  "artist": "Drainpuppet",
+  "title": "Slip Away",
+  "album": "Slip Away",
+  "folder": "hexd",
+  "file": "hexd/Slip Away.m4a",
+  "track": 1,
+  "year": 2020
+ },
+ {
   "artist": "Draso",
   "title": "Picturesque",
   "album": "Soft, Deep & Dark #5",
@@ -14017,6 +15988,15 @@
   "file": "Dark Techno/VA - Soft- Deep & Dark #10 [Seven Villas Music] FLAC-2023/04-dreamAwaken - Moments Of Forgetting.flac",
   "track": 4,
   "year": 2023
+ },
+ {
+  "artist": "dreamloader",
+  "title": "2000 km/h",
+  "album": "2000 km/h",
+  "folder": "hexd",
+  "file": "hexd/2000 kmh.m4a",
+  "track": 1,
+  "year": 2025
  },
  {
   "artist": "dreamloader",
@@ -14073,6 +16053,42 @@
   "folder": "moy",
   "file": "moy/dreamloader - space.info.mp3",
   "track": 999
+ },
+ {
+  "artist": "dreamloader",
+  "title": "space.info",
+  "album": "space.info",
+  "folder": "hexd",
+  "file": "hexd/space.info.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "dreamloader",
+  "title": "standing here",
+  "album": "standing here",
+  "folder": "hexd",
+  "file": "hexd/standing here.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "dreamloader",
+  "title": "sweeet",
+  "album": "sweeet",
+  "folder": "hexd",
+  "file": "hexd/sweeet.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "dreamloader",
+  "title": "eurolife",
+  "album": "under.net compilation vol. 3",
+  "folder": "hexd",
+  "file": "hexd/eurolife.m4a",
+  "track": 13,
+  "year": 2025
  },
  {
   "artist": "dreamscape",
@@ -14953,12 +16969,66 @@
   "track": 295
  },
  {
+  "artist": "duzy",
+  "title": "lemonade",
+  "album": "under.net compilation vol. 3",
+  "folder": "hexd",
+  "file": "hexd/lemonade.m4a",
+  "track": 2,
+  "year": 2025
+ },
+ {
+  "artist": "dvdangel",
+  "title": "heartsync",
+  "album": "heartsync",
+  "folder": "hexd",
+  "file": "hexd/heartsync.m4a",
+  "track": 1,
+  "year": 2026
+ },
+ {
+  "artist": "dvdangel",
+  "title": "jinxed",
+  "album": "heartsync",
+  "folder": "hexd",
+  "file": "hexd/jinxed.m4a",
+  "track": 2,
+  "year": 2026
+ },
+ {
+  "artist": "dvdangel",
+  "title": "in_my_kandi_crosshair",
+  "album": "heartsync",
+  "folder": "hexd",
+  "file": "hexd/in_my_kandi_crosshair.m4a",
+  "track": 6,
+  "year": 2026
+ },
+ {
+  "artist": "dvdangel",
+  "title": "i_hate_noise",
+  "album": "heartsync",
+  "folder": "hexd",
+  "file": "hexd/i_hate_noise.m4a",
+  "track": 7,
+  "year": 2026
+ },
+ {
   "artist": "DVRST/Sinizter/Asenssia",
   "title": "Feels Like I'm Dyin'",
   "album": "moy",
   "folder": "moy",
   "file": "moy/DVRST, Sinizter, Asenssia - Feels Like I'm Dyin'.mp3",
   "track": 25
+ },
+ {
+  "artist": "dwams",
+  "title": "undone",
+  "album": "undone",
+  "folder": "hexd",
+  "file": "hexd/undone.m4a",
+  "track": 1,
+  "year": 2023
  },
  {
   "artist": "døne, hiræth",
@@ -15028,6 +17098,33 @@
   "year": 1978
  },
  {
+  "artist": "East Exodus",
+  "title": "Ravedeath",
+  "album": "Unearthed",
+  "folder": "hexd",
+  "file": "hexd/Ravedeath.m4a",
+  "track": 3,
+  "year": 2021
+ },
+ {
+  "artist": "echia",
+  "title": "club+biz4rr3",
+  "album": "club+biz4rr3",
+  "folder": "hexd",
+  "file": "hexd/club+biz4rr3.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "echia",
+  "title": "TRRST (echia vs oxy)",
+  "album": "TRRST (echia vs oxy)",
+  "folder": "hexd",
+  "file": "hexd/TRRST (echia vs oxy).m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
   "artist": "Echo and Ember",
   "title": "Birds of Paradise (Original Mix)",
   "album": "Euphoric Paradise 061",
@@ -15046,6 +17143,15 @@
   "year": 2021
  },
  {
+  "artist": "EDARUMA",
+  "title": "Recent Past",
+  "album": "Recent Past",
+  "folder": "hexd",
+  "file": "hexd/Recent Past.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
   "artist": "Eddie Bitar",
   "title": "Captain Charlie",
   "album": "Techno Club Vol 44",
@@ -15053,6 +17159,51 @@
   "file": "Trance Techno Club/VA-Techno_Club_Vol_44-2CD-FLAC-2014-NBFLAC/112-eddie_bitar-captain_charlie-nbflac.flac",
   "track": 12,
   "year": 2014
+ },
+ {
+  "artist": "Eden FM",
+  "title": "Nu 2002",
+  "album": "Nu 2002",
+  "folder": "hexd",
+  "file": "hexd/Nu 2002.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "EDENA",
+  "title": "uuuUugh",
+  "album": "DANCING IN AN ENDING WORLD 2",
+  "folder": "hexd",
+  "file": "hexd/uuuUugh.m4a",
+  "track": 11,
+  "year": 2025
+ },
+ {
+  "artist": "EDENA",
+  "title": "LOVE ME BETTER",
+  "album": "LOVE ME BETTER",
+  "folder": "hexd",
+  "file": "hexd/LOVE ME BETTER.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "EDENA",
+  "title": "MOONLIGHT LOVE - ft. beansclub",
+  "album": "MOONLIGHT LOVE (ft. beansclub)",
+  "folder": "hexd",
+  "file": "hexd/ft. beansclub.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "EDENA",
+  "title": "ocean.mp3",
+  "album": "ocean.mp3",
+  "folder": "hexd",
+  "file": "hexd/ocean.mp3.m4a",
+  "track": 1,
+  "year": 2024
  },
  {
   "artist": "Eduardo De La Calle",
@@ -15158,6 +17309,78 @@
   "folder": "Постпанк",
   "file": "Постпанк/Efcrily - Фонари Slowed and Reverb BY PIKO.mp3",
   "track": 440
+ },
+ {
+  "artist": "EFESIAN",
+  "title": "Sleep",
+  "album": "Sleep",
+  "folder": "hexd",
+  "file": "hexd/Sleep.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "Egofear",
+  "title": "Friday Nights at Cyberia",
+  "album": "://Cyber.Love",
+  "folder": "hexd",
+  "file": "hexd/Friday Nights at Cyberia.m4a",
+  "track": 4,
+  "year": 2022
+ },
+ {
+  "artist": "Egofear",
+  "title": "Adrenaline",
+  "album": "Digi-Age Rage",
+  "folder": "hexd",
+  "file": "hexd/Adrenaline.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Egofear",
+  "title": "Terminal Velocity",
+  "album": "Digi-Age Rage",
+  "folder": "hexd",
+  "file": "hexd/Terminal Velocity.m4a",
+  "track": 4,
+  "year": 2023
+ },
+ {
+  "artist": "Egofear",
+  "title": "Love Lost",
+  "album": "Drown",
+  "folder": "hexd",
+  "file": "hexd/Love Lost.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "Egofear",
+  "title": "Fallen Angel",
+  "album": "Fallen Angel",
+  "folder": "hexd",
+  "file": "hexd/Fallen Angel.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "Egofear",
+  "title": "iridescent",
+  "album": "iridescent",
+  "folder": "hexd",
+  "file": "hexd/Egofear - iridescent.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Egofear",
+  "title": "iridescent",
+  "album": "iridescent",
+  "folder": "hexd",
+  "file": "hexd/iridescent.m4a",
+  "track": 1,
+  "year": 2023
  },
  {
   "artist": "Ehren Stowers",
@@ -15317,6 +17540,33 @@
  },
  {
   "artist": "enable secret",
+  "title": "%ENTROPY-0-ENTROPY_ERROR:",
+  "album": "%ENTROPY-0-ENTROPY_ERROR:",
+  "folder": "hexd",
+  "file": "hexd/%ENTROPY-0-ENTROPY_ERROR.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "enable secret",
+  "title": "eat a healthy breakfast (so you can run from the police)",
+  "album": "eat a healthy breakfast (so you can run from the police)",
+  "folder": "hexd",
+  "file": "hexd/eat a healthy breakfast (so you can run from the police).m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "enable secret",
+  "title": "GET OUT OF MY HEAD!!!!",
+  "album": "GET OUT OF MY HEAD!!!!",
+  "folder": "hexd",
+  "file": "hexd/GET OUT OF MY HEAD!!!!.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "enable secret",
   "title": "ip.sec (with dreamloader)",
   "album": "hexd",
   "folder": "hexd",
@@ -15330,6 +17580,96 @@
   "folder": "hexd",
   "file": "hexd/hexd trance/enable secret - stealth archer 🏹✅ _ ⚔️🚫 _ 🧙🚫.mp3",
   "track": 999
+ },
+ {
+  "artist": "enable secret",
+  "title": "HYPERSTEALTH-ARCHER+",
+  "album": "HYPERSTEALTH-ARCHER+",
+  "folder": "hexd",
+  "file": "hexd/HYPERSTEALTH-ARCHER+.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "enable secret",
+  "title": "make u stay (beansclub fuckup)",
+  "album": "make u stay (beansclub fuckup)",
+  "folder": "hexd",
+  "file": "hexd/make u stay (beansclub fuckup).m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "enable secret",
+  "title": "PL_UPWARD DOOM LOOP",
+  "album": "NEWGAME+",
+  "folder": "hexd",
+  "file": "hexd/PL_UPWARD DOOM LOOP.m4a",
+  "track": 3,
+  "year": 2025
+ },
+ {
+  "artist": "enable secret",
+  "title": "4AM",
+  "album": "OFF THE RECORD!",
+  "folder": "hexd",
+  "file": "hexd/4AM.m4a",
+  "track": 3,
+  "year": 2026
+ },
+ {
+  "artist": "enable secret",
+  "title": "INNOCENCE",
+  "album": "OFF THE RECORD!",
+  "folder": "hexd",
+  "file": "hexd/INNOCENCE.m4a",
+  "track": 4,
+  "year": 2026
+ },
+ {
+  "artist": "enable secret",
+  "title": "say u luv me",
+  "album": "say u luv me",
+  "folder": "hexd",
+  "file": "hexd/say u luv me.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "enable secret",
+  "title": "the govt has pet aliens fr",
+  "album": "the govt has pet aliens fr",
+  "folder": "hexd",
+  "file": "hexd/the govt has pet aliens fr.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "enable secret",
+  "title": "healing",
+  "album": "these weren't originally my memories...",
+  "folder": "hexd",
+  "file": "hexd/healing.m4a",
+  "track": 9,
+  "year": 2024
+ },
+ {
+  "artist": "enable secret",
+  "title": "connect me",
+  "album": "these weren't originally my memories...",
+  "folder": "hexd",
+  "file": "hexd/connect me.m4a",
+  "track": 10,
+  "year": 2024
+ },
+ {
+  "artist": "enable secret",
+  "title": "make u stay",
+  "album": "under.net compilation vol. 3",
+  "folder": "hexd",
+  "file": "hexd/make u stay.m4a",
+  "track": 12,
+  "year": 2025
  },
  {
   "artist": "endless withdrawal, .diedlonely",
@@ -15901,6 +18241,60 @@
   "year": 2024
  },
  {
+  "artist": "EXO:DREAM",
+  "title": "NFS",
+  "album": "NFS",
+  "folder": "hexd",
+  "file": "hexd/NFS.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Exodia",
+  "title": "825 hp",
+  "album": "825 hp",
+  "folder": "hexd",
+  "file": "hexd/825 hp.m4a",
+  "track": 1,
+  "year": 2020
+ },
+ {
+  "artist": "Exodia",
+  "title": "Lumina",
+  "album": "Ateriavia",
+  "folder": "hexd",
+  "file": "hexd/Lumina.m4a",
+  "track": 3,
+  "year": 2020
+ },
+ {
+  "artist": "Exodia",
+  "title": "Celestia",
+  "album": "Ateriavia",
+  "folder": "hexd",
+  "file": "hexd/Celestia.m4a",
+  "track": 6,
+  "year": 2020
+ },
+ {
+  "artist": "Exodia",
+  "title": "Nova",
+  "album": "Ateriavia (Deluxe Edition)",
+  "folder": "hexd",
+  "file": "hexd/Nova.m4a",
+  "track": 7,
+  "year": 2024
+ },
+ {
+  "artist": "Exodia",
+  "title": "Centrifugal Mirage",
+  "album": "Dismissed Compilation Vol. 2",
+  "folder": "hexd",
+  "file": "hexd/Centrifugal Mirage.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
   "artist": "Exodia",
   "title": "Valkyria",
   "album": "hexd",
@@ -15998,6 +18392,15 @@
  },
  {
   "artist": "Exodia",
+  "title": "evocation",
+  "album": "LI$024",
+  "folder": "hexd",
+  "file": "hexd/Exodia - evocation.m4a",
+  "track": 1,
+  "year": 2020
+ },
+ {
+  "artist": "Exodia",
   "title": "825 hp",
   "album": "moy",
   "folder": "moy",
@@ -16019,6 +18422,114 @@
   "folder": "moy",
   "file": "moy/Exodia - Lumina.mp3",
   "track": 999
+ },
+ {
+  "artist": "Exodia",
+  "title": "werk me 2.0",
+  "album": "Neo Rave",
+  "folder": "hexd",
+  "file": "hexd/werk me 2.0.m4a",
+  "track": 1,
+  "year": 2020
+ },
+ {
+  "artist": "Exodia",
+  "title": "neo max",
+  "album": "Neo Rave",
+  "folder": "hexd",
+  "file": "hexd/neo max.m4a",
+  "track": 2,
+  "year": 2020
+ },
+ {
+  "artist": "Exodia",
+  "title": "rayquaza ex",
+  "album": "rayquaza ex",
+  "folder": "hexd",
+  "file": "hexd/rayquaza ex.m4a",
+  "track": 1,
+  "year": 2019
+ },
+ {
+  "artist": "Exodia",
+  "title": "825hp (Prismatic Mix)",
+  "album": "Sextrance Worldwide",
+  "folder": "hexd",
+  "file": "hexd/825hp (Prismatic Mix).m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Exodia",
+  "title": "Celestial Blaze",
+  "album": "Sextrance Worldwide Vol. 2",
+  "folder": "hexd",
+  "file": "hexd/Celestial Blaze.m4a",
+  "track": 4,
+  "year": 2023
+ },
+ {
+  "artist": "Exodia",
+  "title": "Evocation",
+  "album": "Sextrance Worldwide Vol. 2",
+  "folder": "hexd",
+  "file": "hexd/Evocation.m4a",
+  "track": 12,
+  "year": 2023
+ },
+ {
+  "artist": "Exodia",
+  "title": "Tokyo Drift",
+  "album": "Tokyo Drift",
+  "folder": "hexd",
+  "file": "hexd/Tokyo Drift.m4a",
+  "track": 1,
+  "year": 2020
+ },
+ {
+  "artist": "Exodia",
+  "title": "Valkyria",
+  "album": "Valkyria",
+  "folder": "hexd",
+  "file": "hexd/Valkyria.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Exodia",
+  "title": "Submersion",
+  "album": "Valkyria",
+  "folder": "hexd",
+  "file": "hexd/Submersion.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "Exodia",
+  "title": "Elemental Motion",
+  "album": "Valkyria",
+  "folder": "hexd",
+  "file": "hexd/Elemental Motion.m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "Exodia",
+  "title": "Tears in Rain",
+  "album": "Wangan Speed Stars",
+  "folder": "hexd",
+  "file": "hexd/Tears in Rain.m4a",
+  "track": 1,
+  "year": 2019
+ },
+ {
+  "artist": "Exodia",
+  "title": "Ecstasy",
+  "album": "Wangan Speed Stars",
+  "folder": "hexd",
+  "file": "hexd/Ecstasy.m4a",
+  "track": 2,
+  "year": 2019
  },
  {
   "artist": "Exomni/Illiiee",
@@ -16112,6 +18623,33 @@
   "folder": "Постпанк",
   "file": "Постпанк/Faience Knife - It Feels Like I Start over Again.mp3",
   "track": 488
+ },
+ {
+  "artist": "Fallen Shrine",
+  "title": "Angel Crisis",
+  "album": "2025: Club Diaries",
+  "folder": "hexd",
+  "file": "hexd/Angel Crisis.m4a",
+  "track": 8,
+  "year": 2021
+ },
+ {
+  "artist": "Fallen Shrine",
+  "title": "in n out of LOVE",
+  "album": "in n out of LOVE",
+  "folder": "hexd",
+  "file": "hexd/in n out of LOVE.m4a",
+  "track": 1,
+  "year": 2020
+ },
+ {
+  "artist": "Fallen Shrine",
+  "title": "Turn The Tide",
+  "album": "Turn The Tide",
+  "folder": "hexd",
+  "file": "hexd/Turn The Tide.m4a",
+  "track": 1,
+  "year": 2025
  },
  {
   "artist": "Farid Odilbekov",
@@ -16215,6 +18753,15 @@
   "file": "Arthas/Flying Steps - We Are Electric.mp3",
   "track": 5,
   "year": 2000
+ },
+ {
+  "artist": "FMSAO",
+  "title": "Outta the Softest Night - Battle Toad Dance Mix",
+  "album": "Outta the Softest Night (Battle Toad Dance Mix)",
+  "folder": "hexd",
+  "file": "hexd/Battle Toad Dance Mix.m4a",
+  "track": 1,
+  "year": 2025
  },
  {
   "artist": "Foggy",
@@ -18641,6 +21188,24 @@
   "year": 2011
  },
  {
+  "artist": "Gouryella",
+  "title": "Ligaya - Vocal Mix",
+  "album": "Ligaya",
+  "folder": "hexd",
+  "file": "hexd/Vocal Mix.m4a",
+  "track": 1,
+  "year": 2002
+ },
+ {
+  "artist": "Gouryella",
+  "title": "Tenshi",
+  "album": "Tenshi",
+  "folder": "hexd",
+  "file": "hexd/Tenshi.m4a",
+  "track": 1,
+  "year": 2000
+ },
+ {
   "artist": "GPF",
   "title": "Bob The Builder",
   "album": "moy",
@@ -19813,6 +22378,24 @@
   "year": 2022
  },
  {
+  "artist": "Himera",
+  "title": "A Beating Heart",
+  "album": "ANGEL",
+  "folder": "hexd",
+  "file": "hexd/A Beating Heart.m4a",
+  "track": 2,
+  "year": 2018
+ },
+ {
+  "artist": "Himera",
+  "title": "Goodbye (Forever)",
+  "album": "Fragile",
+  "folder": "hexd",
+  "file": "hexd/Goodbye (Forever).m4a",
+  "track": 3,
+  "year": 2018
+ },
+ {
   "artist": "Hinder",
   "title": "Use Me",
   "album": "Use Me",
@@ -20863,6 +23446,24 @@
   "track": 1
  },
  {
+  "artist": "Hypercube Records",
+  "title": "Stereo Sadness",
+  "album": "Hypercube, Chapter 1",
+  "folder": "hexd",
+  "file": "hexd/Stereo Sadness.m4a",
+  "track": 4,
+  "year": 2023
+ },
+ {
+  "artist": "Hypercube Records",
+  "title": "Waves of Memory",
+  "album": "Hypercube, Chapter 1",
+  "folder": "hexd",
+  "file": "hexd/Waves of Memory.m4a",
+  "track": 9,
+  "year": 2023
+ },
+ {
   "artist": "Hyungmin",
   "title": "Silent",
   "album": "Pumpkin Spices Massive LP",
@@ -20878,6 +23479,15 @@
   "folder": "moy",
   "file": "moy/i61 - Cpu.mp3",
   "track": 756
+ },
+ {
+  "artist": "i\\believe\\in\\angels",
+  "title": "dB_flux__",
+  "album": "dB_flux__",
+  "folder": "hexd",
+  "file": "hexd/dB_flux__.m4a",
+  "track": 1,
+  "year": 2026
  },
  {
   "artist": "Ic3peak",
@@ -20993,6 +23603,24 @@
   "folder": "moy",
   "file": "moy/Imagine Dragons, Masta  - Follow You (Masta Remix).mp3",
   "track": 999
+ },
+ {
+  "artist": "immoral stupidity",
+  "title": "fault injection",
+  "album": "disorder: unspecified",
+  "folder": "hexd",
+  "file": "hexd/fault injection.m4a",
+  "track": 3,
+  "year": 2024
+ },
+ {
+  "artist": "immoral stupidity",
+  "title": "Dendrimer Dipole Excitation",
+  "album": "echoes of a precise reality",
+  "folder": "hexd",
+  "file": "hexd/Dendrimer Dipole Excitation.m4a",
+  "track": 1,
+  "year": 2026
  },
  {
   "artist": "Indecent Noise",
@@ -23200,6 +25828,96 @@
   "track": 999
  },
  {
+  "artist": "Isyti",
+  "title": "Pure Crystal",
+  "album": "bootleg (+)",
+  "folder": "hexd",
+  "file": "hexd/Pure Crystal.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Isyti",
+  "title": "Porcelain",
+  "album": "bootleg (+)",
+  "folder": "hexd",
+  "file": "hexd/Porcelain.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "Isyti",
+  "title": "+++",
+  "album": "bootleg (+)",
+  "folder": "hexd",
+  "file": "hexd/+++.m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "Isyti",
+  "title": "Bow and Arrow",
+  "album": "bootleg (+)",
+  "folder": "hexd",
+  "file": "hexd/Bow and Arrow.m4a",
+  "track": 4,
+  "year": 2022
+ },
+ {
+  "artist": "Isyti",
+  "title": "you 1.5",
+  "album": "bootleg (+)",
+  "folder": "hexd",
+  "file": "hexd/you 1.5.m4a",
+  "track": 5,
+  "year": 2022
+ },
+ {
+  "artist": "Isyti",
+  "title": "Unit",
+  "album": "bootleg (+)",
+  "folder": "hexd",
+  "file": "hexd/Unit.m4a",
+  "track": 6,
+  "year": 2022
+ },
+ {
+  "artist": "Isyti",
+  "title": "uuu77",
+  "album": "bootleg (+)",
+  "folder": "hexd",
+  "file": "hexd/uuu77.m4a",
+  "track": 7,
+  "year": 2022
+ },
+ {
+  "artist": "Isyti",
+  "title": "Lucent",
+  "album": "bootleg (+)",
+  "folder": "hexd",
+  "file": "hexd/Lucent.m4a",
+  "track": 8,
+  "year": 2022
+ },
+ {
+  "artist": "Isyti",
+  "title": "Abundance",
+  "album": "bootleg (+)",
+  "folder": "hexd",
+  "file": "hexd/Abundance.m4a",
+  "track": 9,
+  "year": 2022
+ },
+ {
+  "artist": "Isyti",
+  "title": "of3",
+  "album": "bootleg (+)",
+  "folder": "hexd",
+  "file": "hexd/of3.m4a",
+  "track": 10,
+  "year": 2022
+ },
+ {
   "artist": "Italobrothers",
   "title": "My Life Is A Party (Nightcore)",
   "album": "moy",
@@ -23235,6 +25953,15 @@
   "year": 2012
  },
  {
+  "artist": "IX Fall$",
+  "title": "POSTPARTUM PSYCHOSIS",
+  "album": "PIXIEDUST002",
+  "folder": "hexd",
+  "file": "hexd/POSTPARTUM PSYCHOSIS.m4a",
+  "track": 4,
+  "year": 2022
+ },
+ {
   "artist": "Izreal",
   "title": "Trapped (Original Mix)",
   "album": "Techno Club Vol. 76 (Extended Edition)",
@@ -23242,6 +25969,24 @@
   "file": "Trance Techno Club/VA - Techno Club Vol. 76 (Extended Edition)-16BIT-WEB-FLAC-2025-TT/23-izreal-trapped_(original_mix).flac",
   "track": 23,
   "year": 2025
+ },
+ {
+  "artist": "j1nabae",
+  "title": "CRAWLING_BEAM//V.1",
+  "album": "CRAWLING_BEAM//V.1",
+  "folder": "hexd",
+  "file": "hexd/CRAWLING_BEAMV.1.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "j1nabae",
+  "title": "CYB3R_SPIRIT",
+  "album": "CYB3R_SPIRIT",
+  "folder": "hexd",
+  "file": "hexd/CYB3R_SPIRIT.m4a",
+  "track": 1,
+  "year": 2022
  },
  {
   "artist": "Jace Everett",
@@ -23338,6 +26083,15 @@
   "file": "Trance Techno Club/VA - Techno Club Vol. 75 (Extended Edition)-16BIT-WEB-FLAC-2025-TT/35-javax-take_me.flac",
   "track": 35,
   "year": 2025
+ },
+ {
+  "artist": "Jaxifyer",
+  "title": "Seventh Ascension",
+  "album": "Seventh Ascension",
+  "folder": "hexd",
+  "file": "hexd/Seventh Ascension.m4a",
+  "track": 1,
+  "year": 2022
  },
  {
   "artist": "Jayden Klight",
@@ -23938,6 +26692,15 @@
   "year": 2016
  },
  {
+  "artist": "Julien Andreas",
+  "title": "Thee Iron Incubus",
+  "album": "Trust in Filth",
+  "folder": "hexd",
+  "file": "hexd/Thee Iron Incubus.m4a",
+  "track": 2,
+  "year": 2018
+ },
+ {
   "artist": "Juno Reactor",
   "title": "Pistolero (Astrix Remix)",
   "album": "Trance Techno Club",
@@ -23953,6 +26716,15 @@
   "file": "Arthas/Soundtrack/MK/Juno Reactor & Traci Lords - Control.mp3",
   "track": 5,
   "year": 1995
+ },
+ {
+  "artist": "Jxxl3s",
+  "title": "MP3PSYCHOSIS",
+  "album": "MP3PSYCHOSIS",
+  "folder": "hexd",
+  "file": "hexd/MP3PSYCHOSIS.m4a",
+  "track": 1,
+  "year": 2021
  },
  {
   "artist": "K-Paul",
@@ -24119,6 +26891,15 @@
   "folder": "moy",
   "file": "moy/Killshot, Greazy Puzzy Fuckerz - Beastmode.mp3",
   "track": 525
+ },
+ {
+  "artist": "kirakira",
+  "title": "can't stand any of you",
+  "album": "can't stand any of you",
+  "folder": "hexd",
+  "file": "hexd/can't stand any of you.m4a",
+  "track": 1,
+  "year": 2023
  },
  {
   "artist": "Kirill Matveev",
@@ -24465,12 +27246,192 @@
  },
  {
   "artist": "latex fruit",
+  "title": "#Breakahora",
+  "album": "#Breakahora",
+  "folder": "hexd",
+  "file": "hexd/#Breakahora.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "latex fruit",
+  "title": "#breakAhora",
+  "album": "#breakAhora",
+  "folder": "hexd",
+  "file": "hexd/latex fruit - #breakAhora.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "latex fruit",
+  "title": "#fantasya",
+  "album": "#fantasya",
+  "folder": "hexd",
+  "file": "hexd/#fantasya.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "latex fruit",
+  "title": "#Healingheart",
+  "album": "#Healingheart",
+  "folder": "hexd",
+  "file": "hexd/#Healingheart.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "latex fruit",
+  "title": "#imaginaria",
+  "album": "#imaginaria",
+  "folder": "hexd",
+  "file": "hexd/#imaginaria.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "latex fruit",
+  "title": "#infinitaProfusion",
+  "album": "#infinitaProfusion",
+  "folder": "hexd",
+  "file": "hexd/#infinitaProfusion.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "latex fruit",
+  "title": "#Loveme2",
+  "album": "#Loveme2",
+  "folder": "hexd",
+  "file": "hexd/#Loveme2.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "latex fruit",
+  "title": "#m4gicfeel",
+  "album": "#m4gicfeel",
+  "folder": "hexd",
+  "file": "hexd/#m4gicfeel.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "latex fruit",
+  "title": "#seraphic",
+  "album": "#seraphic",
+  "folder": "hexd",
+  "file": "hexd/#seraphic.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "latex fruit",
+  "title": "#systemÆ",
+  "album": "#systemÆ",
+  "folder": "hexd",
+  "file": "hexd/#system.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "latex fruit",
+  "title": "#Voyuitwaaien",
+  "album": "#Voyuitwaaien",
+  "folder": "hexd",
+  "file": "hexd/#Voyuitwaaien.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "latex fruit",
+  "title": "#Voyuitwaaien",
+  "album": "#Voyuitwaaien",
+  "folder": "hexd",
+  "file": "hexd/latex fruit - #Voyuitwaaien.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "latex fruit",
+  "title": "delirio",
+  "album": "delirio",
+  "folder": "hexd",
+  "file": "hexd/delirio.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "latex fruit",
+  "title": "dj play this song。。。 6050ce63e4bce6764cb34cac51fb44d1。。。",
+  "album": "dj play this song。。。 6050ce63e4bce6764cb34cac51fb44d1。。。",
+  "folder": "hexd",
+  "file": "hexd/dj play this song 6050ce63e4bce6764cb34cac51fb44d1.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "latex fruit",
+  "title": "es un secreto 。。5298f4883ad4634ac5d77494fffb12f7",
+  "album": "es un secreto 。。5298f4883ad4634ac5d77494fffb12f7",
+  "folder": "hexd",
+  "file": "hexd/es un secreto 5298f4883ad4634ac5d77494fffb12f7.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "latex fruit",
+  "title": "forever+forever... (im your tamagotchi)",
+  "album": "forever+forever... (im your tamagotchi)",
+  "folder": "hexd",
+  "file": "hexd/forever+forever... (im your tamagotchi).m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "latex fruit",
+  "title": "Im the One to Blame",
+  "album": "Im the One to Blame",
+  "folder": "hexd",
+  "file": "hexd/Im the One to Blame.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "latex fruit",
+  "title": "jinXtyle",
+  "album": "jinXtyle",
+  "folder": "hexd",
+  "file": "hexd/jinXtyle.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "latex fruit",
   "title": "#voyuitwaaien(slowed)",
   "album": "moy",
   "folder": "moy",
   "file": "moy/latex fruit - #voyuitwaaien (slowed).mp3",
   "track": 1,
   "year": 2025
+ },
+ {
+  "artist": "latex fruit",
+  "title": "#gl-xyArp598",
+  "album": "Sextrance Worldwide Vol. 2",
+  "folder": "hexd",
+  "file": "hexd/#gl-xyArp598.m4a",
+  "track": 9,
+  "year": 2023
+ },
+ {
+  "artist": "latex fruit",
+  "title": "。。。9cdfb439c7876e703e307864c9167a15。。。",
+  "album": "。。。9cdfb439c7876e703e307864c9167a15。。。",
+  "folder": "hexd",
+  "file": "hexd/9cdfb439c7876e703e307864c9167a15.m4a",
+  "track": 1,
+  "year": 2024
  },
  {
   "artist": "Laucco",
@@ -24901,6 +27862,15 @@
   "year": 2025
  },
  {
+  "artist": "llwll",
+  "title": "Mirrorlit",
+  "album": "Refractions",
+  "folder": "hexd",
+  "file": "hexd/Mirrorlit.m4a",
+  "track": 2,
+  "year": 2026
+ },
+ {
   "artist": "Loco & Jam",
   "title": "We Touched The Sky (Westbam Edit / unoficial Remix)",
   "album": "Techno Club Vol. 73 (Extended Edition)",
@@ -24908,6 +27878,15 @@
   "file": "Trance Techno Club/VA - Techno Club Vol. 73 (2024)/30. Loco & Jam - We Touched The Sky (Westbam Edit  unoficial Remix).mp3",
   "track": 30,
   "year": 2024
+ },
+ {
+  "artist": "log()",
+  "title": "ETHEREALSTAYS333",
+  "album": "ETHEREALSTAYS333",
+  "folder": "hexd",
+  "file": "hexd/ETHEREALSTAYS333.m4a",
+  "track": 1,
+  "year": 2025
  },
  {
   "artist": "Loituma",
@@ -25078,6 +28057,24 @@
   "folder": "Trance Techno Club",
   "file": "Trance Techno Club/Techno Club Vol. 43 - Mixed by Talla 2XLC and  Indecent Noise  2013 (WEB)/CD 1 - Mixed by Talla 2XLC/05. Luke Bond feat. Stephey - Holding On.flac",
   "track": 999
+ },
+ {
+  "artist": "Luna Lenta",
+  "title": "Divergence",
+  "album": "Divergence",
+  "folder": "hexd",
+  "file": "hexd/Divergence.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
+  "artist": "LV.4",
+  "title": "Angel Dust - 2008 mix",
+  "album": "World End Embryo",
+  "folder": "hexd",
+  "file": "hexd/Angel Dust - 2008 mix.m4a",
+  "track": 7,
+  "year": 2021
  },
  {
   "artist": "LXST CXNTURY",
@@ -25311,6 +28308,24 @@
   "folder": "Arthas",
   "file": "Arthas/Malukah - The Dragonborn Comes.mp3",
   "track": 999
+ },
+ {
+  "artist": "MANAPOOL",
+  "title": "Girlfriend Dungeon",
+  "album": "seraph.am",
+  "folder": "hexd",
+  "file": "hexd/Girlfriend Dungeon.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "MANAPOOL",
+  "title": "DREADWYRM.TRANCE.",
+  "album": "seraph.am",
+  "folder": "hexd",
+  "file": "hexd/DREADWYRM.TRANCE..m4a",
+  "track": 8,
+  "year": 2022
  },
  {
   "artist": "MANNY/CMH",
@@ -25673,6 +28688,15 @@
   "track": 86
  },
  {
+  "artist": "Me and My Kidney",
+  "title": "Angel Coma",
+  "album": "Tronic Collection",
+  "folder": "hexd",
+  "file": "hexd/Angel Coma.m4a",
+  "track": 14,
+  "year": 2022
+ },
+ {
   "artist": "Mehlic & Yarni",
   "title": "4You",
   "album": "Soft, Deep & Dark #9",
@@ -25683,11 +28707,47 @@
  },
  {
   "artist": "MEKA",
+  "title": "FEELS LIKE HEAVEN, BURNS LIKE HELL",
+  "album": "FEELS LIKE HEAVEN, BURNS LIKE HELL",
+  "folder": "hexd",
+  "file": "hexd/FEELS LIKE HEAVEN, BURNS LIKE HELL.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "MEKA",
   "title": "VILE DESTRUCTION",
   "album": "hexd",
   "folder": "hexd",
   "file": "hexd/hexd trance/MEKA - VILE DESTRUCTION.mp3",
   "track": 999
+ },
+ {
+  "artist": "MEKA",
+  "title": "HIGHSPEEDLOVE<333 !!!!!",
+  "album": "MEKA: SOUNDCLOUD HITS",
+  "folder": "hexd",
+  "file": "hexd/HIGHSPEEDLOVE333 !!!!!.m4a",
+  "track": 4,
+  "year": 2024
+ },
+ {
+  "artist": "MEKA",
+  "title": "Skyline",
+  "album": "MEKA: SOUNDCLOUD HITS",
+  "folder": "hexd",
+  "file": "hexd/Skyline.m4a",
+  "track": 7,
+  "year": 2024
+ },
+ {
+  "artist": "MEKA",
+  "title": "LET GO",
+  "album": "MEKA: SOUNDCLOUD HITS",
+  "folder": "hexd",
+  "file": "hexd/LET GO.m4a",
+  "track": 10,
+  "year": 2024
  },
  {
   "artist": "Melvin Spix",
@@ -25854,6 +28914,42 @@
   "file": "Dark Techno/VA - Soft- Deep & Dark #9 [Seven Villas Music] FLAc-2022/05-Microlot - El Born.flac",
   "track": 5,
   "year": 2022
+ },
+ {
+  "artist": "Midbooze",
+  "title": "Accela - Boys Hotel Remix",
+  "album": "Accela (Boys Hotel Remix)",
+  "folder": "hexd",
+  "file": "hexd/Accela - Boys Hotel Remix.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Midbooze",
+  "title": "AD4K",
+  "album": "AD4K",
+  "folder": "hexd",
+  "file": "hexd/AD4K.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Midbooze",
+  "title": "Star Queen Yuuki - Sextrance Mix",
+  "album": "Star Queen Yuuki (Sextrance Mix)",
+  "folder": "hexd",
+  "file": "hexd/Sextrance Mix.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "midnightcoupes",
+  "title": "Bubbles",
+  "album": "nineteen",
+  "folder": "hexd",
+  "file": "hexd/Bubbles.m4a",
+  "track": 12,
+  "year": 2023
  },
  {
   "artist": "Mielafon",
@@ -26947,6 +30043,96 @@
   "year": 2026
  },
  {
+  "artist": "Nedaj",
+  "title": "alone with you",
+  "album": "alone with you",
+  "folder": "hexd",
+  "file": "hexd/alone with you.m4a",
+  "track": 1,
+  "year": 2026
+ },
+ {
+  "artist": "Nedaj",
+  "title": "Code",
+  "album": "Code",
+  "folder": "hexd",
+  "file": "hexd/Code.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Nedaj",
+  "title": "F20C",
+  "album": "F20C",
+  "folder": "hexd",
+  "file": "hexd/F20C.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "Nedaj",
+  "title": "RUN",
+  "album": "GENESIS",
+  "folder": "hexd",
+  "file": "hexd/RUN.m4a",
+  "track": 4,
+  "year": 2022
+ },
+ {
+  "artist": "Nedaj",
+  "title": "SENSOR",
+  "album": "GENESIS",
+  "folder": "hexd",
+  "file": "hexd/SENSOR.m4a",
+  "track": 5,
+  "year": 2022
+ },
+ {
+  "artist": "Nedaj",
+  "title": "REDRUM",
+  "album": "GENESIS",
+  "folder": "hexd",
+  "file": "hexd/REDRUM.m4a",
+  "track": 6,
+  "year": 2022
+ },
+ {
+  "artist": "Nedaj",
+  "title": "corsa",
+  "album": "NO MERCY",
+  "folder": "hexd",
+  "file": "hexd/corsa.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Nedaj",
+  "title": "autobahn",
+  "album": "NO MERCY",
+  "folder": "hexd",
+  "file": "hexd/autobahn.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "Nedaj",
+  "title": "autobahn (amore edit)",
+  "album": "NO MERCY",
+  "folder": "hexd",
+  "file": "hexd/autobahn (amore edit).m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "Nedaj",
+  "title": "WHAT DO YOU FEAR?",
+  "album": "WHAT DO YOU FEAR?",
+  "folder": "hexd",
+  "file": "hexd/WHAT DO YOU FEAR.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
   "artist": "Nelly Furtado",
   "title": "say it right",
   "album": "Loose",
@@ -26980,6 +30166,51 @@
   "file": "moy/New Beat Order, Robbe, Seeko - Freaks.mp3",
   "track": 999,
   "year": 2026
+ },
+ {
+  "artist": "Nfract",
+  "title": "Angel Blade",
+  "album": "Angel Blade",
+  "folder": "hexd",
+  "file": "hexd/Angel Blade.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Nfract",
+  "title": "Gut",
+  "album": "Emo Girl",
+  "folder": "hexd",
+  "file": "hexd/Gut.m4a",
+  "track": 8,
+  "year": 2024
+ },
+ {
+  "artist": "Nfract",
+  "title": "Phantasia 2000",
+  "album": "mass:/ps2/music/nightcore",
+  "folder": "hexd",
+  "file": "hexd/Phantasia 2000.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Nfract",
+  "title": "Nightcore Rejects",
+  "album": "Nightcore Rejects",
+  "folder": "hexd",
+  "file": "hexd/Nightcore Rejects.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "Nfract",
+  "title": "Ohmicide",
+  "album": "Ohmicide",
+  "folder": "hexd",
+  "file": "hexd/Ohmicide.m4a",
+  "track": 1,
+  "year": 2024
  },
  {
   "artist": "Nhar",
@@ -27804,6 +31035,15 @@
   "track": 999
  },
  {
+  "artist": "Nostrum",
+  "title": "Brainchild - Original",
+  "album": "The Singles Collection",
+  "folder": "hexd",
+  "file": "hexd/Brainchild - Original.m4a",
+  "track": 9,
+  "year": 1998
+ },
+ {
   "artist": "Noumena",
   "title": "Waking Life",
   "album": "Pumpkin Spices Massive LP",
@@ -27811,6 +31051,24 @@
   "file": "Dark Techno/VA - Pumpkin Spices Massive LP [MixCult Records] FLAC-2026/30-Noumena - Waking Life.flac",
   "track": 30,
   "year": 2026
+ },
+ {
+  "artist": "nr/z",
+  "title": "Encounter",
+  "album": "sup3riority - EP",
+  "folder": "hexd",
+  "file": "hexd/Encounter.m4a",
+  "track": 2,
+  "year": 2024
+ },
+ {
+  "artist": "nr/z",
+  "title": "my guardian angel is gone",
+  "album": "sup3riority - EP",
+  "folder": "hexd",
+  "file": "hexd/my guardian angel is gone.m4a",
+  "track": 4,
+  "year": 2024
  },
  {
   "artist": "NSD",
@@ -27835,6 +31093,33 @@
   "folder": "moy",
   "file": "moy/NSD, Terrorviking - Eisenfaust (Original Mix).mp3",
   "track": 262
+ },
+ {
+  "artist": "nuphory",
+  "title": "hyperReality",
+  "album": "Ether Drive",
+  "folder": "hexd",
+  "file": "hexd/hyperReality.m4a",
+  "track": 4,
+  "year": 2024
+ },
+ {
+  "artist": "nuphory",
+  "title": "EXOPLANET // HYPERTRANCE",
+  "album": "EXOPLANET // HYPERTRANCE",
+  "folder": "hexd",
+  "file": "hexd/EXOPLANET  HYPERTRANCE.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "nuphory",
+  "title": "TIMESCAPE",
+  "album": "NVISION EP",
+  "folder": "hexd",
+  "file": "hexd/TIMESCAPE.m4a",
+  "track": 2,
+  "year": 2022
  },
  {
   "artist": "Nyocore",
@@ -28096,6 +31381,24 @@
   "file": "Witch House/oOoOO/Untitled/06 No Shore.m4a",
   "track": 6,
   "year": 2010
+ },
+ {
+  "artist": "ooxygen",
+  "title": "RAVE RATS VOLUME 1: INTERDIMENSIONAL LIFE",
+  "album": "RAVE RATS VOLUME 1: INTERDIMENSIONAL LIFE",
+  "folder": "hexd",
+  "file": "hexd/RAVE RATS VOLUME 1 INTERDIMENSIONAL LIFE.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
+  "artist": "ooxygen",
+  "title": "RAVE RATS VOLUME 2: DONT TRUST PEOPLE IN THE CYBER WORLD",
+  "album": "RAVE RATS VOLUME 2: DONT TRUST PEOPLE IN THE CYBER WORLD",
+  "folder": "hexd",
+  "file": "hexd/RAVE RATS VOLUME 2 DONT TRUST PEOPLE IN THE CYBER WORLD.m4a",
+  "track": 1,
+  "year": 2021
  },
  {
   "artist": "Open Ocean, hiræth",
@@ -28525,6 +31828,15 @@
   "track": 630
  },
  {
+  "artist": "parallel21",
+  "title": "divine;sky",
+  "album": "きらめき☆ レイヴ - Sweet, Soft & Lazy...",
+  "folder": "hexd",
+  "file": "hexd/divine;sky.m4a",
+  "track": 11,
+  "year": 2024
+ },
+ {
   "artist": "Paranoizer",
   "title": "Everybody Move",
   "album": "moy",
@@ -28865,6 +32177,15 @@
   "file": "Dark Techno/VA - Soft- Deep & Dark #8 [Seven Villas Music] FLAC-2022/14-Pawas - Kand feat. Arooj Aftab.flac",
   "track": 14,
   "year": 2022
+ },
+ {
+  "artist": "PAXNKOXD",
+  "title": "witches found my ip address",
+  "album": "witches found my ip address",
+  "folder": "hexd",
+  "file": "hexd/witches found my ip address.m4a",
+  "track": 1,
+  "year": 2026
  },
  {
   "artist": "Pedro Capelossi",
@@ -29283,6 +32604,24 @@
   "year": 2012
  },
  {
+  "artist": "phosphorrgirl",
+  "title": "Raigeki!!",
+  "album": "Secret Rare",
+  "folder": "hexd",
+  "file": "hexd/Raigeki!!.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "phosphorrgirl",
+  "title": "duel.transer",
+  "album": "Secret Rare",
+  "folder": "hexd",
+  "file": "hexd/duel.transer.m4a",
+  "track": 2,
+  "year": 2023
+ },
+ {
   "artist": "Pictureplane",
   "title": "Bitter Blossom",
   "album": "Sex Distortion",
@@ -29459,6 +32798,33 @@
   "track": 99
  },
  {
+  "artist": "Pisca",
+  "title": "999.999KMH",
+  "album": "999.999KMH",
+  "folder": "hexd",
+  "file": "hexd/999.999KMH.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
+  "artist": "Pisca",
+  "title": "crystalline - trance remix",
+  "album": "crystalline (trance remix)",
+  "folder": "hexd",
+  "file": "hexd/crystalline - trance remix.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Pisca",
+  "title": "WRX Wizard Racing Xtreme",
+  "album": "WRX Wizard Racing Xtreme",
+  "folder": "hexd",
+  "file": "hexd/WRX Wizard Racing Xtreme.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
   "artist": "Pisse",
   "title": "Fahrradsattel",
   "album": "moy",
@@ -29484,12 +32850,75 @@
   "track": 999
  },
  {
+  "artist": "Pixel Hood",
+  "title": "Can't Believe",
+  "album": "Can't Believe",
+  "folder": "hexd",
+  "file": "hexd/Can't Believe.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Pixel Hood",
+  "title": "Digital Blue.mp3",
+  "album": "Digital Blue.mp3",
+  "folder": "hexd",
+  "file": "hexd/Digital Blue.mp3.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Pixel Hood",
+  "title": "Evolution 2000",
+  "album": "Evolution 2000",
+  "folder": "hexd",
+  "file": "hexd/Evolution 2000.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Pixel Hood",
+  "title": "FDAU",
+  "album": "FDAU",
+  "folder": "hexd",
+  "file": "hexd/FDAU.m4a",
+  "track": 1,
+  "year": 2026
+ },
+ {
+  "artist": "Pixel Hood",
+  "title": "It's A Fine Day",
+  "album": "It's A Fine Day",
+  "folder": "hexd",
+  "file": "hexd/It's A Fine Day.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Pixel Hood",
+  "title": "Street Lights",
+  "album": "Street Lights",
+  "folder": "hexd",
+  "file": "hexd/Street Lights.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
   "artist": "Pixies",
   "title": "All I Think About Now",
   "album": "moy",
   "folder": "moy",
   "file": "moy/Pixies - All I Think About Now.mp3",
   "track": 714
+ },
+ {
+  "artist": "pixygarden",
+  "title": "ALREADY HERE!",
+  "album": "ALREADY HERE!",
+  "folder": "hexd",
+  "file": "hexd/ALREADY HERE!.m4a",
+  "track": 1,
+  "year": 2024
  },
  {
   "artist": "Placebo",
@@ -31887,12 +35316,561 @@
   "track": 134
  },
  {
+  "artist": "PRESSURE",
+  "title": "Out of time (☍)",
+  "album": "Out of time (☍)",
+  "folder": "hexd",
+  "file": "hexd/Out of time ().m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "PRESSURE",
+  "title": "ꕀ☆⟢▽Chromatic Frequency▽⟢☆ꕀ",
+  "album": "ꕀ☆⟢▽Chromatic Frequency▽⟢☆ꕀ",
+  "folder": "hexd",
+  "file": "hexd/Chromatic Frequency.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
   "artist": "Princess Chelsea",
   "title": "The Cigarette Duet",
   "album": "moy",
   "folder": "moy",
   "file": "moy/Princess Chelsea - The Cigarette Duet.mp3",
   "track": 760
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "fatal fantasy",
+  "album": "(ii)mago",
+  "folder": "hexd",
+  "file": "hexd/fatal fantasy.m4a",
+  "track": 2,
+  "year": 2021
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "arcane",
+  "album": "(ii)mago",
+  "folder": "hexd",
+  "file": "hexd/arcane.m4a",
+  "track": 3,
+  "year": 2021
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "i don't need it anymore (iimago mix)",
+  "album": "(ii)mago",
+  "folder": "hexd",
+  "file": "hexd/i don't need it anymore (iimago mix).m4a",
+  "track": 6,
+  "year": 2021
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "parting",
+  "album": "(ii)mago",
+  "folder": "hexd",
+  "file": "hexd/parting.m4a",
+  "track": 8,
+  "year": 2021
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Angel Tactics",
+  "album": "Angel Tactics",
+  "folder": "hexd",
+  "file": "hexd/Angel Tactics.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Astral Step",
+  "album": "Astral Step",
+  "folder": "hexd",
+  "file": "hexd/Astral Step.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "bladee velociraptor (purity filter nightcore flip)",
+  "album": "bladee flip and some other stuff idk",
+  "folder": "hexd",
+  "file": "hexd/bladee velociraptor (purity filter nightcore flip).m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "moonlit apparition",
+  "album": "bladee flip and some other stuff idk",
+  "folder": "hexd",
+  "file": "hexd/moonlit apparition.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "sepal rain",
+  "album": "bladee flip and some other stuff idk",
+  "folder": "hexd",
+  "file": "hexd/sepal rain.m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Necrosis Query / Plasma Ensnared",
+  "album": "Dismissed Compilation Vol. 2",
+  "folder": "hexd",
+  "file": "hexd/Necrosis Query  Plasma Ensnared.m4a",
+  "track": 16,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "angel_tactics (cast.lucid requiem)",
+  "album": "empathy purge",
+  "folder": "hexd",
+  "file": "hexd/angel_tactics (cast.lucid requiem).m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "astral_nexus (cast.mana_drain)",
+  "album": "empathy purge",
+  "folder": "hexd",
+  "file": "hexd/astral_nexus (cast.mana_drain).m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "serenity_mask (cast.empathy_purge)",
+  "album": "empathy purge",
+  "folder": "hexd",
+  "file": "hexd/serenity_mask (cast.empathy_purge).m4a",
+  "track": 5,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "333_(cast.aether_remnant)",
+  "album": "empathy purge",
+  "folder": "hexd",
+  "file": "hexd/333_(cast.aether_remnant).m4a",
+  "track": 6,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "hyperreal_cascade (cast.end_point_minimum)",
+  "album": "empathy purge",
+  "folder": "hexd",
+  "file": "hexd/hyperreal_cascade (cast.end_point_minimum).m4a",
+  "track": 7,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "nier_inertia (cast.proxy_reset)",
+  "album": "empathy purge",
+  "folder": "hexd",
+  "file": "hexd/nier_inertia (cast.proxy_reset).m4a",
+  "track": 10,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "EsperForm_(cast.dreamJournal)",
+  "album": "EsperForm_(cast.dreamJournal)",
+  "folder": "hexd",
+  "file": "hexd/EsperForm_(cast.dreamJournal).m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Mouthful of Static",
+  "album": "Everything That Lives Is Designed To End/Mouthful of Static",
+  "folder": "hexd",
+  "file": "hexd/Mouthful of Static.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Expectation Failed",
+  "album": "Expectation Failed",
+  "folder": "hexd",
+  "file": "hexd/Expectation Failed.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "fairyWell>> CCC>>",
+  "album": "fairyWell>> CCC>>",
+  "folder": "hexd",
+  "file": "hexd/fairyWell CCC.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "fromthesky (iamanocean flip)",
+  "album": "fromthesky (iamanocean flip)",
+  "folder": "hexd",
+  "file": "hexd/fromthesky (iamanocean flip).m4a",
+  "track": 1,
+  "year": 2026
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "i dont need it anymore",
+  "album": "i dont need it anymore",
+  "folder": "hexd",
+  "file": "hexd/i dont need it anymore.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Dream Eater",
+  "album": "imago",
+  "folder": "hexd",
+  "file": "hexd/Dream Eater.m4a",
+  "track": 3,
+  "year": 2021
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Chrysalis",
+  "album": "Imago",
+  "folder": "hexd",
+  "file": "hexd/Chrysalis.m4a",
+  "track": 4,
+  "year": 2021
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Hatena",
+  "album": "imago",
+  "folder": "hexd",
+  "file": "hexd/Hatena.m4a",
+  "track": 6,
+  "year": 2021
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Lost Silver",
+  "album": "Immortal Spirit",
+  "folder": "hexd",
+  "file": "hexd/Lost Silver.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Abraxas",
+  "album": "Immortal Spirit",
+  "folder": "hexd",
+  "file": "hexd/Abraxas.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Dodona",
+  "album": "Immortal Spirit",
+  "folder": "hexd",
+  "file": "hexd/Dodona.m4a",
+  "track": 8,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Sinbound",
+  "album": "Immortal Spirit",
+  "folder": "hexd",
+  "file": "hexd/Sinbound.m4a",
+  "track": 12,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "I'd Rather Be in it Again",
+  "album": "Immortal Spirit",
+  "folder": "hexd",
+  "file": "hexd/I'd Rather Be in it Again.m4a",
+  "track": 13,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Collapse",
+  "album": "Immortal Spirit",
+  "folder": "hexd",
+  "file": "hexd/Collapse.m4a",
+  "track": 14,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Elixir Drowned",
+  "album": "Immortal Spirit",
+  "folder": "hexd",
+  "file": "hexd/Elixir Drowned.m4a",
+  "track": 15,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "kill for me",
+  "album": "kill for me",
+  "folder": "hexd",
+  "file": "hexd/kill for me.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "life after trance",
+  "album": "life after trance",
+  "folder": "hexd",
+  "file": "hexd/life after trance.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "luminescence",
+  "album": "luminescence",
+  "folder": "hexd",
+  "file": "hexd/Purity Filter - luminescence.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "nu_seed",
+  "album": "nu_seed",
+  "folder": "hexd",
+  "file": "hexd/nu_seed.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "railgun lobotomy",
+  "album": "railgun lobotomy",
+  "folder": "hexd",
+  "file": "hexd/railgun lobotomy.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "say that you need me",
+  "album": "say that you need me",
+  "folder": "hexd",
+  "file": "hexd/say that you need me.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "static.link - metora _stasis222",
+  "album": "SEXDUIT WIFECORE",
+  "folder": "hexd",
+  "file": "hexd/metora _stasis222.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "stinky ultimate sexduit powah",
+  "album": "SEXDUIT WIFECORE",
+  "folder": "hexd",
+  "file": "hexd/stinky ultimate sexduit powah.m4a",
+  "track": 2,
+  "year": 2023
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "chaos sexduit",
+  "album": "SEXDUIT WIFECORE",
+  "folder": "hexd",
+  "file": "hexd/chaos sexduit.m4a",
+  "track": 3,
+  "year": 2023
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "strawberry semenade spritekno",
+  "album": "SEXDUIT WIFECORE",
+  "folder": "hexd",
+  "file": "hexd/strawberry semenade spritekno.m4a",
+  "track": 4,
+  "year": 2023
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "owwwwwwwwww - YUM CUT",
+  "album": "SEXDUIT WIFECORE",
+  "folder": "hexd",
+  "file": "hexd/owwwwwwwwww - YUM CUT.m4a",
+  "track": 5,
+  "year": 2023
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "TSOF - the sound of ████",
+  "album": "SEXDUIT WIFECORE",
+  "folder": "hexd",
+  "file": "hexd/the sound of.m4a",
+  "track": 6,
+  "year": 2023
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "braindeadacid",
+  "album": "Sextrance Worldwide",
+  "folder": "hexd",
+  "file": "hexd/braindeadacid.m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Mouthful of Static",
+  "album": "Sextrance Worldwide Vol. 2",
+  "folder": "hexd",
+  "file": "hexd/Purity Filter - Mouthful of Static.m4a",
+  "track": 2,
+  "year": 2023
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "hypersigil (cast.wings_manifest)",
+  "album": "SHRAPNEL FLUX: ENDPOINT MINIMUM",
+  "folder": "hexd",
+  "file": "hexd/hypersigil (cast.wings_manifest).m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "regression_catharsis (cast.hypoxia_crush)",
+  "album": "SHRAPNEL FLUX: ENDPOINT MINIMUM",
+  "folder": "hexd",
+  "file": "hexd/regression_catharsis (cast.hypoxia_crush).m4a",
+  "track": 4,
+  "year": 2023
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Remnant Syphon",
+  "album": "SHRAPNEL FLUX: VEILED TERMINAL",
+  "folder": "hexd",
+  "file": "hexd/Remnant Syphon.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Psionic Stasis Mask",
+  "album": "SHRAPNEL FLUX: VEILED TERMINAL",
+  "folder": "hexd",
+  "file": "hexd/Psionic Stasis Mask.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Eden (Exclusion Zone)",
+  "album": "SHRAPNEL FLUX: VEILED TERMINAL",
+  "folder": "hexd",
+  "file": "hexd/Eden (Exclusion Zone).m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Splinter Echo",
+  "album": "SHRAPNEL FLUX: VEILED TERMINAL",
+  "folder": "hexd",
+  "file": "hexd/Splinter Echo.m4a",
+  "track": 4,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Neverland Chakra",
+  "album": "SHRAPNEL FLUX: VEILED TERMINAL",
+  "folder": "hexd",
+  "file": "hexd/Neverland Chakra.m4a",
+  "track": 5,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Crush Restore",
+  "album": "SHRAPNEL FLUX: VEILED TERMINAL",
+  "folder": "hexd",
+  "file": "hexd/Crush Restore.m4a",
+  "track": 6,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "headlock",
+  "album": "sinbound double pack",
+  "folder": "hexd",
+  "file": "hexd/headlock.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "Star of Dodona",
+  "album": "Star of Dodona",
+  "folder": "hexd",
+  "file": "hexd/Star of Dodona.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "takemeawaypls.wav (INTO THE NIGHTCORE)",
+  "album": "takemeawaypls.wav (INTO THE NIGHTCORE)",
+  "folder": "hexd",
+  "file": "hexd/takemeawaypls.wav (INTO THE NIGHTCORE).m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "VEXING",
+  "album": "VEXING",
+  "folder": "hexd",
+  "file": "hexd/VEXING.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Purity Filter",
+  "title": "wings_(angel_spore)",
+  "album": "wings_(angel_spore)",
+  "folder": "hexd",
+  "file": "hexd/wings_(angel_spore).m4a",
+  "track": 1,
+  "year": 2023
  },
  {
   "artist": "purityleech & beansclub",
@@ -33985,6 +37963,132 @@
   "year": 2021
  },
  {
+  "artist": "rainsdeaf",
+  "title": "acid",
+  "album": "Celsius Radio for the Strip Mall",
+  "folder": "hexd",
+  "file": "hexd/acid.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "rainsdeaf",
+  "title": "JKAYBITCHHHHH",
+  "album": "JKAYBITCHHHHH",
+  "folder": "hexd",
+  "file": "hexd/JKAYBITCHHHHH.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "rainsdeaf",
+  "title": "blizzard",
+  "album": "malleable",
+  "folder": "hexd",
+  "file": "hexd/blizzard.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "rainsdeaf",
+  "title": "syphon brain itch",
+  "album": "malleable",
+  "folder": "hexd",
+  "file": "hexd/syphon brain itch.m4a",
+  "track": 5,
+  "year": 2022
+ },
+ {
+  "artist": "rainsdeaf",
+  "title": "something like a small cloud with two tiny arms",
+  "album": "my songs from butterflies on acid",
+  "folder": "hexd",
+  "file": "hexd/something like a small cloud with two tiny arms.m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "rainsdeaf",
+  "title": "ferrettete",
+  "album": "rhythm industry",
+  "folder": "hexd",
+  "file": "hexd/ferrettete.m4a",
+  "track": 8,
+  "year": 2022
+ },
+ {
+  "artist": "rainsdeaf",
+  "title": "masddnesss",
+  "album": "Sextrance Worldwide",
+  "folder": "hexd",
+  "file": "hexd/masddnesss.m4a",
+  "track": 4,
+  "year": 2022
+ },
+ {
+  "artist": "rainsdeaf",
+  "title": "potatothrower38",
+  "album": "Sextrance Worldwide",
+  "folder": "hexd",
+  "file": "hexd/potatothrower38.m4a",
+  "track": 10,
+  "year": 2022
+ },
+ {
+  "artist": "rainsdeaf",
+  "title": "idek why",
+  "album": "Sextrance Worldwide Vol. 2",
+  "folder": "hexd",
+  "file": "hexd/idek why.m4a",
+  "track": 3,
+  "year": 2023
+ },
+ {
+  "artist": "rainsdeaf",
+  "title": "hole",
+  "album": "Sextrance Worldwide Vol. 2",
+  "folder": "hexd",
+  "file": "hexd/hole.m4a",
+  "track": 13,
+  "year": 2023
+ },
+ {
+  "artist": "rainsdeaf",
+  "title": "sxxxxtrncncnecnce the last sextrancne song evevreaaaaa",
+  "album": "sxxxxtrncncnecnce the last sextrancne song evevreaaaaa",
+  "folder": "hexd",
+  "file": "hexd/sxxxxtrncncnecnce the last sextrancne song evevreaaaaa.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "rainsdeaf",
+  "title": "my new body//time to adjust",
+  "album": "you left me in the garden",
+  "folder": "hexd",
+  "file": "hexd/my new bodytime to adjust.m4a",
+  "track": 3,
+  "year": 2023
+ },
+ {
+  "artist": "rainsdeaf",
+  "title": "drained",
+  "album": "you left me in the garden",
+  "folder": "hexd",
+  "file": "hexd/drained.m4a",
+  "track": 7,
+  "year": 2023
+ },
+ {
+  "artist": "rainsdeaf",
+  "title": "kamel",
+  "album": "you left me in the garden",
+  "folder": "hexd",
+  "file": "hexd/kamel.m4a",
+  "track": 20,
+  "year": 2023
+ },
+ {
   "artist": "Ralmoon",
   "title": "Naia",
   "album": "Euphoric Paradise 079",
@@ -34390,6 +38494,15 @@
   "folder": "moy",
   "file": "moy/Regain vs Noxiouz & Jur Terreur vs Rooler & SEFA - Push The Baddest Domination [ELITE ENEMY Mash-Up].mp3",
   "track": 231
+ },
+ {
+  "artist": "rehirable",
+  "title": "xtc.RrTMix",
+  "album": "IchiGo! Amen",
+  "folder": "hexd",
+  "file": "hexd/xtc.RrTMix.m4a",
+  "track": 6,
+  "year": 2021
  },
  {
   "artist": "Reign Of Roses",
@@ -34956,6 +39069,33 @@
  },
  {
   "artist": "rl1805",
+  "title": "blue",
+  "album": "blue",
+  "folder": "hexd",
+  "file": "hexd/blue.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "rl1805",
+  "title": "forever",
+  "album": "forever",
+  "folder": "hexd",
+  "file": "hexd/forever.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "rl1805",
+  "title": "gs_240",
+  "album": "gs_240",
+  "folder": "hexd",
+  "file": "hexd/gs_240.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "rl1805",
   "title": "14820",
   "album": "hexd",
   "folder": "hexd",
@@ -35092,6 +39232,15 @@
  },
  {
   "artist": "rl1805",
+  "title": "more&more<3",
+  "album": "more&more<3",
+  "folder": "hexd",
+  "file": "hexd/more&more3.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "rl1805",
   "title": "runaway [GZ999]",
   "album": "moy",
   "folder": "moy",
@@ -35105,6 +39254,60 @@
   "folder": "moy",
   "file": "moy/rl1805 - voice of wangan.mp3",
   "track": 999
+ },
+ {
+  "artist": "rl1805",
+  "title": "nexus",
+  "album": "nexus",
+  "folder": "hexd",
+  "file": "hexd/nexus.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "rl1805",
+  "title": "paradise",
+  "album": "paradise",
+  "folder": "hexd",
+  "file": "hexd/paradise.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "rl1805",
+  "title": "raindrops",
+  "album": "raindrops",
+  "folder": "hexd",
+  "file": "hexd/raindrops.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "rl1805",
+  "title": "ravers fantasy",
+  "album": "ravers fantasy",
+  "folder": "hexd",
+  "file": "hexd/ravers fantasy.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "rl1805",
+  "title": "silent hill",
+  "album": "silent hill",
+  "folder": "hexd",
+  "file": "hexd/silent hill.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "rl1805",
+  "title": "voice of wangan",
+  "album": "voice of wangan",
+  "folder": "hexd",
+  "file": "hexd/voice of wangan.m4a",
+  "track": 1,
+  "year": 2023
  },
  {
   "artist": "RM83",
@@ -35577,6 +39780,15 @@
   "file": "Witch House/VA - 2024 - Re-Mission Entertainment 2024 Label Compilation/22. Ruin The Mind x Maduro - Prometheus.mp3",
   "track": 22,
   "year": 2024
+ },
+ {
+  "artist": "rukiawaa",
+  "title": "ࣨࣨ⑵００⑺ৡऻࣨࣨࣨऽބރୌࣨ܍ ࣨܢॠ ܢॠୣࣨࣨ ・ トゥー・サウザンド・セブン",
+  "album": "ࣨࣨ⑵００⑺ৡऻࣨࣨࣨऽބރୌࣨ܍ ࣨܢॠ ܢॠୣࣨࣨ ・ トゥー・サウザンド・セブン",
+  "folder": "hexd",
+  "file": "hexd/rukiawaa - .m4a",
+  "track": 1,
+  "year": 2026
  },
  {
   "artist": "Ruslan Device & Katsu",
@@ -36464,6 +40676,15 @@
   "track": 999
  },
  {
+  "artist": "rxwrrie",
+  "title": "isolation",
+  "album": "isolation",
+  "folder": "hexd",
+  "file": "hexd/isolation.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
   "artist": "Ryan McCall",
   "title": "Take Me to the Top",
   "album": "Euphoric Paradise 079",
@@ -36471,6 +40692,15 @@
   "file": "Euphoric Paradise/VA - Euphoric Paradise 079 (2026)/10. Ryan McCall - Take Me to the Top.mp3",
   "track": 10,
   "year": 2026
+ },
+ {
+  "artist": "Ryu*",
+  "title": "orion",
+  "album": "Hardcore Syndrome 2",
+  "folder": "hexd",
+  "file": "hexd/orion.m4a",
+  "track": 2,
+  "year": 2011
  },
  {
   "artist": "Röst",
@@ -36754,6 +40984,24 @@
   "folder": "Постпанк",
   "file": "Постпанк/Sad Elmo - Виски.mp3",
   "track": 359
+ },
+ {
+  "artist": "sadance",
+  "title": "Drama (Speed Up)",
+  "album": "Drama",
+  "folder": "hexd",
+  "file": "hexd/Drama (Speed Up).m4a",
+  "track": 2,
+  "year": 2024
+ },
+ {
+  "artist": "sadance",
+  "title": "Seraphim",
+  "album": "Seraphim",
+  "folder": "hexd",
+  "file": "hexd/Seraphim.m4a",
+  "track": 1,
+  "year": 2025
  },
  {
   "artist": "SadSvit",
@@ -38171,6 +42419,15 @@
   "track": 477
  },
  {
+  "artist": "Segunda Mordida",
+  "title": "2",
+  "album": "Vespucci",
+  "folder": "hexd",
+  "file": "hexd/2.m4a",
+  "track": 4,
+  "year": 2021
+ },
+ {
   "artist": "Semad",
   "title": "Gulo (Original Mix)",
   "album": "Euphoric Paradise 060",
@@ -38315,6 +42572,51 @@
   "file": "ambient/Рандом.Миксы.Длинные/i lost you forever.mp3",
   "track": 999,
   "year": 2026
+ },
+ {
+  "artist": "Serenity Pill",
+  "title": "Goldfinch",
+  "album": "Intimacy",
+  "folder": "hexd",
+  "file": "hexd/Goldfinch.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Serenity Pill",
+  "title": "Fairy Fountain Theme",
+  "album": "Intimacy",
+  "folder": "hexd",
+  "file": "hexd/Fairy Fountain Theme.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "Serenity Pill",
+  "title": "Paradox",
+  "album": "Intimacy",
+  "folder": "hexd",
+  "file": "hexd/Paradox.m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "Serenity Pill",
+  "title": "Forgive Me",
+  "album": "Intimacy",
+  "folder": "hexd",
+  "file": "hexd/Forgive Me.m4a",
+  "track": 4,
+  "year": 2022
+ },
+ {
+  "artist": "Serenity Pill",
+  "title": "Spiral Arms",
+  "album": "Intimacy",
+  "folder": "hexd",
+  "file": "hexd/Spiral Arms.m4a",
+  "track": 5,
+  "year": 2022
  },
  {
   "artist": "Sergey Eybog",
@@ -38835,6 +43137,15 @@
   "year": 2026
  },
  {
+  "artist": "SHADYLINES",
+  "title": "Crack Jokes",
+  "album": "LI$024",
+  "folder": "hexd",
+  "file": "hexd/Crack Jokes.m4a",
+  "track": 11,
+  "year": 2020
+ },
+ {
   "artist": "Shaft",
   "title": "Mambo Italiano",
   "album": "Music of the Sun [Bonus Tracks]",
@@ -38859,6 +43170,15 @@
   "folder": "Arthas",
   "file": "Arthas/Shakira - Whenever. Wherever.mp3",
   "track": 999
+ },
+ {
+  "artist": "Shavrolet",
+  "title": "Above",
+  "album": "What Comes After?",
+  "folder": "hexd",
+  "file": "hexd/Above.m4a",
+  "track": 3,
+  "year": 2021
  },
  {
   "artist": "Shhadows",
@@ -39274,6 +43594,213 @@
   "track": 999
  },
  {
+  "artist": "Sienna Sleep",
+  "title": "1018 2.2",
+  "album": "20201022",
+  "folder": "hexd",
+  "file": "hexd/1018 2.2.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "1021 2.2",
+  "album": "20201022",
+  "folder": "hexd",
+  "file": "hexd/1021 2.2.m4a",
+  "track": 2,
+  "year": 2021
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "1021 2.2",
+  "album": "20201022",
+  "folder": "hexd",
+  "file": "hexd/Sienna Sleep - 1021 2.2.m4a",
+  "track": 2,
+  "year": 2021
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "1021 .2",
+  "album": "20201022",
+  "folder": "hexd",
+  "file": "hexd/1021 .2.m4a",
+  "track": 3,
+  "year": 2021
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "1022 .2",
+  "album": "20201022",
+  "folder": "hexd",
+  "file": "hexd/1022 .2.m4a",
+  "track": 4,
+  "year": 2021
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "1022 .2",
+  "album": "20201022",
+  "folder": "hexd",
+  "file": "hexd/49 - Sienna Sleep - 1022 .2.m4a",
+  "track": 4,
+  "year": 2021
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "1022 2.2",
+  "album": "20201022",
+  "folder": "hexd",
+  "file": "hexd/1022 2.2.m4a",
+  "track": 5,
+  "year": 2021
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "I Can't Sleep 1",
+  "album": "Ateriavia",
+  "folder": "hexd",
+  "file": "hexd/I Can't Sleep 1.m4a",
+  "track": 4,
+  "year": 2020
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "I Can't Sleep 2",
+  "album": "Ateriavia",
+  "folder": "hexd",
+  "file": "hexd/I Can't Sleep 2.m4a",
+  "track": 5,
+  "year": 2020
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "20220521 song 1.2",
+  "album": "Dismissed Compilation Vol. 2",
+  "folder": "hexd",
+  "file": "hexd/20220521 song 1.2.m4a",
+  "track": 7,
+  "year": 2022
+ },
+ {
+  "artist": "sienna sleep",
+  "title": "navi 98",
+  "album": "LI$024",
+  "folder": "hexd",
+  "file": "hexd/navi 98.m4a",
+  "track": 18,
+  "year": 2020
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "202210128.3.2.2",
+  "album": "Sextrance Worldwide",
+  "folder": "hexd",
+  "file": "hexd/202210128.3.2.2.m4a",
+  "track": 7,
+  "year": 2022
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "20220704 2",
+  "album": "Sextrance Worldwide Vol. 2",
+  "folder": "hexd",
+  "file": "hexd/20220704 2.m4a",
+  "track": 10,
+  "year": 2023
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "20220704 5.2",
+  "album": "Sextrance Worldwide Vol. 2",
+  "folder": "hexd",
+  "file": "hexd/20220704 5.2.m4a",
+  "track": 11,
+  "year": 2023
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "I Can't Sleep 3",
+  "album": "Sienna Sleep & Serenity Pill",
+  "folder": "hexd",
+  "file": "hexd/I Can't Sleep 3.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "Mihai Edrisch",
+  "album": "Sienna Sleep & Serenity Pill",
+  "folder": "hexd",
+  "file": "hexd/Mihai Edrisch.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "It Doesn't Hurt Me Anymore",
+  "album": "Sienna Sleep & Serenity Pill",
+  "folder": "hexd",
+  "file": "hexd/It Doesn't Hurt Me Anymore.m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "Bootee - Passion (Sienna Sleep Trance Mix)",
+  "album": "Sienna Sleep & Serenity Pill",
+  "folder": "hexd",
+  "file": "hexd/Bootee - Passion (Sienna Sleep Trance Mix).m4a",
+  "track": 4,
+  "year": 2022
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "72.8",
+  "album": "Sienna Sleep & Serenity Pill",
+  "folder": "hexd",
+  "file": "hexd/72.8.m4a",
+  "track": 5,
+  "year": 2022
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "Calm Before the Storm",
+  "album": "Sienna Sleep & Serenity Pill",
+  "folder": "hexd",
+  "file": "hexd/Calm Before the Storm.m4a",
+  "track": 6,
+  "year": 2022
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "Afterburn",
+  "album": "Sienna Sleep & Serenity Pill",
+  "folder": "hexd",
+  "file": "hexd/Afterburn.m4a",
+  "track": 7,
+  "year": 2022
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "Empath",
+  "album": "Sienna Sleep & Serenity Pill",
+  "folder": "hexd",
+  "file": "hexd/Empath.m4a",
+  "track": 8,
+  "year": 2022
+ },
+ {
+  "artist": "Sienna Sleep",
+  "title": "SpectrumSetup420",
+  "album": "under.net compilation vol. 3",
+  "folder": "hexd",
+  "file": "hexd/SpectrumSetup420.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
   "artist": "Signum",
   "title": "Ghost (Extended Mix)",
   "album": "Techno Club Vol. 65",
@@ -39308,6 +43835,15 @@
   "file": "Trance Techno Club/VA - Techno Club Vol. 65-WEBFLAC-2022-TT/30-signum-get_up_(extended_mix)-tt.flac",
   "track": 30,
   "year": 2022
+ },
+ {
+  "artist": "siko",
+  "title": "You",
+  "album": "You",
+  "folder": "hexd",
+  "file": "hexd/You.m4a",
+  "track": 1,
+  "year": 2025
  },
  {
   "artist": "Silent Circle",
@@ -39372,6 +43908,15 @@
   "year": 2026
  },
  {
+  "artist": "simvlacrvm",
+  "title": "seq01",
+  "album": "sequences",
+  "folder": "hexd",
+  "file": "hexd/seq01.m4a",
+  "track": 3,
+  "year": 2026
+ },
+ {
   "artist": "SINE",
   "title": "Dark Matters",
   "album": "2024 Label Compilation",
@@ -39379,6 +43924,24 @@
   "file": "Witch House/VA - 2024 - Re-Mission Entertainment 2024 Label Compilation/09. SINE - Dark Matters.mp3",
   "track": 9,
   "year": 2024
+ },
+ {
+  "artist": "sixteen veins",
+  "title": "detach 16 731n5",
+  "album": "detach 16 731n5",
+  "folder": "hexd",
+  "file": "hexd/detach 16 731n5.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "sixteen veins",
+  "title": "siren cry",
+  "album": "synthetic memories",
+  "folder": "hexd",
+  "file": "hexd/siren cry.m4a",
+  "track": 5,
+  "year": 2023
  },
  {
   "artist": "Sizor",
@@ -41017,6 +45580,15 @@
   "year": 1997
  },
  {
+  "artist": "Spiderwrap",
+  "title": "Arcane",
+  "album": "L.A.U.R.A. 003: SUDDEN COLLAPSE",
+  "folder": "hexd",
+  "file": "hexd/Spiderwrap - Arcane.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
   "artist": "Spiralizer and He1d1 K",
   "title": "Filled With the Spirit (Original Mix)",
   "album": "Euphoric Paradise 064",
@@ -41041,6 +45613,42 @@
   "folder": "Постпанк",
   "file": "Постпанк/Sports - You Are The Right One.mp3",
   "track": 517
+ },
+ {
+  "artist": "SPURME",
+  "title": "6th Dimension",
+  "album": "Tesseract",
+  "folder": "hexd",
+  "file": "hexd/6th Dimension.m4a",
+  "track": 7,
+  "year": 2022
+ },
+ {
+  "artist": "SPURME",
+  "title": "Ravecore02",
+  "album": "Voidcore",
+  "folder": "hexd",
+  "file": "hexd/Ravecore02.m4a",
+  "track": 3,
+  "year": 2021
+ },
+ {
+  "artist": "SPURME",
+  "title": "Ravecore03",
+  "album": "Voidcore",
+  "folder": "hexd",
+  "file": "hexd/Ravecore03.m4a",
+  "track": 5,
+  "year": 2021
+ },
+ {
+  "artist": "SPYRAL",
+  "title": "don't let me go",
+  "album": "don't let me go",
+  "folder": "hexd",
+  "file": "hexd/don't let me go.m4a",
+  "track": 1,
+  "year": 2026
  },
  {
   "artist": "ssshhhiiittt!",
@@ -41227,6 +45835,42 @@
   "file": "Arthas/Steppenwolf - Born To Be Wild.mp3",
   "track": 1,
   "year": 1999
+ },
+ {
+  "artist": "stereo cross",
+  "title": "GSM Phase 2+ HSCSD",
+  "album": "+.imo)(omi.+",
+  "folder": "hexd",
+  "file": "hexd/GSM Phase 2+ HSCSD.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "stereo cross",
+  "title": "trancge(N]tter - VIP Mix",
+  "album": "+.imo)(omi.+",
+  "folder": "hexd",
+  "file": "hexd/VIP Mix.m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "stereo cross",
+  "title": "Fairycore - VIP Mix",
+  "album": "+.imo)(omi.+",
+  "folder": "hexd",
+  "file": "hexd/Fairycore - VIP Mix.m4a",
+  "track": 6,
+  "year": 2022
+ },
+ {
+  "artist": "stereo cross",
+  "title": "GSM Phase 3GPP - 3Rd Generation Partnership Project",
+  "album": "GSM Phase 3GPP (3Rd Generation Partnership Project)",
+  "folder": "hexd",
+  "file": "hexd/GSM Phase 3GPP - 3Rd Generation Partnership Project.m4a",
+  "track": 1,
+  "year": 2025
  },
  {
   "artist": "Stereoimagery",
@@ -43760,6 +48404,51 @@
   "track": 398
  },
  {
+  "artist": "Team Mekano",
+  "title": "Spiral 2005 - Total 90s Bliss Remix",
+  "album": "Classic Project 2000 (Deluxe Edition)",
+  "folder": "hexd",
+  "file": "hexd/Spiral 2005 - Total 90s Bliss Remix.m4a",
+  "track": 2,
+  "year": 2020
+ },
+ {
+  "artist": "Team Mekano",
+  "title": "True Love",
+  "album": "Classic Project 2000 (Deluxe Edition)",
+  "folder": "hexd",
+  "file": "hexd/True Love.m4a",
+  "track": 5,
+  "year": 2020
+ },
+ {
+  "artist": "Team Mekano",
+  "title": "Angel Core Pt. II",
+  "album": "Classic Project 2000 (Deluxe Edition)",
+  "folder": "hexd",
+  "file": "hexd/Angel Core Pt. II.m4a",
+  "track": 8,
+  "year": 2020
+ },
+ {
+  "artist": "Team Mekano",
+  "title": "Eon RipOff$$",
+  "album": "mekanoworld.xyz",
+  "folder": "hexd",
+  "file": "hexd/Eon RipOff$$.m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "Team Mekano",
+  "title": "Rock Lee Vs Gaara (Chunin Trancearp Jutsu)",
+  "album": "mekanoworld.xyz",
+  "folder": "hexd",
+  "file": "hexd/Rock Lee Vs Gaara (Chunin Trancearp Jutsu).m4a",
+  "track": 7,
+  "year": 2022
+ },
+ {
   "artist": "Terence Jay",
   "title": "One Blood",
   "album": "One Blood - Single",
@@ -43775,6 +48464,15 @@
   "folder": "moy",
   "file": "moy/tewiq - распять [ALT VER].mp3",
   "track": 999
+ },
+ {
+  "artist": "Tfwamirite",
+  "title": "だきしめたい",
+  "album": "tifutrance EP",
+  "folder": "hexd",
+  "file": "hexd/Tfwamirite - .m4a",
+  "track": 4,
+  "year": 2022
  },
  {
   "artist": "The 69 Eyes",
@@ -44294,6 +48992,33 @@
   "track": 110
  },
  {
+  "artist": "timesgone",
+  "title": "fracture",
+  "album": "fracture",
+  "folder": "hexd",
+  "file": "hexd/fracture.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "timesgone",
+  "title": "love sex dreams",
+  "album": "love sex dreams",
+  "folder": "hexd",
+  "file": "hexd/love sex dreams.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "timesgone",
+  "title": "wasted times",
+  "album": "wasted times",
+  "folder": "hexd",
+  "file": "hexd/wasted times.m4a",
+  "track": 1,
+  "year": 2026
+ },
+ {
   "artist": "Timo Maas",
   "title": "First Day",
   "album": "Hit Express",
@@ -44508,6 +49233,24 @@
   "file": "Trance Techno Club/VA - Techno Club Vol. 74-(ZYX83167S)-16BIT-WEB-FLAC-2025-TT/01-torsten_stenzel-never_give_up_(feat_mahe_-_york_extended_mix).flac",
   "track": 1,
   "year": 2025
+ },
+ {
+  "artist": "Toxicspikeback",
+  "title": "Eclipse",
+  "album": "Arcadia",
+  "folder": "hexd",
+  "file": "hexd/Eclipse.m4a",
+  "track": 4,
+  "year": 2021
+ },
+ {
+  "artist": "Toxicspikeback",
+  "title": "Untitled",
+  "album": "Scum Compilation, Vol. 1",
+  "folder": "hexd",
+  "file": "hexd/Toxicspikeback - Untitled.m4a",
+  "track": 7,
+  "year": 2021
  },
  {
   "artist": "Toxin",
@@ -44830,6 +49573,15 @@
   "track": 999
  },
  {
+  "artist": "tranced!",
+  "title": "Regen",
+  "album": "Imaginary Places",
+  "folder": "hexd",
+  "file": "hexd/Regen.m4a",
+  "track": 7,
+  "year": 2024
+ },
+ {
   "artist": "Transcend/Cyrax",
   "title": "Insight(Matt OD Remix)",
   "album": "moy",
@@ -44891,6 +49643,24 @@
   "track": 999
  },
  {
+  "artist": "trejnts",
+  "title": "MAXI.TRANCE",
+  "album": "MAXI.TRANCE",
+  "folder": "hexd",
+  "file": "hexd/MAXI.TRANCE.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "trejnts",
+  "title": "NOTHING2FEAR",
+  "album": "NOTHING2FEAR",
+  "folder": "hexd",
+  "file": "hexd/NOTHING2FEAR.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
   "artist": "Trevor Jones; Randy Edelman",
   "title": "Promentory",
   "album": "The Last Of The Mohicans",
@@ -44898,6 +49668,105 @@
   "file": "Arthas/Soundtrack/Trevor Jones; Randy Edelman - Promentory.mp3",
   "track": 6,
   "year": 1992
+ },
+ {
+  "artist": "Trshckdbl",
+  "title": "Illumyna",
+  "album": "Cyber Overblast",
+  "folder": "hexd",
+  "file": "hexd/Illumyna.m4a",
+  "track": 7,
+  "year": 2021
+ },
+ {
+  "artist": "Trshckdbl",
+  "title": "Quantum Core",
+  "album": "Divergence Eve",
+  "folder": "hexd",
+  "file": "hexd/Quantum Core.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Trshckdbl",
+  "title": "Ndeah",
+  "album": "Divergence Eve",
+  "folder": "hexd",
+  "file": "hexd/Ndeah.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "Trshckdbl",
+  "title": "Deflection",
+  "album": "Divergence Eve",
+  "folder": "hexd",
+  "file": "hexd/Deflection.m4a",
+  "track": 3,
+  "year": 2022
+ },
+ {
+  "artist": "Trshckdbl",
+  "title": "Nashe",
+  "album": "Divergence Eve",
+  "folder": "hexd",
+  "file": "hexd/Nashe.m4a",
+  "track": 4,
+  "year": 2022
+ },
+ {
+  "artist": "Trshckdbl",
+  "title": "I Regret Everything I Have Done",
+  "album": "Divergence Eve",
+  "folder": "hexd",
+  "file": "hexd/I Regret Everything I Have Done.m4a",
+  "track": 5,
+  "year": 2022
+ },
+ {
+  "artist": "Trshckdbl",
+  "title": "Malibu - Mix",
+  "album": "Divergence Eve",
+  "folder": "hexd",
+  "file": "hexd/Malibu - Mix.m4a",
+  "track": 8,
+  "year": 2022
+ },
+ {
+  "artist": "Trshckdbl",
+  "title": "Midnight Ghost",
+  "album": "Lvgvbra",
+  "folder": "hexd",
+  "file": "hexd/Midnight Ghost.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Trshckdbl",
+  "title": "Lost into The Night",
+  "album": "Lvgvbra",
+  "folder": "hexd",
+  "file": "hexd/Lost into The Night.m4a",
+  "track": 2,
+  "year": 2022
+ },
+ {
+  "artist": "Trshckdbl",
+  "title": "Serenity",
+  "album": "witchcraft mixtape",
+  "folder": "hexd",
+  "file": "hexd/Serenity.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Trshckdbl",
+  "title": "no brakes",
+  "album": "witchcraft mixtape",
+  "folder": "hexd",
+  "file": "hexd/no brakes.m4a",
+  "track": 2,
+  "year": 2022
  },
  {
   "artist": "TukkerTempo",
@@ -44925,6 +49794,69 @@
   "year": 1992
  },
  {
+  "artist": "Type R",
+  "title": "Death Fantasia",
+  "album": "Death Fantasia",
+  "folder": "hexd",
+  "file": "hexd/Death Fantasia.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "Type R",
+  "title": "Death's Kiss",
+  "album": "Death's Kiss",
+  "folder": "hexd",
+  "file": "hexd/Death's Kiss.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Type R",
+  "title": "Flame Scarlet",
+  "album": "Flame Scarlet",
+  "folder": "hexd",
+  "file": "hexd/Flame Scarlet.m4a",
+  "track": 1,
+  "year": 2025
+ },
+ {
+  "artist": "Type R",
+  "title": "Garden of Eden",
+  "album": "Garden of Eden",
+  "folder": "hexd",
+  "file": "hexd/Garden of Eden.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Type R",
+  "title": "Hyperloop",
+  "album": "Hyperloop",
+  "folder": "hexd",
+  "file": "hexd/Hyperloop.m4a",
+  "track": 1,
+  "year": 2024
+ },
+ {
+  "artist": "Type R",
+  "title": "PUREHEART",
+  "album": "Sextrance Worldwide Vol. 2",
+  "folder": "hexd",
+  "file": "hexd/PUREHEART.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Type R",
+  "title": "Aphrodisiac",
+  "album": "under.net compilation vol. 3",
+  "folder": "hexd",
+  "file": "hexd/Aphrodisiac.m4a",
+  "track": 3,
+  "year": 2025
+ },
+ {
   "artist": "U-571",
   "title": "Осень",
   "album": "Постпанк",
@@ -44949,6 +49881,15 @@
   "file": "Dark Techno/VA - Soft- Deep & Dark #7 [Seven Villas Music] FLAC-2021/07-Udumusic - Nebuchadnezzar.flac",
   "track": 7,
   "year": 2021
+ },
+ {
+  "artist": "um6ra",
+  "title": "Low Health",
+  "album": "Low Health",
+  "folder": "hexd",
+  "file": "hexd/Low Health.m4a",
+  "track": 1,
+  "year": 2024
  },
  {
   "artist": "UMBO BAhava",
@@ -44993,6 +49934,15 @@
   "folder": "moy",
   "file": "moy/Unicorn On Ketamine - Tarzan.mp3",
   "track": 205
+ },
+ {
+  "artist": "UNIT KAI",
+  "title": "corporate love",
+  "album": "corporate love",
+  "folder": "hexd",
+  "file": "hexd/corporate love.m4a",
+  "track": 1,
+  "year": 2021
  },
  {
   "artist": "Unnholy, .diedlonely",
@@ -45306,6 +50256,42 @@
   "folder": "moy",
   "file": "moy/Vertex - Get Down.mp3",
   "track": 256
+ },
+ {
+  "artist": "verti_dx",
+  "title": "Gardia Verse",
+  "album": "Sextrance Worldwide Vol. 2",
+  "folder": "hexd",
+  "file": "hexd/Gardia Verse.m4a",
+  "track": 8,
+  "year": 2023
+ },
+ {
+  "artist": "Vertigoaway",
+  "title": "cyberse sage",
+  "album": "cyberse sage",
+  "folder": "hexd",
+  "file": "hexd/cyberse sage.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Vertigoaway",
+  "title": "glimpse into - destiny_cut",
+  "album": "glimpse into",
+  "folder": "hexd",
+  "file": "hexd/glimpse into - destiny_cut.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
+  "artist": "Vertigoaway",
+  "title": "ominou5-potentialality_vers-000 (^DeejaybLendingsink^)",
+  "album": "Sextrance Worldwide",
+  "folder": "hexd",
+  "file": "hexd/ominou5-potentialality_vers-000 (^DeejaybLendingsink^).m4a",
+  "track": 8,
+  "year": 2022
  },
  {
   "artist": "VHOLUME (OST)",
@@ -46035,6 +51021,33 @@
   "track": 999
  },
  {
+  "artist": "whiteshadowhurts",
+  "title": "Corrupted Entity",
+  "album": "Arcadia",
+  "folder": "hexd",
+  "file": "hexd/Corrupted Entity.m4a",
+  "track": 2,
+  "year": 2021
+ },
+ {
+  "artist": "whiteshadowhurts",
+  "title": "Sentimental Trance Hater",
+  "album": "Sentimental Trance Hater",
+  "folder": "hexd",
+  "file": "hexd/Sentimental Trance Hater.m4a",
+  "track": 1,
+  "year": 2021
+ },
+ {
+  "artist": "whiteshadowhurts",
+  "title": "White Rose In My Cold Heart",
+  "album": "Varios Artistas IV",
+  "folder": "hexd",
+  "file": "hexd/White Rose In My Cold Heart.m4a",
+  "track": 12,
+  "year": 2021
+ },
+ {
   "artist": "Whitey",
   "title": "People",
   "album": "Постпанк",
@@ -46442,6 +51455,15 @@
   "year": 2003
  },
  {
+  "artist": "yerbby",
+  "title": "blood is pumping",
+  "album": "cassette memories vol. 3: digital crowd",
+  "folder": "hexd",
+  "file": "hexd/blood is pumping.m4a",
+  "track": 4,
+  "year": 2024
+ },
+ {
   "artist": "York",
   "title": "Yesterday (Silence) (feat. Alaska) [Taucher Remix]",
   "album": "Techno Club, Vol. 56",
@@ -46510,6 +51532,24 @@
   "track": 999
  },
  {
+  "artist": "Yung Lain",
+  "title": "Sextrance Worldwide",
+  "album": "Sextrance Worldwide",
+  "folder": "hexd",
+  "file": "hexd/Sextrance Worldwide.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
+  "artist": "Yung Lain",
+  "title": "Take My Heart From The Abyss",
+  "album": "Take My Heart From The Abyss",
+  "folder": "hexd",
+  "file": "hexd/Take My Heart From The Abyss.m4a",
+  "track": 1,
+  "year": 2023
+ },
+ {
   "artist": "Yung Lean",
   "title": "Ropeman (Produced by Whitearmor)",
   "album": "moy",
@@ -46518,12 +51558,30 @@
   "track": 767
  },
  {
+  "artist": "yuurusu",
+  "title": "lost, somewhere",
+  "album": "lost, somewhere",
+  "folder": "hexd",
+  "file": "hexd/lost, somewhere.m4a",
+  "track": 1,
+  "year": 2022
+ },
+ {
   "artist": "Yuzo Koshiro",
   "title": "Taillight",
   "album": "moy",
   "folder": "moy",
   "file": "moy/Yuzo Koshiro - Taillight.mp3",
   "track": 3
+ },
+ {
+  "artist": "Yuzo Koshiro",
+  "title": "Taillight",
+  "album": "Wangan Midnight MAXIMUM TUNE 4 Original Sound Track 2020 ver,",
+  "folder": "hexd",
+  "file": "hexd/Taillight.m4a",
+  "track": 24,
+  "year": 2020
  },
  {
   "artist": "Yvsi",
@@ -46595,6 +51653,24 @@
  },
  {
   "artist": "Zhnoi",
+  "title": "SYSTEM OVERLOAD",
+  "album": "HYPERDRIVE",
+  "folder": "hexd",
+  "file": "hexd/SYSTEM OVERLOAD.m4a",
+  "track": 8,
+  "year": 2025
+ },
+ {
+  "artist": "Zhnoi",
+  "title": "iNSERTname",
+  "album": "iNSERTname",
+  "folder": "hexd",
+  "file": "hexd/iNSERTname.m4a",
+  "track": 1,
+  "year": 2026
+ },
+ {
+  "artist": "Zhnoi",
   "title": "Brainsplatter",
   "album": "Insomnia",
   "folder": "dancemashcore",
@@ -46637,6 +51713,24 @@
   "file": "dancemashcore/Zhnoi/Zhnoi - Insomnia/2.Paranoia.flac",
   "track": 999,
   "year": 2023
+ },
+ {
+  "artist": "Zhnoi",
+  "title": "Falling apart",
+  "album": "Keep it 2 yourself",
+  "folder": "hexd",
+  "file": "hexd/Falling apart.m4a",
+  "track": 3,
+  "year": 2024
+ },
+ {
+  "artist": "Zhnoi",
+  "title": "Url curse",
+  "album": "Keep it 2 yourself",
+  "folder": "hexd",
+  "file": "hexd/Url curse.m4a",
+  "track": 9,
+  "year": 2024
  },
  {
   "artist": "Zhnoi",
@@ -46745,6 +51839,15 @@
   "file": "dancemashcore/Zhnoi/Zhnoi - Keep it 2 yourself/09.Url curse.flac",
   "track": 999,
   "year": 2024
+ },
+ {
+  "artist": "Zhnoi",
+  "title": "past self",
+  "album": "past self",
+  "folder": "hexd",
+  "file": "hexd/past self.m4a",
+  "track": 1,
+  "year": 2025
  },
  {
   "artist": "Zhnoi",
@@ -46883,6 +51986,15 @@
  },
  {
   "artist": "Zhnoi",
+  "title": "take me away",
+  "album": "take me away",
+  "folder": "hexd",
+  "file": "hexd/take me away.m4a",
+  "track": 1,
+  "year": 2026
+ },
+ {
+  "artist": "Zhnoi",
   "title": "Dismiss reality",
   "album": "Ultranostalgia",
   "folder": "dancemashcore",
@@ -46916,6 +52028,24 @@
   "file": "dancemashcore/Zhnoi/Zhnoi - Ultranostalgia/2.Iridescence.flac",
   "track": 999,
   "year": 2023
+ },
+ {
+  "artist": "Zhnoi",
+  "title": "i touch the sky",
+  "album": "webcore friends",
+  "folder": "hexd",
+  "file": "hexd/i touch the sky.m4a",
+  "track": 10,
+  "year": 2024
+ },
+ {
+  "artist": "Zhnoi",
+  "title": "embrace: sound",
+  "album": "webcore friends",
+  "folder": "hexd",
+  "file": "hexd/embrace sound.m4a",
+  "track": 13,
+  "year": 2024
  },
  {
   "artist": "Zhnoi",
