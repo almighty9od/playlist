@@ -2,23 +2,29 @@
   "use strict";
 
   const CATEGORIES = {
-    "🔥 ЖАНР": [
+    "ЖАНР": [
       "Ambient", "Trance/Techno", "Постпанк", "Witch House", "HEXD Trance", 
-      "Dance/Mash core", "Dark Techno"
+      "Dance/Mash core", "Dark Techno", "Euphoric Paradise", "Trance Techno Club",
+      "Breakcore / Mashcore / Dancecore", "Ambient (по исключению)"
     ],
-    "🎤 ИСПОЛНИТЕЛЬ": [
+    "ИСПОЛНИТЕЛЬ": [
       "Егор Летов", "Черный Лукич", "Коммунизм", "Свид. О Смерти", "Буерак",
       "Где Фантом?", "Перемотка", "Виктор Цой", "Алексей Вишня", "Андрей Губин",
       "niteboi", "СМН", "Russian Village Boys", "Snow Strippers", "Crystal Castles",
       "Сергей Пират", "Fratii din Carbuna", "plenka", "INNA", "Сплин",
-      "Bring Me the Horizon", "ABBA", "Queen + Freddie", "КиШ + KnyaZz"
+      "Bring Me the Horizon", "ABBA", "Queen", "Queen + Freddie", "КиШ + KnyaZz",
+      "Кровосток", "Король и Шут", "Кино", "Гражданская Оборона", "KinoZz"
     ],
-    "🎲 ОСТАЛЬНОЕ": [
-      "ALL RANDOM", "Almighty9od", "Arthas Collection"
+    "ОСТАЛЬНОЕ": [
+      "ALL RANDOM", "Almighty9od", "Arthas Collection", "Мой Основной Плейлист"
     ]
   };
 
-  const NEW_PLAYLISTS = ["Witch House", "Crystal Castles", "Snow Strippers"];
+  const NEW_PLAYLISTS = [
+    "Witch House", 
+    "Crystal Castles", 
+    "Snow Strippers"
+  ];
 
   const listEl   = document.getElementById("list");
   const searchEl = document.getElementById("search");
@@ -83,22 +89,52 @@
       (grouped[key] ||= []).push(t);
     }
 
-    const categorized = {};
+    const categorized = {
+      "🔥 НОВОЕ": [],
+      "🎵 ЖАНР": [],
+      "🎤 ИСПОЛНИТЕЛЬ": [],
+      "📦 ОСТАЛЬНОЕ": []
+    };
+    
     const allFolders = Object.keys(grouped);
+    const usedFolders = new Set();
 
-    for (const [catName, folderList] of Object.entries(CATEGORIES)) {
-      const items = folderList.filter(f => allFolders.includes(f));
-      if (items.length) {
-        categorized[catName] = items;
-        items.forEach(f => {
-          const idx = allFolders.indexOf(f);
-          if (idx > -1) allFolders.splice(idx, 1);
-        });
+    const findFolder = (name) => {
+      return allFolders.find(f => 
+        f.toLowerCase() === name.toLowerCase() || 
+        displayName(f).toLowerCase() === name.toLowerCase()
+      );
+    };
+
+    for (const newName of NEW_PLAYLISTS) {
+      const actualFolder = findFolder(newName);
+      if (actualFolder && !usedFolders.has(actualFolder)) {
+        categorized["🔥 НОВОЕ"].push(actualFolder);
+        usedFolders.add(actualFolder);
       }
     }
 
-    if (allFolders.length) {
-      categorized["📦 ПРОЧЕЕ"] = allFolders.sort((a, b) => displayName(a).localeCompare(displayName(b), "ru"));
+    for (const [catName, folderList] of Object.entries(CATEGORIES)) {
+      const targetCat = catName === "ЖАНР" ? "🎵 ЖАНР" : 
+                        catName === "ИСПОЛНИТЕЛЬ" ? "🎤 ИСПОЛНИТЕЛЬ" : "📦 ОСТАЛЬНОЕ";
+      
+      for (const name of folderList) {
+        const actualFolder = findFolder(name);
+        if (actualFolder && !usedFolders.has(actualFolder)) {
+          categorized[targetCat].push(actualFolder);
+          usedFolders.add(actualFolder);
+        }
+      }
+    }
+
+    const leftovers = allFolders.filter(f => !usedFolders.has(f));
+    if (leftovers.length) {
+      leftovers.sort((a, b) => displayName(a).localeCompare(displayName(b), "ru"));
+      categorized["📦 ОСТАЛЬНОЕ"].push(...leftovers);
+    }
+
+    for (const key in categorized) {
+      if (categorized[key].length === 0) delete categorized[key];
     }
 
     grouped = { categorized, rawData: grouped };
@@ -132,7 +168,7 @@
         for (const folder of folders) {
           const items = grouped.rawData[folder];
           totalVisible += items.length;
-          html += renderPlaylist(folder, items, !!openState[folder]);
+          html += renderPlaylist(folder, items, !!openState[folder], catName === "🔥 НОВОЕ");
         }
       }
     }
@@ -148,12 +184,10 @@
     }
   }
 
-  function renderPlaylist(folder, items, isOpen) {
+  function renderPlaylist(folder, items, isOpen, isNewSection) {
     const name = displayName(folder);
     const renamed = aliases[folder] && aliases[folder].trim() && aliases[folder].trim() !== folder;
-    const isNew = NEW_PLAYLISTS.includes(folder);
-    const isNewByAlias = NEW_PLAYLISTS.includes(name);
-    const showNewBadge = isNew || isNewByAlias;
+    const showNewBadge = isNewSection;
 
     return `
       <section class="playlist ${isOpen ? "open" : ""} ${showNewBadge ? "is-new" : ""}" data-folder="${escapeAttr(folder)}">
