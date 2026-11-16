@@ -32,13 +32,12 @@ body {
   width: 100%;
 }
 
-/* ========== ЦЕНТРАЛЬНЫЙ БЛОК ========== */
 .hero-center {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 15vh 0 40px; /* Сдвигает поиск в центр экрана */
+  padding: 15vh 0 40px;
   text-align: center;
   transition: padding 0.3s ease;
 }
@@ -60,7 +59,6 @@ body {
   font-size: 16px;
 }
 
-/* ========== БОЛЬШОЙ ПОИСК ========== */
 .search-container {
   width: 100%;
   max-width: 600px;
@@ -100,7 +98,6 @@ body {
   background: rgba(20, 20, 28, 0.95);
 }
 
-/* ========== УПРАВЛЕНИЕ ========== */
 .controls {
   margin-top: 20px;
   display: flex;
@@ -130,7 +127,6 @@ body {
   color: var(--text);
 }
 
-/* ========== АДМИНКА ========== */
 .admin-bar {
   margin: 20px auto 0;
   padding: 12px 16px;
@@ -152,7 +148,6 @@ button.danger {
   border-color: rgba(239, 68, 68, 0.3) !important;
 }
 
-/* ========== СПИСОК ПЛЕЙЛИСТОВ ========== */
 main {
   display: flex;
   flex-direction: column;
@@ -268,7 +263,25 @@ body.admin .playlist-head .edit:hover {
 }
 .playlist.open .playlist-body { display: block; }
 
-/* ========== ТРЕКИ ========== */
+.album-header {
+  padding: 16px 20px 8px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #a5b4fc;
+  background: rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #1c1c26;
+  border-top: 1px solid #262633;
+}
+.album-header:first-child { border-top: none; }
+.album-year {
+  font-size: 11px;
+  color: var(--muted);
+  font-weight: 500;
+  text-transform: none;
+}
+
 .track {
   display: flex;
   justify-content: space-between;
@@ -283,6 +296,13 @@ body.admin .playlist-head .edit:hover {
 .track:hover {
   background: #171722;
   border-left-color: var(--accent);
+}
+
+.track-num {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 4px;
 }
 
 .track .meta { min-width: 0; flex: 1; }
@@ -318,7 +338,6 @@ body.admin .playlist-head .edit:hover {
 .track button.yt { background: #c4302b; }
 .track button.yt:hover { background: #e13b36; box-shadow: 0 0 16px rgba(225, 59, 54, 0.4); }
 
-/* ========== NEW ПЛАШКИ ========== */
 .badge-new {
   background: rgba(236, 72, 153, 0.15);
   color: #f472b6;
@@ -334,7 +353,6 @@ body.admin .playlist-head .edit:hover {
 }
 .playlist.is-new .playlist-head .arrow { color: #f472b6; }
 
-/* ========== ПРОЧЕЕ ========== */
 .empty { padding: 50px 0; text-align: center; color: var(--muted); }
 .error {
   padding: 20px;
@@ -377,7 +395,6 @@ footer .err { color: #ff8080; }
 }
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
 
-/* ========== АДАПТИВ ========== */
 @media (max-width: 640px) {
   .hero-center { padding: 10vh 0 30px; }
   .hero-center h1 { font-size: 32px; }
