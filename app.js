@@ -3,7 +3,7 @@
 
   const CATEGORIES = {
     "ЖАНР": [
-      "Witch House", "Crystal Castles", "Snow Strippers", "HEXD Trance", "hexd",
+      "Witch House", "HEXD Trance", "hexd",
       "Trance/Techno", "Trance Techno Club", "Euphoric Paradise", "Dark Techno",
       "Dance/Mash core", "Breakcore / Mashcore / Dancecore", 
       "Постпанк", "Ambient", "Ambient (по исключению)"
@@ -21,6 +21,8 @@
       "Алексей Вишня", 
       "Андрей Губин", 
       "niteboi", 
+      "Crystal Castles", 
+      "Snow Strippers",
       "Russian Village Boys", 
       "Fratii din Carbuna", 
       "Серега Пират", 
