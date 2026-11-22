@@ -248,7 +248,7 @@ main {
 .playlist.open .playlist-head .arrow { transform: rotate(90deg); }
 
 .playlist-head .name {
-  flex: 1; /* Заставляет имя растягиваться и прижимать кнопки вправо */
+  flex: 1;
   font-weight: 600;
   font-size: 16px;
   overflow: hidden;
@@ -257,14 +257,13 @@ main {
   padding-right: 16px;
 }
 
-.playlist-head .count {
-  color: var(--muted);
-  font-size: 13px;
-  background: var(--bg-elev);
-  padding: 4px 10px;
-  border-radius: 20px;
-  border: 1px solid var(--border);
-  flex-shrink: 0;
+/* Блок кнопок справа (скачать, переименовать, счетчик) */
+.playlist-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  min-width: 200px; /* Жестко фиксируем ширину, чтобы кнопки не ездили */
 }
 
 /* Кнопка скачать */
@@ -326,6 +325,16 @@ body.admin .playlist-head .edit:hover {
   font-weight: 600;
   outline: none;
   box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
+.playlist-head .count {
+  color: var(--muted);
+  font-size: 13px;
+  background: var(--bg-elev);
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
 }
 
 .playlist-body {
@@ -475,4 +484,5 @@ footer .err { color: #ff8080; }
   .track { flex-direction: column; align-items: stretch; gap: 10px; }
   .track .actions { width: 100%; }
   .track .actions button { flex: 1; }
+  .playlist-actions { min-width: auto; }
 }
