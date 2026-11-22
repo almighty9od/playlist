@@ -1,3 +1,16 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Заказ треков</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
     <div class="hero-center">
       <h1>Найди свой трек</h1>
       <p class="sub">Напиши исполнителя или название — вдруг он уже в плейлисте</p>
@@ -6,16 +19,15 @@
         <input id="search" placeholder="Например: Miyagi, Баста, Linkin Park…" autocomplete="off">
       </div>
 
-      <!-- НОВЫЕ КНОПКИ -->
       <div class="hero-links">
         <a href="https://www.aimp.ru/?do=download" target="_blank" class="hero-btn">
           <span>🎵</span> Скачать AIMP
         </a>
-       <a href="https://github.com/almighty9od/playlist/raw/main/%D0%B2ainVK.acs5" download class="hero-btn">
+        <!-- Прямая ссылка на скачивание скина -->
+        <a href="https://github.com/almighty9od/playlist/raw/main/%D0%B2ainVK.acs5" download class="hero-btn">
           <span>🎨</span> Мой скин для AIMP
         </a>
       </div>
-      <!-- /НОВЫЕ КНОПКИ -->
 
       <div class="controls">
         <span id="count">—</span>
@@ -33,3 +45,14 @@
         </div>
       </div>
     </div>
+
+    <main id="list"></main>
+  </div>
+
+  <footer>
+    <span id="status"></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
