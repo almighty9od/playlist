@@ -437,3 +437,44 @@ footer .err { color: #ff8080; }
   .track .actions { width: 100%; }
   .track .actions button { flex: 1; }
 }
+
+.hero-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(20, 20, 28, 0.7);
+  backdrop-filter: blur(10px);
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  border: 1px solid #33334a;
+  transition: all .2s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero-btn span {
+  font-size: 16px;
+}
+
+.hero-btn:hover {
+  background: var(--bg-elev);
+  border-color: var(--accent);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.15);
+}
+
+.hero-btn:active {
+  transform: translateY(0);
+}
