@@ -63,7 +63,7 @@
 
   let tracks = [];
   let grouped = {};
-  let downloads = {}; // Переменная для ссылок
+  let downloads = {};
   const openState = {};
   let aliases = {};
 
@@ -76,7 +76,6 @@
     if (adminBar) adminBar.hidden = !admin;
   }
 
-  // Добавили загрузку downloads.json
   Promise.all([
     fetch("aliases.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
     fetch("downloads.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
@@ -88,7 +87,7 @@
     .then(([fileAliases, dlData, data]) => {
       if (!Array.isArray(data)) throw new Error("tracks.json — не массив");
       tracks = data;
-      downloads = dlData || {}; // Сохраняем загруженные ссылки
+      downloads = dlData || {};
 
       let localAliases = {};
       try { localAliases = JSON.parse(localStorage.getItem(LS_KEY) || "{}") || {}; } catch {}
@@ -215,11 +214,14 @@
     const renamed = aliases[folder] && aliases[folder].trim() && aliases[folder].trim() !== folder;
     const showNewBadge = isNewSection;
 
-    // Проверка на ссылку для скачивания
-    const dlUrl = downloads[folder] || downloads[name];
-    const dlBtn = dlUrl && dlUrl !== "ССЫЛКА_НА_АРХИВ" 
-      ? `<a href="${dlUrl}" target="_blank" class="download-btn" title="Скачать плейлист">⬇ Скачать</a>` 
-      : "";
+    // --- ИЗМЕНЕНИЕ ЗДЕСЬ ---
+    // Теперь кнопка будет ВСЕГДА, даже если ссылки нет (для теста будет вести на yandex.ru)
+    let dlUrl = downloads[folder] || downloads[name];
+    if (!dlUrl || dlUrl === "ССЫЛКА_НА_ПАПКУ") {
+      dlUrl = "https://yandex.ru"; // Тестовая ссылка
+    }
+    const dlBtn = `<a href="${dlUrl}" target="_blank" class="download-btn" title="Скачать плейлист">⬇ Скачать</a>`;
+    // -----------------------
 
     let tracksHtml = "";
     
@@ -290,7 +292,6 @@
   }
 
   listEl.addEventListener("click", (e) => {
-    // Если кликнули на кнопку скачивания, не открываем/закрываем плейлист
     if (e.target.closest(".download-btn")) return;
 
     const editBtn = e.target.closest(".playlist-head .edit");
