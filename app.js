@@ -63,6 +63,7 @@
 
   let tracks = [];
   let grouped = {};
+  let downloads = {}; // Переменная для ссылок
   const openState = {};
   let aliases = {};
 
@@ -75,16 +76,19 @@
     if (adminBar) adminBar.hidden = !admin;
   }
 
+  // Добавили загрузку downloads.json
   Promise.all([
     fetch("aliases.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    fetch("downloads.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
     fetch("tracks.json", { cache: "no-cache" }).then(r => {
       if (!r.ok) throw new Error("HTTP " + r.status + " " + r.statusText);
       return r.json();
     }),
   ])
-    .then(([fileAliases, data]) => {
+    .then(([fileAliases, dlData, data]) => {
       if (!Array.isArray(data)) throw new Error("tracks.json — не массив");
       tracks = data;
+      downloads = dlData || {}; // Сохраняем загруженные ссылки
 
       let localAliases = {};
       try { localAliases = JSON.parse(localStorage.getItem(LS_KEY) || "{}") || {}; } catch {}
@@ -211,6 +215,12 @@
     const renamed = aliases[folder] && aliases[folder].trim() && aliases[folder].trim() !== folder;
     const showNewBadge = isNewSection;
 
+    // Проверка на ссылку для скачивания
+    const dlUrl = downloads[folder] || downloads[name];
+    const dlBtn = dlUrl && dlUrl !== "ССЫЛКА_НА_АРХИВ" 
+      ? `<a href="${dlUrl}" target="_blank" class="download-btn" title="Скачать плейлист">⬇ Скачать</a>` 
+      : "";
+
     let tracksHtml = "";
     
     if (searchQuery) {
@@ -252,6 +262,7 @@
             ${renamed ? `<small style="color:#6f6f7a;font-weight:400">(${escapeHtml(folder)})</small>` : ''}
           </span>
           ${showNewBadge ? '<span class="badge-new">NEW</span>' : ''}
+          ${dlBtn}
           <button class="edit" type="button" title="Переименовать">✎</button>
           <span class="count">${items.length}</span>
         </div>
@@ -279,6 +290,9 @@
   }
 
   listEl.addEventListener("click", (e) => {
+    // Если кликнули на кнопку скачивания, не открываем/закрываем плейлист
+    if (e.target.closest(".download-btn")) return;
+
     const editBtn = e.target.closest(".playlist-head .edit");
     if (editBtn) {
       e.stopPropagation();
