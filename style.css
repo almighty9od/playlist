@@ -135,48 +135,64 @@ main { display: flex; flex-direction: column; gap: 12px; padding-bottom: 40px; }
 .playlist:hover { border-color: #33334a; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25); }
 
 /* 
-   ИДЕАЛЬНОЕ ВЫРАВНИВАНИЕ ЧЕРЕЗ GRID 
-   Каждый элемент встает на свою виртуальную полку.
+   ЖЕЛЕЗОБЕТОННОЕ ВЫРАВНИВАНИЕ (Flexbox + Margin-left: auto)
 */
 .playlist-head {
-  display: grid;
-  grid-template-columns: 14px minmax(0, 1fr) auto auto auto auto;
+  display: flex;
   align-items: center;
   gap: 12px;
   padding: 16px 20px;
   cursor: pointer;
   user-select: none;
   transition: background .15s;
+  position: relative; /* Важно для абсолютного позиционирования карандаша */
 }
 .playlist-head:hover { background: #191924; }
 
 .playlist-head .arrow {
-  color: var(--muted); font-size: 11px; 
+  width: 14px; color: var(--muted); font-size: 11px; flex-shrink: 0;
   transition: transform .18s ease, color .15s;
 }
 .playlist:hover .playlist-head .arrow { color: var(--accent-2); }
 .playlist.open .playlist-head .arrow { transform: rotate(90deg); }
 
 .playlist-head .name {
+  flex: 1;
   font-weight: 600;
   font-size: 16px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  padding-right: 16px;
 }
 
-/* Общие настройки для правых элементов, чтобы они не плющились */
+/* Блок с кнопками выровнен в колонку */
 .playlist-head .badge-new,
 .playlist-head .download-btn,
-.playlist-head .edit,
 .playlist-head .count {
-  justify-self: end; /* Прижимаем к правому краю своей ячейки */
+  flex-shrink: 0;
+  margin-left: auto; /* Прижимает всё вправо, если это первый элемент в группе */
 }
 
+/* Чтобы плашка NEW не отталкивала кнопку скачать, если она есть */
+.playlist-head .badge-new {
+  margin-left: auto;
+}
+.playlist-head .badge-new + .download-btn {
+  margin-left: 0;
+}
+
+/* Счетчик имеет жесткую ширину, чтобы цифры не двигали кнопки */
 .playlist-head .count {
-  color: var(--muted); font-size: 13px; background: var(--bg-elev);
-  padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border);
-  min-width: 44px; text-align: center;
+  color: var(--muted); 
+  font-size: 13px; 
+  background: var(--bg-elev);
+  padding: 4px 0; 
+  border-radius: 20px; 
+  border: 1px solid var(--border);
+  width: 54px; /* Фиксированная ширина для всех счетчиков */
+  text-align: center;
+  margin-left: 8px;
 }
 
 .download-btn {
@@ -193,6 +209,10 @@ main { display: flex; flex-direction: column; gap: 12px; padding-bottom: 40px; }
 .download-btn:active { transform: scale(0.96); }
 
 .playlist-head .edit {
+  position: absolute;
+  right: 84px; /* Прячем карандаш под кнопку Скачать/Счетчик */
+  top: 50%;
+  transform: translateY(-50%);
   background: transparent; color: var(--muted); border: 0; padding: 4px 8px;
   border-radius: 6px; cursor: pointer; font-size: 14px; opacity: 0;
   pointer-events: none; transition: opacity .12s, background .12s;
@@ -201,8 +221,7 @@ body.admin .playlist-head .edit { opacity: 0.6; pointer-events: auto; }
 body.admin .playlist-head .edit:hover { opacity: 1; background: var(--bg-elev); color: var(--text); }
 
 .playlist-head input.rename {
-  grid-column: 2 / -1; /* Поле ввода растягивается на всю ширину */
-  background: var(--bg); color: var(--text);
+  flex: 1; background: var(--bg); color: var(--text);
   border: 1px solid var(--accent); border-radius: 8px; padding: 6px 10px;
   font-size: 15px; font-weight: 600; outline: none; box-shadow: 0 0 0 3px var(--accent-glow);
 }
@@ -289,15 +308,7 @@ footer .err { color: #ff8080; }
   .track .actions { width: 100%; }
   .track .actions button { flex: 1; }
 
-  /* На мобильных уменьшаем сетку и скрываем лишнее */
-  .playlist-head {
-    grid-template-columns: 14px minmax(0, 1fr) auto;
-    grid-template-rows: auto auto;
-    row-gap: 10px;
-  }
-  .playlist-head .name { grid-column: 2 / -1; }
-  .playlist-head .badge-new { grid-column: 2; grid-row: 2; justify-self: start; }
-  .playlist-head .download-btn { grid-column: 2; grid-row: 2; justify-self: start; margin-left: 46px; }
-  .playlist-head .edit { display: none; }
-  .playlist-head .count { grid-column: 3; grid-row: 2; }
+  /* На мобильных карандаш прячем в меню, чтобы не мешал */
+  .playlist-head .download-btn { display: none; }
+  .playlist-head .edit { right: 84px; }
 }
