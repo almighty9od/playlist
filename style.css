@@ -135,14 +135,11 @@ main { display: flex; flex-direction: column; gap: 12px; padding-bottom: 40px; }
 .playlist:hover { border-color: #33334a; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25); }
 
 /* 
-   ИДЕАЛЬНЫЙ GRID 
-   6 строгих колонок: стрелка, имя, new, скачать, карандаш, счетчик.
+   МАГИЯ ВЫРАВНИВАНИЯ 
 */
 .playlist-head {
-  display: grid;
-  grid-template-columns: 20px minmax(0, 1fr) auto auto 28px 54px;
+  display: flex;
   align-items: center;
-  gap: 12px;
   padding: 16px 20px;
   cursor: pointer;
   user-select: none;
@@ -151,9 +148,9 @@ main { display: flex; flex-direction: column; gap: 12px; padding-bottom: 40px; }
 .playlist-head:hover { background: #191924; }
 
 .playlist-head .arrow {
-  color: var(--muted); font-size: 11px; 
+  width: 14px; color: var(--muted); font-size: 11px; flex-shrink: 0;
+  margin-right: 12px;
   transition: transform .18s ease, color .15s;
-  justify-self: start;
 }
 .playlist:hover .playlist-head .arrow { color: var(--accent-2); }
 .playlist.open .playlist-head .arrow { transform: rotate(90deg); }
@@ -164,23 +161,39 @@ main { display: flex; flex-direction: column; gap: 12px; padding-bottom: 40px; }
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  margin-right: auto; /* ЭТА СВОЛОЧЬ ВЫТАЛКИВАЕТ ВСЁ ВПРАВО */
 }
 
-.playlist-head .badge-new {
-  justify-self: start;
-  background: rgba(236, 72, 153, 0.15); color: #f472b6;
-  font-size: 10px; font-weight: 800; padding: 2px 6px;
-  border-radius: 6px; border: 1px solid rgba(236, 72, 153, 0.3);
+/* 
+   Блок кнопок: жестко фиксируем ширину, чтобы ничего не ездило.
+   Кнопка, карандаш и счетчик стоят ровно в ряд.
+*/
+.playlist-head .download-btn,
+.playlist-head .edit,
+.playlist-head .count {
+  flex-shrink: 0;
+}
+
+.playlist-head .count {
+  color: var(--muted); 
+  font-size: 13px; 
+  background: var(--bg-elev);
+  padding: 4px 0; 
+  border-radius: 20px; 
+  border: 1px solid var(--border);
+  width: 54px; /* Жесткая ширина, чтобы цифры не двигали кнопку */
+  text-align: center;
+  margin-left: 8px;
 }
 
 .download-btn {
-  justify-self: end;
   display: inline-flex; align-items: center; gap: 6px;
   background: rgba(34, 197, 94, 0.1); color: #4ade80;
   font-size: 12px; font-weight: 600; padding: 4px 10px;
   border-radius: 8px; text-decoration: none;
   border: 1px solid rgba(34, 197, 94, 0.2); transition: all 0.15s ease;
   white-space: nowrap;
+  margin-left: 8px;
 }
 .download-btn:hover {
   background: rgba(34, 197, 94, 0.2); color: #4ade80;
@@ -189,31 +202,28 @@ main { display: flex; flex-direction: column; gap: 12px; padding-bottom: 40px; }
 .download-btn:active { transform: scale(0.96); }
 
 .playlist-head .edit {
-  justify-self: center;
-  background: transparent; color: var(--muted); border: 0; padding: 0;
+  background: transparent; color: var(--muted); border: 0; padding: 4px 8px;
   border-radius: 6px; cursor: pointer; font-size: 14px; opacity: 0;
   pointer-events: none; transition: opacity .12s, background .12s;
+  margin-left: 8px;
 }
 body.admin .playlist-head .edit { opacity: 0.6; pointer-events: auto; }
 body.admin .playlist-head .edit:hover { opacity: 1; background: var(--bg-elev); color: var(--text); }
 
-.playlist-head .count {
-  justify-self: end;
-  color: var(--muted); 
-  font-size: 13px; 
-  background: var(--bg-elev);
-  padding: 4px 0; 
-  border-radius: 20px; 
-  border: 1px solid var(--border);
-  width: 54px; /* Жесткая ширина, чтобы ничего не ездило */
-  text-align: center;
-}
-
 .playlist-head input.rename {
-  grid-column: 2 / -1;
-  background: var(--bg); color: var(--text);
+  flex: 1; background: var(--bg); color: var(--text);
   border: 1px solid var(--accent); border-radius: 8px; padding: 6px 10px;
   font-size: 15px; font-weight: 600; outline: none; box-shadow: 0 0 0 3px var(--accent-glow);
+  margin-right: 16px;
+}
+
+/* Плашка NEW теперь просто висит рядом с названием и не мешает кнопкам */
+.playlist-head .badge-new {
+  background: rgba(236, 72, 153, 0.15); color: #f472b6;
+  font-size: 10px; font-weight: 800; padding: 2px 6px;
+  border-radius: 6px; border: 1px solid rgba(236, 72, 153, 0.3);
+  flex-shrink: 0;
+  margin-right: 12px;
 }
 
 .playlist-body { display: none; border-top: 1px solid var(--border); }
@@ -292,10 +302,7 @@ footer .err { color: #ff8080; }
   .track { flex-direction: column; align-items: stretch; gap: 10px; }
   .track .actions { width: 100%; }
   .track .actions button { flex: 1; }
-
-  .playlist-head {
-    grid-template-columns: 20px minmax(0, 1fr) auto auto;
-  }
-  .playlist-head .edit { display: none; }
+  
+  .playlist-head .download-btn { display: none; }
   .playlist-head .badge-new { display: none; }
 }
