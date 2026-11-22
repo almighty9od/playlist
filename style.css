@@ -201,6 +201,7 @@ main {
   color: var(--muted);
   transition: transform .18s ease, color .15s;
   font-size: 11px;
+  flex-shrink: 0;
 }
 .playlist:hover .playlist-head .arrow { color: var(--accent-2); }
 .playlist.open .playlist-head .arrow { transform: rotate(90deg); }
@@ -212,7 +213,9 @@ main {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  padding-right: 16px;
 }
+
 .playlist-head .count {
   color: var(--muted);
   font-size: 13px;
@@ -220,6 +223,34 @@ main {
   padding: 4px 10px;
   border-radius: 20px;
   border: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+/* --- КНОПКА СКАЧАТЬ --- */
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(34, 197, 94, 0.1);
+  color: #4ade80;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.download-btn:hover {
+  background: rgba(34, 197, 94, 0.2);
+  color: #4ade80;
+  border-color: rgba(34, 197, 94, 0.4);
+  box-shadow: 0 0 10px rgba(34, 197, 94, 0.15);
+}
+.download-btn:active {
+  transform: scale(0.96);
 }
 
 .playlist-head .edit {
@@ -233,6 +264,7 @@ main {
   opacity: 0;
   pointer-events: none;
   transition: opacity .12s, background .12s;
+  flex-shrink: 0;
 }
 body.admin .playlist-head .edit {
   opacity: 0.6;
@@ -346,7 +378,7 @@ body.admin .playlist-head .edit:hover {
   padding: 2px 6px;
   border-radius: 6px;
   border: 1px solid rgba(236, 72, 153, 0.3);
-  margin-left: 8px;
+  flex-shrink: 0;
 }
 .playlist.is-new {
   border-color: rgba(236, 72, 153, 0.4);
@@ -404,32 +436,4 @@ footer .err { color: #ff8080; }
   .track { flex-direction: column; align-items: stretch; gap: 10px; }
   .track .actions { width: 100%; }
   .track .actions button { flex: 1; }
-}
-/* Стили для кнопки скачивания */
-.download-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: rgba(34, 197, 94, 0.1);
-  color: #4ade80;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 4px 10px;
-  border-radius: 8px;
-  text-decoration: none;
-  border: 1px solid rgba(34, 197, 94, 0.2);
-  transition: all 0.15s ease;
-  white-space: nowrap;
-  margin-left: 10px;
-}
-
-.download-btn:hover {
-  background: rgba(34, 197, 94, 0.2);
-  color: #4ade80;
-  border-color: rgba(34, 197, 94, 0.4);
-  box-shadow: 0 0 10px rgba(34, 197, 94, 0.15);
-}
-
-.download-btn:active {
-  transform: scale(0.96);
 }
