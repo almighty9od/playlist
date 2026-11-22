@@ -26,12 +26,9 @@ body {
   flex-direction: column;
 }
 
-.wrap { 
-  max-width: 960px; 
-  margin: 0 auto; 
-  width: 100%;
-}
+.wrap { max-width: 960px; margin: 0 auto; width: 100%; }
 
+/* HEADER */
 .hero-center {
   display: flex;
   flex-direction: column;
@@ -53,44 +50,22 @@ body {
   color: transparent;
 }
 
-.hero-center .sub {
-  margin: 12px 0 32px;
-  color: var(--muted);
-  font-size: 16px;
-}
+.hero-center .sub { margin: 12px 0 32px; color: var(--muted); font-size: 16px; }
 
-.search-container {
-  width: 100%;
-  max-width: 600px;
-  position: relative;
-}
-
+.search-container { width: 100%; max-width: 600px; position: relative; }
 .search-container::before {
-  content: "🔍";
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 18px;
-  opacity: 0.5;
+  content: "🔍"; position: absolute; left: 20px; top: 50%;
+  transform: translateY(-50%); font-size: 18px; opacity: 0.5;
 }
 
 #search {
-  width: 100%;
-  padding: 20px 20px 20px 54px;
-  font-size: 18px;
-  background: rgba(20, 20, 28, 0.7);
-  backdrop-filter: blur(12px);
-  color: var(--text);
-  border: 1px solid #33334a;
-  border-radius: 20px;
-  outline: none;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  width: 100%; padding: 20px 20px 20px 54px; font-size: 18px;
+  background: rgba(20, 20, 28, 0.7); backdrop-filter: blur(12px);
+  color: var(--text); border: 1px solid #33334a; border-radius: 20px;
+  outline: none; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: all .2s ease;
 }
-
 #search::placeholder { color: var(--muted); }
-
 #search:focus {
   border-color: var(--accent);
   box-shadow: 0 0 0 4px var(--accent-glow), 0 10px 40px rgba(0, 0, 0, 0.4);
@@ -98,86 +73,40 @@ body {
   background: rgba(20, 20, 28, 0.95);
 }
 
-/* Кнопки AIMP под поиском */
-.hero-links {
-  display: flex;
-  gap: 12px;
-  margin-top: 24px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
+.hero-links { display: flex; gap: 12px; margin-top: 24px; flex-wrap: wrap; justify-content: center; }
 .hero-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: rgba(20, 20, 28, 0.7);
-  backdrop-filter: blur(10px);
-  color: var(--text);
-  font-size: 14px;
-  font-weight: 500;
-  padding: 10px 18px;
-  border-radius: 12px;
-  text-decoration: none;
-  border: 1px solid #33334a;
-  transition: all .2s ease;
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(20, 20, 28, 0.7); backdrop-filter: blur(10px);
+  color: var(--text); font-size: 14px; font-weight: 500;
+  padding: 10px 18px; border-radius: 12px; text-decoration: none;
+  border: 1px solid #33334a; transition: all .2s ease;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
-
 .hero-btn span { font-size: 16px; }
-
 .hero-btn:hover {
-  background: var(--bg-elev);
-  border-color: var(--accent);
-  color: #fff;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.15);
+  background: var(--bg-elev); border-color: var(--accent); color: #fff;
+  transform: translateY(-2px); box-shadow: 0 6px 20px rgba(59, 130, 246, 0.15);
 }
-
 .hero-btn:active { transform: translateY(0); }
 
-/* Управление */
 .controls {
-  margin-top: 24px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  flex-wrap: wrap;
-  justify-content: center;
-  opacity: 0.8;
+  margin-top: 24px; display: flex; align-items: center; gap: 16px;
+  flex-wrap: wrap; justify-content: center; opacity: 0.8;
 }
-
 #count { color: var(--muted); font-size: 14px; }
 
 .btns { display: flex; gap: 8px; }
 .btns button {
-  background: transparent;
-  color: var(--muted);
-  border: 1px solid var(--border);
-  padding: 6px 14px;
-  font-size: 13px;
-  font-weight: 500;
-  border-radius: 999px;
-  cursor: pointer;
-  transition: all .15s;
+  background: transparent; color: var(--muted); border: 1px solid var(--border);
+  padding: 6px 14px; font-size: 13px; font-weight: 500; border-radius: 999px;
+  cursor: pointer; transition: all .15s;
 }
-.btns button:hover {
-  background: var(--bg-elev);
-  color: var(--text);
-}
+.btns button:hover { background: var(--bg-elev); color: var(--text); }
 
-/* Админка */
 .admin-bar {
-  margin: 20px auto 0;
-  padding: 12px 16px;
-  background: var(--bg-card);
-  border: 1px dashed #33334a;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin: 20px auto 0; padding: 12px 16px; background: var(--bg-card);
+  border: 1px dashed #33334a; border-radius: 12px; display: flex;
+  align-items: center; gap: 16px; flex-wrap: wrap; justify-content: center;
   max-width: 600px;
 }
 .admin-bar[hidden] { display: none; }
@@ -188,44 +117,27 @@ button.danger {
   border-color: rgba(239, 68, 68, 0.3) !important;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  padding-bottom: 40px;
-}
+/* СПИСОК ПЛЕЙЛИСТОВ */
+main { display: flex; flex-direction: column; gap: 12px; padding-bottom: 40px; }
 
 .category-title {
-  margin: 32px 0 10px 4px;
-  font-size: 13px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--muted);
-  display: flex;
-  align-items: center;
-  gap: 12px;
+  margin: 32px 0 10px 4px; font-size: 13px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted);
+  display: flex; align-items: center; gap: 12px;
 }
-.category-title::after {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: var(--border);
-}
+.category-title::after { content: ""; flex: 1; height: 1px; background: var(--border); }
 
 .playlist {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  overflow: hidden;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); overflow: hidden;
   transition: border-color .15s, box-shadow .15s;
 }
-.playlist:hover {
-  border-color: #33334a;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
-}
+.playlist:hover { border-color: #33334a; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25); }
 
-/* Выравнивание шапки плейлиста */
+/* 
+   ЖЕЛЕЗОБЕТОННОЕ ВЫРАВНИВАНИЕ 
+   Заставляем имя занимать 100% доступного места, чтобы вытолкнуть кнопки вправо.
+*/
 .playlist-head {
   display: flex;
   align-items: center;
@@ -238,240 +150,131 @@ main {
 .playlist-head:hover { background: #191924; }
 
 .playlist-head .arrow {
-  width: 14px;
-  color: var(--muted);
+  width: 14px; color: var(--muted); font-size: 11px; flex-shrink: 0;
   transition: transform .18s ease, color .15s;
-  font-size: 11px;
-  flex-shrink: 0;
 }
 .playlist:hover .playlist-head .arrow { color: var(--accent-2); }
 .playlist.open .playlist-head .arrow { transform: rotate(90deg); }
 
 .playlist-head .name {
-  flex: 1;
+  flex: 1 1 100%; /* Имя растягивается на всё свободное место */
   font-weight: 600;
   font-size: 16px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding-right: 16px;
 }
 
-/* Блок кнопок справа (скачать, переименовать, счетчик) */
-.playlist-actions {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 12px;
-  min-width: 200px; /* Жестко фиксируем ширину, чтобы кнопки не ездили */
-}
-
-/* Кнопка скачать */
-.download-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: rgba(34, 197, 94, 0.1);
-  color: #4ade80;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 4px 10px;
-  border-radius: 8px;
-  text-decoration: none;
-  border: 1px solid rgba(34, 197, 94, 0.2);
-  transition: all 0.15s ease;
-  white-space: nowrap;
+/* Все элементы справа принудительно прижаты и имеют одинаковый отступ */
+.playlist-head .badge-new,
+.playlist-head .download-btn,
+.playlist-head .edit,
+.playlist-head .count {
   flex-shrink: 0;
+  margin-left: 0; 
+}
+
+.playlist-head .count {
+  color: var(--muted); font-size: 13px; background: var(--bg-elev);
+  padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border);
+  min-width: 44px; text-align: center;
+}
+
+.download-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: rgba(34, 197, 94, 0.1); color: #4ade80;
+  font-size: 12px; font-weight: 600; padding: 4px 10px;
+  border-radius: 8px; text-decoration: none;
+  border: 1px solid rgba(34, 197, 94, 0.2); transition: all 0.15s ease;
 }
 .download-btn:hover {
-  background: rgba(34, 197, 94, 0.2);
-  color: #4ade80;
-  border-color: rgba(34, 197, 94, 0.4);
-  box-shadow: 0 0 10px rgba(34, 197, 94, 0.15);
+  background: rgba(34, 197, 94, 0.2); color: #4ade80;
+  border-color: rgba(34, 197, 94, 0.4); box-shadow: 0 0 10px rgba(34, 197, 94, 0.15);
 }
 .download-btn:active { transform: scale(0.96); }
 
 .playlist-head .edit {
-  background: transparent;
-  color: var(--muted);
-  border: 0;
-  padding: 4px 8px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 14px;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity .12s, background .12s;
-  flex-shrink: 0;
+  background: transparent; color: var(--muted); border: 0; padding: 4px 8px;
+  border-radius: 6px; cursor: pointer; font-size: 14px; opacity: 0;
+  pointer-events: none; transition: opacity .12s, background .12s;
 }
-body.admin .playlist-head .edit {
-  opacity: 0.6;
-  pointer-events: auto;
-}
-body.admin .playlist-head .edit:hover {
-  opacity: 1;
-  background: var(--bg-elev);
-  color: var(--text);
-}
+body.admin .playlist-head .edit { opacity: 0.6; pointer-events: auto; }
+body.admin .playlist-head .edit:hover { opacity: 1; background: var(--bg-elev); color: var(--text); }
 
 .playlist-head input.rename {
-  flex: 1;
-  background: var(--bg);
-  color: var(--text);
-  border: 1px solid var(--accent);
-  border-radius: 8px;
-  padding: 6px 10px;
-  font-size: 15px;
-  font-weight: 600;
-  outline: none;
-  box-shadow: 0 0 0 3px var(--accent-glow);
+  flex: 1; background: var(--bg); color: var(--text);
+  border: 1px solid var(--accent); border-radius: 8px; padding: 6px 10px;
+  font-size: 15px; font-weight: 600; outline: none; box-shadow: 0 0 0 3px var(--accent-glow);
 }
 
-.playlist-head .count {
-  color: var(--muted);
-  font-size: 13px;
-  background: var(--bg-elev);
-  padding: 4px 10px;
-  border-radius: 20px;
-  border: 1px solid var(--border);
-  flex-shrink: 0;
-}
-
-.playlist-body {
-  display: none;
-  border-top: 1px solid var(--border);
-}
+.playlist-body { display: none; border-top: 1px solid var(--border); }
 .playlist.open .playlist-body { display: block; }
 
 .album-header {
-  padding: 16px 20px 8px;
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: #a5b4fc;
-  background: rgba(0, 0, 0, 0.2);
-  border-bottom: 1px solid #1c1c26;
+  padding: 16px 20px 8px; font-size: 12px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.05em; color: #a5b4fc;
+  background: rgba(0, 0, 0, 0.2); border-bottom: 1px solid #1c1c26;
   border-top: 1px solid #262633;
 }
 .album-header:first-child { border-top: none; }
-.album-year {
-  font-size: 11px;
-  color: var(--muted);
-  font-weight: 500;
-  text-transform: none;
-}
+.album-year { font-size: 11px; color: var(--muted); font-weight: 500; text-transform: none; }
 
 .track {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 16px;
-  padding: 12px 20px;
-  border-bottom: 1px solid #1c1c26;
-  border-left: 2px solid transparent;
-  transition: background .15s, border-left-color .15s;
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 16px; padding: 12px 20px; border-bottom: 1px solid #1c1c26;
+  border-left: 2px solid transparent; transition: background .15s, border-left-color .15s;
 }
 .track:last-child { border-bottom: 0; }
-.track:hover {
-  background: #171722;
-  border-left-color: var(--accent);
-}
+.track:hover { background: #171722; border-left-color: var(--accent); }
 
-.track-num {
-  color: var(--muted);
-  font-size: 12px;
-  font-weight: 500;
-  margin-right: 4px;
-}
-
+.track-num { color: var(--muted); font-size: 12px; font-weight: 500; margin-right: 4px; }
 .track .meta { min-width: 0; flex: 1; }
 .track .meta b { font-weight: 600; color: #fff; }
 .track .meta .t { color: var(--text); }
 .track .meta small {
-  display: block;
-  color: var(--muted);
-  font-size: 12px;
-  margin-top: 4px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  display: block; color: var(--muted); font-size: 12px; margin-top: 4px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 
 .track .actions { display: flex; gap: 8px; flex-shrink: 0; }
 .track button {
-  background: var(--accent);
-  color: #fff;
-  border: 0;
-  padding: 8px 16px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 13px;
-  font-weight: 500;
-  white-space: nowrap;
-  transition: background .12s, box-shadow .12s;
+  background: var(--accent); color: #fff; border: 0; padding: 8px 16px;
+  border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 500;
+  white-space: nowrap; transition: background .12s, box-shadow .12s;
 }
-.track button:hover {
-  background: var(--accent-2);
-  box-shadow: 0 0 16px var(--accent-glow);
-}
+.track button:hover { background: var(--accent-2); box-shadow: 0 0 16px var(--accent-glow); }
 .track button.yt { background: #c4302b; }
 .track button.yt:hover { background: #e13b36; box-shadow: 0 0 16px rgba(225, 59, 54, 0.4); }
 
 .badge-new {
-  background: rgba(236, 72, 153, 0.15);
-  color: #f472b6;
-  font-size: 10px;
-  font-weight: 800;
-  padding: 2px 6px;
-  border-radius: 6px;
-  border: 1px solid rgba(236, 72, 153, 0.3);
-  flex-shrink: 0;
+  background: rgba(236, 72, 153, 0.15); color: #f472b6;
+  font-size: 10px; font-weight: 800; padding: 2px 6px;
+  border-radius: 6px; border: 1px solid rgba(236, 72, 153, 0.3);
 }
-.playlist.is-new {
-  border-color: rgba(236, 72, 153, 0.4);
-}
+.playlist.is-new { border-color: rgba(236, 72, 153, 0.4); }
 .playlist.is-new .playlist-head .arrow { color: #f472b6; }
 
 .empty { padding: 50px 0; text-align: center; color: var(--muted); }
 .error {
-  padding: 20px;
-  border: 1px solid #7a2b2b;
-  background: #2a1414;
-  border-radius: 12px;
-  color: #ffb3b3;
+  padding: 20px; border: 1px solid #7a2b2b; background: #2a1414;
+  border-radius: 12px; color: #ffb3b3;
 }
 
 footer {
-  position: fixed;
-  left: 0; right: 0; bottom: 0;
-  padding: 12px 16px;
-  background: rgba(11, 11, 16, 0.9);
-  backdrop-filter: blur(12px);
-  border-top: 1px solid var(--border);
-  color: var(--muted);
-  font-size: 12px;
-  text-align: center;
-  z-index: 10;
+  position: fixed; left: 0; right: 0; bottom: 0; padding: 12px 16px;
+  background: rgba(11, 11, 16, 0.9); backdrop-filter: blur(12px);
+  border-top: 1px solid var(--border); color: var(--muted);
+  font-size: 12px; text-align: center; z-index: 10;
 }
 footer .ok { color: var(--ok); }
 footer .err { color: #ff8080; }
 
 .toast {
-  position: fixed;
-  left: 50%;
-  bottom: 60px;
-  transform: translate(-50%, 20px);
-  background: linear-gradient(135deg, #1f7a3a, #22c55e);
-  color: #fff;
-  padding: 14px 24px;
-  border-radius: 12px;
-  font-weight: 500;
+  position: fixed; left: 50%; bottom: 60px; transform: translate(-50%, 20px);
+  background: linear-gradient(135deg, #1f7a3a, #22c55e); color: #fff;
+  padding: 14px 24px; border-radius: 12px; font-weight: 500;
   box-shadow: 0 10px 30px rgba(34, 197, 94, 0.35);
-  opacity: 0;
-  pointer-events: none;
-  transition: all .2s ease;
-  z-index: 100;
+  opacity: 0; pointer-events: none; transition: all .2s ease; z-index: 100;
 }
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
 
@@ -481,8 +284,11 @@ footer .err { color: #ff8080; }
   .hero-center .sub { font-size: 14px; }
   #search { padding: 16px 16px 16px 46px; font-size: 16px; }
   .search-container::before { left: 16px; font-size: 16px; }
+  
   .track { flex-direction: column; align-items: stretch; gap: 10px; }
   .track .actions { width: 100%; }
   .track .actions button { flex: 1; }
-  .playlist-actions { min-width: auto; }
+  
+  /* На мобилках прячем лишнее, чтобы не ломалось */
+  .playlist-head .download-btn { display: none; }
 }
