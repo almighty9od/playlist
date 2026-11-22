@@ -76,10 +76,10 @@
     if (adminBar) adminBar.hidden = !admin;
   }
 
-  Promise.all([
-    fetch("aliases.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
-    fetch("downloads.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
-    fetch("tracks.json", { cache: "no-cache" }).then(r => {
+Promise.all([
+    fetch("aliases.json?t=" + Date.now(), { cache: "no-store" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    fetch("downloads.json?t=" + Date.now(), { cache: "no-store" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    fetch("tracks.json?t=" + Date.now(), { cache: "no-store" }).then(r => {
       if (!r.ok) throw new Error("HTTP " + r.status + " " + r.statusText);
       return r.json();
     }),
