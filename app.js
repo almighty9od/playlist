@@ -26,7 +26,7 @@
       "Russian Village Boys", 
       "Fratii din Carbuna", 
       "Серега Пират", 
-      "СМН",
+      "CMH",
       "plenka", 
       "INNA", 
       "Сплин", 
