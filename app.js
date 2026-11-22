@@ -264,9 +264,12 @@
             ${renamed ? `<small style="color:#6f6f7a;font-weight:400">(${escapeHtml(folder)})</small>` : ''}
           </span>
           ${showNewBadge ? '<span class="badge-new">NEW</span>' : ''}
-          ${dlBtn}
-          <button class="edit" type="button" title="Переименовать">✎</button>
-          <span class="count">${items.length}</span>
+          
+          <div class="playlist-actions">
+            ${dlBtn}
+            <button class="edit" type="button" title="Переименовать">✎</button>
+            <span class="count">${items.length}</span>
+          </div>
         </div>
         <div class="playlist-body">
           ${tracksHtml}
