@@ -135,72 +135,52 @@ main { display: flex; flex-direction: column; gap: 12px; padding-bottom: 40px; }
 .playlist:hover { border-color: #33334a; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25); }
 
 /* 
-   ЖЕЛЕЗОБЕТОННОЕ ВЫРАВНИВАНИЕ (Flexbox + Margin-left: auto)
+   ИДЕАЛЬНЫЙ GRID 
+   6 строгих колонок: стрелка, имя, new, скачать, карандаш, счетчик.
 */
 .playlist-head {
-  display: flex;
+  display: grid;
+  grid-template-columns: 20px minmax(0, 1fr) auto auto 28px 54px;
   align-items: center;
   gap: 12px;
   padding: 16px 20px;
   cursor: pointer;
   user-select: none;
   transition: background .15s;
-  position: relative; /* Важно для абсолютного позиционирования карандаша */
 }
 .playlist-head:hover { background: #191924; }
 
 .playlist-head .arrow {
-  width: 14px; color: var(--muted); font-size: 11px; flex-shrink: 0;
+  color: var(--muted); font-size: 11px; 
   transition: transform .18s ease, color .15s;
+  justify-self: start;
 }
 .playlist:hover .playlist-head .arrow { color: var(--accent-2); }
 .playlist.open .playlist-head .arrow { transform: rotate(90deg); }
 
 .playlist-head .name {
-  flex: 1;
   font-weight: 600;
   font-size: 16px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding-right: 16px;
 }
 
-/* Блок с кнопками выровнен в колонку */
-.playlist-head .badge-new,
-.playlist-head .download-btn,
-.playlist-head .count {
-  flex-shrink: 0;
-  margin-left: auto; /* Прижимает всё вправо, если это первый элемент в группе */
-}
-
-/* Чтобы плашка NEW не отталкивала кнопку скачать, если она есть */
 .playlist-head .badge-new {
-  margin-left: auto;
-}
-.playlist-head .badge-new + .download-btn {
-  margin-left: 0;
-}
-
-/* Счетчик имеет жесткую ширину, чтобы цифры не двигали кнопки */
-.playlist-head .count {
-  color: var(--muted); 
-  font-size: 13px; 
-  background: var(--bg-elev);
-  padding: 4px 0; 
-  border-radius: 20px; 
-  border: 1px solid var(--border);
-  width: 54px; /* Фиксированная ширина для всех счетчиков */
-  text-align: center;
-  margin-left: 8px;
+  justify-self: start;
+  background: rgba(236, 72, 153, 0.15); color: #f472b6;
+  font-size: 10px; font-weight: 800; padding: 2px 6px;
+  border-radius: 6px; border: 1px solid rgba(236, 72, 153, 0.3);
 }
 
 .download-btn {
+  justify-self: end;
   display: inline-flex; align-items: center; gap: 6px;
   background: rgba(34, 197, 94, 0.1); color: #4ade80;
   font-size: 12px; font-weight: 600; padding: 4px 10px;
   border-radius: 8px; text-decoration: none;
   border: 1px solid rgba(34, 197, 94, 0.2); transition: all 0.15s ease;
+  white-space: nowrap;
 }
 .download-btn:hover {
   background: rgba(34, 197, 94, 0.2); color: #4ade80;
@@ -209,19 +189,29 @@ main { display: flex; flex-direction: column; gap: 12px; padding-bottom: 40px; }
 .download-btn:active { transform: scale(0.96); }
 
 .playlist-head .edit {
-  position: absolute;
-  right: 84px; /* Прячем карандаш под кнопку Скачать/Счетчик */
-  top: 50%;
-  transform: translateY(-50%);
-  background: transparent; color: var(--muted); border: 0; padding: 4px 8px;
+  justify-self: center;
+  background: transparent; color: var(--muted); border: 0; padding: 0;
   border-radius: 6px; cursor: pointer; font-size: 14px; opacity: 0;
   pointer-events: none; transition: opacity .12s, background .12s;
 }
 body.admin .playlist-head .edit { opacity: 0.6; pointer-events: auto; }
 body.admin .playlist-head .edit:hover { opacity: 1; background: var(--bg-elev); color: var(--text); }
 
+.playlist-head .count {
+  justify-self: end;
+  color: var(--muted); 
+  font-size: 13px; 
+  background: var(--bg-elev);
+  padding: 4px 0; 
+  border-radius: 20px; 
+  border: 1px solid var(--border);
+  width: 54px; /* Жесткая ширина, чтобы ничего не ездило */
+  text-align: center;
+}
+
 .playlist-head input.rename {
-  flex: 1; background: var(--bg); color: var(--text);
+  grid-column: 2 / -1;
+  background: var(--bg); color: var(--text);
   border: 1px solid var(--accent); border-radius: 8px; padding: 6px 10px;
   font-size: 15px; font-weight: 600; outline: none; box-shadow: 0 0 0 3px var(--accent-glow);
 }
@@ -265,11 +255,6 @@ body.admin .playlist-head .edit:hover { opacity: 1; background: var(--bg-elev); 
 .track button.yt { background: #c4302b; }
 .track button.yt:hover { background: #e13b36; box-shadow: 0 0 16px rgba(225, 59, 54, 0.4); }
 
-.badge-new {
-  background: rgba(236, 72, 153, 0.15); color: #f472b6;
-  font-size: 10px; font-weight: 800; padding: 2px 6px;
-  border-radius: 6px; border: 1px solid rgba(236, 72, 153, 0.3);
-}
 .playlist.is-new { border-color: rgba(236, 72, 153, 0.4); }
 .playlist.is-new .playlist-head .arrow { color: #f472b6; }
 
@@ -308,7 +293,9 @@ footer .err { color: #ff8080; }
   .track .actions { width: 100%; }
   .track .actions button { flex: 1; }
 
-  /* На мобильных карандаш прячем в меню, чтобы не мешал */
-  .playlist-head .download-btn { display: none; }
-  .playlist-head .edit { right: 84px; }
+  .playlist-head {
+    grid-template-columns: 20px minmax(0, 1fr) auto auto;
+  }
+  .playlist-head .edit { display: none; }
+  .playlist-head .badge-new { display: none; }
 }
