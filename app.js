@@ -76,7 +76,8 @@
     if (adminBar) adminBar.hidden = !admin;
   }
 
-Promise.all([
+  // Защита от кеша (добавляем ?t=Date.now())
+  Promise.all([
     fetch("aliases.json?t=" + Date.now(), { cache: "no-store" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
     fetch("downloads.json?t=" + Date.now(), { cache: "no-store" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
     fetch("tracks.json?t=" + Date.now(), { cache: "no-store" }).then(r => {
@@ -214,14 +215,13 @@ Promise.all([
     const renamed = aliases[folder] && aliases[folder].trim() && aliases[folder].trim() !== folder;
     const showNewBadge = isNewSection;
 
-    // --- ИЗМЕНЕНИЕ ЗДЕСЬ ---
-    // Теперь кнопка будет ВСЕГДА, даже если ссылки нет (для теста будет вести на yandex.ru)
+    // Берем ссылку из файла. Если там пусто или стоит заглушка — ведем на главную Диска.
     let dlUrl = downloads[folder] || downloads[name];
     if (!dlUrl || dlUrl === "ССЫЛКА_НА_ПАПКУ") {
-      dlUrl = "https://yandex.ru"; // Тестовая ссылка
+      dlUrl = "https://disk.yandex.ru"; 
     }
+    
     const dlBtn = `<a href="${dlUrl}" target="_blank" class="download-btn" title="Скачать плейлист">⬇ Скачать</a>`;
-    // -----------------------
 
     let tracksHtml = "";
     
@@ -292,6 +292,7 @@ Promise.all([
   }
 
   listEl.addEventListener("click", (e) => {
+    // Если кликнули на кнопку скачивания, не открываем/закрываем плейлист
     if (e.target.closest(".download-btn")) return;
 
     const editBtn = e.target.closest(".playlist-head .edit");
