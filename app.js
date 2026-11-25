@@ -392,9 +392,16 @@
       setStatus("Локальные переименования сброшены", "ok");
     });
   }
-
   async function copyTrack(t, btn) {
-    const text = `${t.artist} — ${t.title}`;
+    // Берем альбом, если он есть. Если нет — берем папку (плейлист).
+    let extraInfo = "";
+    if (t.album && t.album.trim()) {
+      extraInfo = t.album.trim();
+    } else if (t.folder && t.folder.trim()) {
+      extraInfo = t.folder.trim();
+    }
+
+    const text = `${t.artist} — ${t.title} (${extraInfo})`;
     let ok = false;
     try {
       if (navigator.clipboard && window.isSecureContext) {
@@ -418,7 +425,6 @@
       prompt("Скопируй вручную:", text);
     }
   }
-
   function fallbackCopy(text) {
     try {
       const ta = document.createElement("textarea");
