@@ -43,7 +43,7 @@
   };
 
   const NEW_PLAYLISTS = [
-    "Witch House", 
+    "Sidewalks And Skeletons", 
     "Янка", 
     "Snow Strippers"
   ];
