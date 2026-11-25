@@ -393,10 +393,13 @@
     });
   }
   async function copyTrack(t, btn) {
-    // Берем альбом, если он есть. Если нет — берем папку (плейлист).
+    // Формируем инфу для скобок
     let extraInfo = "";
     if (t.album && t.album.trim()) {
       extraInfo = t.album.trim();
+      if (t.year) {
+        extraInfo += `, ${t.year}`;
+      }
     } else if (t.folder && t.folder.trim()) {
       extraInfo = t.folder.trim();
     }
